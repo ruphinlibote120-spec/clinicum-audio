@@ -103,7 +103,8 @@
 }
 ],
 "sec": 784.0,
-"bytes": 3927064
+"bytes": 3927064,
+"h2": "8f60e416"
 },
 "1": {
 "name": "Paludisme simple",
@@ -209,7 +210,8 @@
 }
 ],
 "sec": 969.1,
-"bytes": 4852024
+"bytes": 4852024,
+"h2": "d6fb2925"
 },
 "2": {
 "name": "Drépanocytose",
@@ -315,7 +317,8 @@
 }
 ],
 "sec": 588.9,
-"bytes": 2951944
+"bytes": 2951944,
+"h2": "d5001a70"
 },
 "3": {
 "name": "Infection par le VIH et infections opportunistes",
@@ -421,7 +424,8 @@
 }
 ],
 "sec": 675.9,
-"bytes": 3386704
+"bytes": 3386704,
+"h2": "aabd1d40"
 },
 "4": {
 "name": "Tuberculose",
@@ -527,7 +531,8 @@
 }
 ],
 "sec": 597.7,
-"bytes": 2994064
+"bytes": 2994064,
+"h2": "1a2c398f"
 },
 "5": {
 "name": "Hypertension artérielle",
@@ -633,7 +638,8 @@
 }
 ],
 "sec": 582.7,
-"bytes": 2920024
+"bytes": 2920024,
+"h2": "f67a3c87"
 },
 "6": {
 "name": "Insuffisance cardiaque",
@@ -739,7 +745,8 @@
 }
 ],
 "sec": 586.8,
-"bytes": 2940424
+"bytes": 2940424,
+"h2": "7cfdc591"
 },
 "7": {
 "name": "Diabète de type 2 et ses complications",
@@ -845,7 +852,8 @@
 }
 ],
 "sec": 561.6,
-"bytes": 2815984
+"bytes": 2815984,
+"h2": "0dc9b6d3"
 },
 "8": {
 "name": "Acidocétose diabétique",
@@ -951,7 +959,8 @@
 }
 ],
 "sec": 454.6,
-"bytes": 2279944
+"bytes": 2279944,
+"h2": "9e01e1c2"
 },
 "9": {
 "name": "Insuffisance rénale aiguë",
@@ -1057,7 +1066,8 @@
 }
 ],
 "sec": 459.9,
-"bytes": 2306104
+"bytes": 2306104,
+"h2": "31279347"
 },
 "10": {
 "name": "Maladie rénale chronique",
@@ -1163,7 +1173,8 @@
 }
 ],
 "sec": 487.2,
-"bytes": 2442064
+"bytes": 2442064,
+"h2": "56eb9a90"
 },
 "11": {
 "name": "Syndrome néphrotique",
@@ -1269,7 +1280,8 @@
 }
 ],
 "sec": 458.6,
-"bytes": 2299384
+"bytes": 2299384,
+"h2": "fe259428"
 },
 "12": {
 "name": "Cirrhose et ses complications",
@@ -1375,7 +1387,8 @@
 }
 ],
 "sec": 472.4,
-"bytes": 2368264
+"bytes": 2368264,
+"h2": "0085f931"
 },
 "13": {
 "name": "Hépatites virales",
@@ -1481,7 +1494,8 @@
 }
 ],
 "sec": 611.8,
-"bytes": 3065224
+"bytes": 3065224,
+"h2": "5c108573"
 },
 "14": {
 "name": "Anémies",
@@ -1587,7 +1601,8 @@
 }
 ],
 "sec": 477.9,
-"bytes": 2395504
+"bytes": 2395504,
+"h2": "cebbcad7"
 },
 "15": {
 "name": "Fièvre typhoïde",
@@ -1693,7 +1708,8 @@
 }
 ],
 "sec": 645.5,
-"bytes": 3235264
+"bytes": 3235264,
+"h2": "4452fe57"
 },
 "16": {
 "name": "Méningites",
@@ -1799,7 +1815,8 @@
 }
 ],
 "sec": 747.7,
-"bytes": 3745264
+"bytes": 3745264,
+"h2": "09731078"
 },
 "17": {
 "name": "Accident vasculaire cérébral",
@@ -1905,7 +1922,8 @@
 }
 ],
 "sec": 626.9,
-"bytes": 3140824
+"bytes": 3140824,
+"h2": "bdfacb58"
 },
 "18": {
 "name": "Pneumonie communautaire",
@@ -2011,7 +2029,8 @@
 }
 ],
 "sec": 531.8,
-"bytes": 2665504
+"bytes": 2665504,
+"h2": "67bc9f9d"
 },
 "19": {
 "name": "Sepsis et choc septique",
@@ -2117,6 +2136,7 @@
 }
 ],
 "sec": 570.8,
-"bytes": 2859784
+"bytes": 2859784,
+"h2": "cb4b9114"
 }
 }

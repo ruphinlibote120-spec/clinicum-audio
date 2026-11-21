@@ -1,0 +1,930 @@
+{
+"0": {
+"name": "Paludisme grave",
+"h2": "8f60e416"
+},
+"1": {
+"name": "Paludisme simple",
+"h2": "d6fb2925"
+},
+"2": {
+"name": "Drépanocytose",
+"h2": "d5001a70"
+},
+"3": {
+"name": "Infection par le VIH et infections opportunistes",
+"h2": "aabd1d40"
+},
+"4": {
+"name": "Tuberculose",
+"h2": "1a2c398f"
+},
+"5": {
+"name": "Hypertension artérielle",
+"h2": "f67a3c87"
+},
+"6": {
+"name": "Insuffisance cardiaque",
+"h2": "7cfdc591"
+},
+"7": {
+"name": "Diabète de type 2 et ses complications",
+"h2": "0dc9b6d3"
+},
+"8": {
+"name": "Acidocétose diabétique",
+"h2": "9e01e1c2"
+},
+"9": {
+"name": "Insuffisance rénale aiguë",
+"h2": "31279347"
+},
+"10": {
+"name": "Maladie rénale chronique",
+"h2": "56eb9a90"
+},
+"11": {
+"name": "Syndrome néphrotique",
+"h2": "fe259428"
+},
+"12": {
+"name": "Cirrhose et ses complications",
+"h2": "0085f931"
+},
+"13": {
+"name": "Hépatites virales",
+"h2": "5c108573"
+},
+"14": {
+"name": "Anémies",
+"h2": "cebbcad7"
+},
+"15": {
+"name": "Fièvre typhoïde",
+"h2": "4452fe57"
+},
+"16": {
+"name": "Méningites",
+"h2": "09731078"
+},
+"17": {
+"name": "Accident vasculaire cérébral",
+"h2": "bdfacb58"
+},
+"18": {
+"name": "Pneumonie communautaire",
+"h2": "67bc9f9d"
+},
+"19": {
+"name": "Sepsis et choc septique",
+"h2": "cb4b9114"
+},
+"20": {
+"name": "Maladie à virus Ebola",
+"h2": "245e2975"
+},
+"21": {
+"name": "Choléra",
+"h2": "34ee580d"
+},
+"22": {
+"name": "Rougeole",
+"h2": "5cf8fa49"
+},
+"23": {
+"name": "Syndrome coronarien aigu",
+"h2": "686771e4"
+},
+"24": {
+"name": "Asthme",
+"h2": "a88f5d00"
+},
+"25": {
+"name": "Épilepsie et état de mal épileptique",
+"h2": "5df6f45a"
+},
+"26": {
+"name": "Pré-éclampsie et éclampsie",
+"h2": "79e1eb29"
+},
+"27": {
+"name": "Malnutrition aiguë sévère de l’enfant",
+"h2": "6b53f2ac"
+},
+"28": {
+"name": "Bronchopneumopathie chronique obstructive (BPCO)",
+"h2": "7ee79590"
+},
+"29": {
+"name": "Hémorragie du post-partum",
+"h2": "9dc29d4f"
+},
+"30": {
+"name": "Diarrhée aiguë de l’enfant",
+"h2": "eb20f2b3"
+},
+"31": {
+"name": "Envenimation par morsure de serpent",
+"h2": "2442faee"
+},
+"32": {
+"name": "Intoxication aux organophosphorés",
+"h2": "5c868461"
+},
+"33": {
+"name": "Infection urinaire et pyélonéphrite",
+"h2": "f3eba0c2"
+},
+"34": {
+"name": "Goutte",
+"h2": "be84c041"
+},
+"35": {
+"name": "Fibrillation atriale",
+"h2": "f209e593"
+},
+"36": {
+"name": "Convulsion fébrile du nourrisson et de l’enfant",
+"h2": "69c1401a"
+},
+"37": {
+"name": "Hypoglycémie",
+"h2": "064a6912"
+},
+"38": {
+"name": "Paludisme et grossesse",
+"h2": "c3d15b02"
+},
+"39": {
+"name": "Schistosomiase (bilharziose)",
+"h2": "278597d0"
+},
+"40": {
+"name": "Hyperthyroïdie",
+"h2": "82882000"
+},
+"41": {
+"name": "Lèpre",
+"h2": "b6866997"
+},
+"42": {
+"name": "Rhumatisme articulaire aigu et cardiopathie rhumatismale",
+"h2": "b63686a6"
+},
+"43": {
+"name": "Tétanos",
+"h2": "0429c0c2"
+},
+"44": {
+"name": "Hypothyroïdie",
+"h2": "b6df85c6"
+},
+"45": {
+"name": "Glomérulonéphrite aiguë (syndrome néphritique)",
+"h2": "33780f5e"
+},
+"46": {
+"name": "Pancréatite aiguë",
+"h2": "ddc6cfe0"
+},
+"47": {
+"name": "Ulcère gastroduodénal et Helicobacter pylori",
+"h2": "55d505a4"
+},
+"48": {
+"name": "Polyarthrite rhumatoïde",
+"h2": "07e68c8c"
+},
+"49": {
+"name": "Lupus érythémateux systémique",
+"h2": "d325c600"
+},
+"50": {
+"name": "Thrombose veineuse profonde et embolie pulmonaire",
+"h2": "9f898013"
+},
+"51": {
+"name": "Insuffisance hépatique aiguë",
+"h2": "4079e747"
+},
+"52": {
+"name": "Hémorragie digestive haute",
+"h2": "1a729366"
+},
+"53": {
+"name": "Choc anaphylactique",
+"h2": "a15e8aef"
+},
+"54": {
+"name": "Arrêt cardiaque et réanimation cardiopulmonaire",
+"h2": "0a336adc"
+},
+"55": {
+"name": "Dengue",
+"h2": "d6285114"
+},
+"56": {
+"name": "Fièvre jaune",
+"h2": "cc82e1cc"
+},
+"57": {
+"name": "Brucellose",
+"h2": "a9875494"
+},
+"58": {
+"name": "Fièvre de Lassa",
+"h2": "db243763"
+},
+"59": {
+"name": "Infection néonatale",
+"h2": "0813a4aa"
+},
+"60": {
+"name": "Ictère néonatal",
+"h2": "d489c3ef"
+},
+"61": {
+"name": "Détresse respiratoire du nouveau-né",
+"h2": "c09f324e"
+},
+"62": {
+"name": "Bronchiolite du nourrisson",
+"h2": "13ddc0ec"
+},
+"63": {
+"name": "Drépanocytose de l’enfant",
+"h2": "313b6b0c"
+},
+"64": {
+"name": "Infection à VIH de l’enfant",
+"h2": "e868f562"
+},
+"65": {
+"name": "Anémie du nourrisson et de l’enfant",
+"h2": "e3fc2ff8"
+},
+"66": {
+"name": "Retard de croissance de l’enfant",
+"h2": "b8e2d9dd"
+},
+"67": {
+"name": "Anémie de la grossesse",
+"h2": "d0fee418"
+},
+"68": {
+"name": "Diabète gestationnel",
+"h2": "fb161152"
+},
+"69": {
+"name": "Grossesse extra-utérine",
+"h2": "35f6acbf"
+},
+"70": {
+"name": "Avortement spontané et avortement septique",
+"h2": "7e66bcdf"
+},
+"71": {
+"name": "Infections sexuellement transmissibles",
+"h2": "6a206721"
+},
+"72": {
+"name": "Cancer du col de l’utérus",
+"h2": "2e04f238"
+},
+"73": {
+"name": "Rupture prématurée des membranes",
+"h2": "34359f3c"
+},
+"74": {
+"name": "Placenta prævia et hématome rétroplacentaire",
+"h2": "98a46998"
+},
+"75": {
+"name": "Dépression",
+"h2": "3bfc529b"
+},
+"76": {
+"name": "Schizophrénie et troubles psychotiques",
+"h2": "8080be2b"
+},
+"77": {
+"name": "Troubles anxieux",
+"h2": "32ae07ed"
+},
+"78": {
+"name": "Délirium (état confusionnel aigu)",
+"h2": "8fd7cdea"
+},
+"79": {
+"name": "Démence",
+"h2": "b666e095"
+},
+"80": {
+"name": "Migraine",
+"h2": "19a63554"
+},
+"81": {
+"name": "Maladie de Parkinson",
+"h2": "8251ec11"
+},
+"82": {
+"name": "Neuropathies périphériques",
+"h2": "0ed6587a"
+},
+"83": {
+"name": "Trypanosomiase humaine africaine",
+"h2": "d685d24e"
+},
+"84": {
+"name": "Gale",
+"h2": "a074e6c1"
+},
+"85": {
+"name": "Mycoses cutanées",
+"h2": "e8d3a98b"
+},
+"86": {
+"name": "Zona",
+"h2": "a6614ec9"
+},
+"87": {
+"name": "Sarcome de Kaposi",
+"h2": "e628be22"
+},
+"88": {
+"name": "Ulcère de Buruli",
+"h2": "ec9b13a5"
+},
+"89": {
+"name": "Onchocercose",
+"h2": "53f3874e"
+},
+"90": {
+"name": "Filarioses lymphatiques et loase",
+"h2": "08ef5aea"
+},
+"91": {
+"name": "Ostéomyélite",
+"h2": "a29d027f"
+},
+"92": {
+"name": "Arthrite septique",
+"h2": "f53d95d4"
+},
+"93": {
+"name": "Lombalgie",
+"h2": "8a8f2553"
+},
+"94": {
+"name": "Lymphome de Burkitt",
+"h2": "0b1a4290"
+},
+"95": {
+"name": "Leucémies aiguës et chroniques",
+"h2": "3c1b4d46"
+},
+"96": {
+"name": "Myélome multiple",
+"h2": "2332b2ab"
+},
+"97": {
+"name": "Cancer primitif du foie (carcinome hépatocellulaire)",
+"h2": "8ff5d22a"
+},
+"98": {
+"name": "Cancer du sein",
+"h2": "ee56e058"
+},
+"99": {
+"name": "Cancer de l’œsophage",
+"h2": "cba12950"
+},
+"100": {
+"name": "Cancer de la prostate",
+"h2": "d83c9852"
+},
+"101": {
+"name": "Insuffisance surrénalienne",
+"h2": "a6210168"
+},
+"102": {
+"name": "Syndrome de Cushing",
+"h2": "ccdc6eba"
+},
+"103": {
+"name": "Goitre et pathologies thyroïdiennes nodulaires",
+"h2": "22582440"
+},
+"104": {
+"name": "Obésité",
+"h2": "df832715"
+},
+"105": {
+"name": "Intoxication au paracétamol",
+"h2": "c7d1d960"
+},
+"106": {
+"name": "Intoxication au monoxyde de carbone",
+"h2": "224873ff"
+},
+"107": {
+"name": "Intoxication alcoolique aiguë et sevrage",
+"h2": "50b15710"
+},
+"108": {
+"name": "Intoxications par les plantes et champignons",
+"h2": "77b8040c"
+},
+"109": {
+"name": "Endocardite infectieuse",
+"h2": "54cb1b35"
+},
+"110": {
+"name": "Pleurésie et pneumothorax",
+"h2": "7fb64d4c"
+},
+"111": {
+"name": "Lithiase biliaire et cholécystite aiguë",
+"h2": "06d6a774"
+},
+"112": {
+"name": "Parasitoses intestinales (amibiase et helminthiases)",
+"h2": "8ccf4666"
+},
+"113": {
+"name": "Syndrome de Guillain-Barré",
+"h2": "56b251ef"
+},
+"114": {
+"name": "Traumatisme crânien",
+"h2": "490dc08d"
+},
+"115": {
+"name": "Lithiase urinaire et colique néphrétique",
+"h2": "a91c7db6"
+},
+"116": {
+"name": "Troubles hydro-électrolytiques (hyponatrémie, hyperkaliémie)",
+"h2": "4f3d4cee"
+},
+"117": {
+"name": "Hémophilie",
+"h2": "c595b371"
+},
+"118": {
+"name": "Mpox",
+"h2": "0cde51d1"
+},
+"119": {
+"name": "Rage humaine",
+"h2": "48d2cf36"
+},
+"120": {
+"name": "Trouble bipolaire",
+"h2": "16b91c02"
+},
+"121": {
+"name": "Angine et otite moyenne aiguë",
+"h2": "807abd6b"
+},
+"122": {
+"name": "Maladie à virus Marburg",
+"h2": "7e4c4392"
+},
+"123": {
+"name": "Peste",
+"h2": "06ecad5e"
+},
+"124": {
+"name": "Charbon (anthrax)",
+"h2": "e45ae314"
+},
+"125": {
+"name": "Leptospirose",
+"h2": "8c9ad7b0"
+},
+"126": {
+"name": "Rickettsioses",
+"h2": "ad88e6b1"
+},
+"127": {
+"name": "Fièvre récurrente (borréliose)",
+"h2": "e5ab5158"
+},
+"128": {
+"name": "Grippe",
+"h2": "dd494898"
+},
+"129": {
+"name": "COVID-19",
+"h2": "99dfaa7c"
+},
+"130": {
+"name": "Cryptococcose",
+"h2": "754d3281"
+},
+"131": {
+"name": "Toxoplasmose cérébrale",
+"h2": "b6270f6d"
+},
+"132": {
+"name": "Érysipèle et cellulite",
+"h2": "f0b6d59e"
+},
+"133": {
+"name": "Abcès cutanés et impétigo",
+"h2": "bef4a656"
+},
+"134": {
+"name": "Trichomonose et candidose vaginale",
+"h2": "9d463fd9"
+},
+"135": {
+"name": "Abcès amibien du foie",
+"h2": "d1a52a93"
+},
+"136": {
+"name": "Coqueluche",
+"h2": "246abb28"
+},
+"137": {
+"name": "Diphtérie",
+"h2": "aa2c3d46"
+},
+"138": {
+"name": "Poliomyélite et paralysie flasque aiguë",
+"h2": "e8d14c6f"
+},
+"139": {
+"name": "Prématurité et faible poids de naissance",
+"h2": "c1c63055"
+},
+"140": {
+"name": "Asphyxie périnatale",
+"h2": "7bd3f68c"
+},
+"141": {
+"name": "Kwashiorkor et malnutrition aiguë modérée",
+"h2": "5f1d0d21"
+},
+"142": {
+"name": "Suivi du nourrisson et vaccination (PEV)",
+"h2": "bb4fb87d"
+},
+"143": {
+"name": "Dystocie et dystocie des épaules",
+"h2": "cfd22aa8"
+},
+"144": {
+"name": "Rupture utérine",
+"h2": "834c5de7"
+},
+"145": {
+"name": "Travail prématuré",
+"h2": "9b98ea42"
+},
+"146": {
+"name": "Grossesse gémellaire",
+"h2": "c30ee35a"
+},
+"147": {
+"name": "Infection puerpérale",
+"h2": "292a333b"
+},
+"148": {
+"name": "Contraception et planification familiale",
+"h2": "e49174b1"
+},
+"149": {
+"name": "Fistule obstétricale",
+"h2": "7fa7bf3c"
+},
+"150": {
+"name": "Ménopause",
+"h2": "38d8a26f"
+},
+"151": {
+"name": "Cardiomyopathies",
+"h2": "1daf9b9b"
+},
+"152": {
+"name": "Cardiomyopathie du péripartum",
+"h2": "d6c296dd"
+},
+"153": {
+"name": "Péricardite et tamponnade",
+"h2": "305b1381"
+},
+"154": {
+"name": "Valvulopathies",
+"h2": "b1081b30"
+},
+"155": {
+"name": "Hypertension pulmonaire",
+"h2": "77708d19"
+},
+"156": {
+"name": "Cardiopathies congénitales",
+"h2": "666c6c2e"
+},
+"157": {
+"name": "Choc cardiogénique et œdème aigu du poumon",
+"h2": "5b12939f"
+},
+"158": {
+"name": "Brûlures",
+"h2": "3b47674f"
+},
+"159": {
+"name": "Polytraumatisé et choc hémorragique",
+"h2": "72a1684c"
+},
+"160": {
+"name": "Noyade",
+"h2": "f27369ef"
+},
+"161": {
+"name": "Coup de chaleur et hypothermie",
+"h2": "53bc007e"
+},
+"162": {
+"name": "Abdomen aigu chirurgical",
+"h2": "ecc1c22c"
+},
+"163": {
+"name": "Choc hypovolémique",
+"h2": "e972ca13"
+},
+"164": {
+"name": "Cancer bronchique",
+"h2": "6f1c029b"
+},
+"165": {
+"name": "Pneumopathie d’inhalation",
+"h2": "151b45aa"
+},
+"166": {
+"name": "Bronchectasies",
+"h2": "ce427595"
+},
+"167": {
+"name": "Thalassémies",
+"h2": "78777401"
+},
+"168": {
+"name": "Purpura thrombopénique immunologique",
+"h2": "ef9ef873"
+},
+"169": {
+"name": "Coagulation intravasculaire disséminée",
+"h2": "eb806fdf"
+},
+"170": {
+"name": "Lymphome de Hodgkin",
+"h2": "b32b91d1"
+},
+"171": {
+"name": "Lymphomes non hodgkiniens",
+"h2": "9fe54a7c"
+},
+"172": {
+"name": "Déficit en G6PD",
+"h2": "05191911"
+},
+"173": {
+"name": "Reflux gastro-œsophagien",
+"h2": "0240f397"
+},
+"174": {
+"name": "Maladie de Crohn et rectocolite hémorragique",
+"h2": "750777ba"
+},
+"175": {
+"name": "Constipation",
+"h2": "bcddf8a7"
+},
+"176": {
+"name": "Hémorragie digestive basse",
+"h2": "fe447f22"
+},
+"177": {
+"name": "Occlusion intestinale",
+"h2": "46968d80"
+},
+"178": {
+"name": "Hémorroïdes et fissure anale",
+"h2": "03bdcfe1"
+},
+"179": {
+"name": "Cancer colorectal",
+"h2": "17a9782c"
+},
+"180": {
+"name": "Cancer gastrique",
+"h2": "e69acf2e"
+},
+"181": {
+"name": "Diabète de type 1",
+"h2": "22225057"
+},
+"182": {
+"name": "Phéochromocytome",
+"h2": "2b28b7fb"
+},
+"183": {
+"name": "Hyperparathyroïdie",
+"h2": "a9274184"
+},
+"184": {
+"name": "Dyslipidémies",
+"h2": "8f9b98af"
+},
+"185": {
+"name": "Hyperprolactinémie",
+"h2": "6e4183fb"
+},
+"186": {
+"name": "Méningo-encéphalites",
+"h2": "d7cbbf3f"
+},
+"187": {
+"name": "Tumeurs cérébrales",
+"h2": "67222f18"
+},
+"188": {
+"name": "Sclérose en plaques",
+"h2": "bf2a058a"
+},
+"189": {
+"name": "Névralgie du trijumeau",
+"h2": "a0894918"
+},
+"190": {
+"name": "Myasthénie",
+"h2": "e5af46bc"
+},
+"191": {
+"name": "Konzo",
+"h2": "893cade1"
+},
+"192": {
+"name": "Hémodialyse et dialyse",
+"h2": "62c24e05"
+},
+"193": {
+"name": "Hypertension rénovasculaire",
+"h2": "bfd71491"
+},
+"194": {
+"name": "Arthrose",
+"h2": "7a7a248c"
+},
+"195": {
+"name": "Spondylarthrite",
+"h2": "7db1f176"
+},
+"196": {
+"name": "Ostéoporose",
+"h2": "333a5594"
+},
+"197": {
+"name": "Fractures courantes",
+"h2": "2f04a051"
+},
+"198": {
+"name": "Dermatite atopique et eczéma",
+"h2": "68ac4d44"
+},
+"199": {
+"name": "Psoriasis",
+"h2": "6889c630"
+},
+"200": {
+"name": "Urticaire",
+"h2": "ae2e61c1"
+},
+"201": {
+"name": "Escarres",
+"h2": "39b86b94"
+},
+"202": {
+"name": "Gangrène et fasciite nécrosante",
+"h2": "50768bdc"
+},
+"203": {
+"name": "Otite moyenne chronique",
+"h2": "d996347d"
+},
+"204": {
+"name": "Sinusite",
+"h2": "2425849f"
+},
+"205": {
+"name": "Épistaxis",
+"h2": "9bd16874"
+},
+"206": {
+"name": "Conjonctivite",
+"h2": "19de92e1"
+},
+"207": {
+"name": "Glaucome",
+"h2": "3d0e6016"
+},
+"208": {
+"name": "Cataracte",
+"h2": "20dfaf32"
+},
+"209": {
+"name": "Trachome",
+"h2": "f02b8986"
+},
+"210": {
+"name": "Traumatisme oculaire",
+"h2": "abbdb596"
+},
+"211": {
+"name": "Hypertrophie bénigne de la prostate",
+"h2": "b86a091b"
+},
+"212": {
+"name": "Rétention aiguë d’urine",
+"h2": "541c55d7"
+},
+"213": {
+"name": "Hernies",
+"h2": "0fa26cbe"
+},
+"214": {
+"name": "Torsion testiculaire",
+"h2": "689f7b28"
+},
+"215": {
+"name": "Appendicite",
+"h2": "f3c8c817"
+},
+"216": {
+"name": "Cancer de l’ovaire",
+"h2": "c515f854"
+},
+"217": {
+"name": "Cancer de l’endomètre",
+"h2": "1e9763be"
+},
+"218": {
+"name": "Cancer de la vessie",
+"h2": "b4cc0160"
+},
+"219": {
+"name": "Rétinoblastome",
+"h2": "a5a35097"
+},
+"220": {
+"name": "Néphroblastome (tumeur de Wilms)",
+"h2": "e41b3eee"
+},
+"221": {
+"name": "Troubles liés aux substances (cannabis, opiacés)",
+"h2": "c440d46b"
+},
+"222": {
+"name": "Suicide et tentative de suicide",
+"h2": "dda28b91"
+},
+"223": {
+"name": "Troubles du sommeil",
+"h2": "c342c63e"
+},
+"224": {
+"name": "Crises psychogènes non épileptiques",
+"h2": "c0ff7bda"
+},
+"225": {
+"name": "Violences sexuelles et prophylaxie post-exposition",
+"h2": "6ca82560"
+},
+"226": {
+"name": "Certificat médical et médecine légale",
+"h2": "7880ec4c"
+},
+"227": {
+"name": "Hygiène hospitalière et prévention des infections",
+"h2": "d3812ce1"
+},
+"228": {
+"name": "Vaccination (calendrier et chaîne du froid)",
+"h2": "3a9a0b4b"
+},
+"229": {
+"name": "Prise en charge de la douleur",
+"h2": "81a00e9f"
+},
+"230": {
+"name": "Soins palliatifs",
+"h2": "e0946b87"
+},
+"231": {
+"name": "Gériatrie : syndromes gériatriques et chutes",
+"h2": "cdb4f190"
+}
+}

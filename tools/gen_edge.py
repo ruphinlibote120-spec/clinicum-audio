@@ -71,7 +71,7 @@ async def main():
         info = []
         for i, c in enumerate(r["chapters"]):
             info.append(await chapter(d, i, c))
-        idx[str(fid)] = {"name": r["name"], "hash": r["hash"], "chapters": info,
+        idx[str(fid)] = {"name": r["name"], "hash": r["hash"], "h2": json.load(open("tools/h2.json"))[str(fid)]["h2"], "chapters": info,
                          "sec": round(sum(x["sec"] for x in info), 1), "bytes": sum(x["bytes"] for x in info)}
         json.dump(idx, open(idx_path, "w"), ensure_ascii=False, indent=0)
         print(f"OK {fid:03d} {r['name']} {idx[str(fid)]['sec']} s {idx[str(fid)]['bytes']//1000} Ko", flush=True)
