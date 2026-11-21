@@ -4,8 +4,8 @@ def _fr(*a, **k):
     text = a[-1]
     if isinstance(text, bytes): text = text.decode('utf-8')
     return ("<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='fr-FR'>"
-            "<voice name='fr-FR-VivienneMultilingualNeural'><lang xml:lang='fr-FR'>"
-            "<prosody pitch='+0Hz' rate='+0%' volume='+0%'>" + text + "</prosody></lang></voice></speak>")
+            "<voice name='fr-FR-VivienneMultilingualNeural'>"
+            "<prosody pitch='+0Hz' rate='+0%' volume='+0%'>" + text + "</prosody></voice></speak>")
 _ec.mkssml = _fr
 print("SSML fr-FR :", _fr("x", "Rougeole."))
 VOICE = "fr-FR-VivienneMultilingualNeural"
