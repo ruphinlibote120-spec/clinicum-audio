@@ -1,0 +1,26 @@
+name: Fichiers zip des audios
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Audios Ariane"]
+    types: [completed]
+permissions:
+  contents: write
+concurrency: audio-zips
+jobs:
+  zips:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 tools/make_zips.py
+      - name: Publier dans la version « audios »
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view audios >/dev/null 2>&1 || gh release create audios --title "Audios Clinicum (fichiers à importer)" --notes "Un fichier .zip par sujet médical. Téléchargez-les puis, dans Clinicum : Sujets médicaux > Importer des audios. Contenu indicatif, à vérifier."
+          gh release upload audios zips/*.zip --clobber
