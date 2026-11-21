@@ -8,6 +8,9 @@ SJL = [('pts','Points clés'),('def','Définition'),('epi','Épidémiologie'),('
        ('phy','Physiopathologie'),('ana','Anatomopathologie'),('cli','Symptomatologie'),('dia','Diagnostic'),
        ('exp','Explorations'),('tt','Traitement'),('sui','Suivi et pronostic'),('pre','Prévention'),
        ('ref','Quand référer ou hospitaliser')]
+SPOKEN = {'pts':'Les points clés.','def':'La définition.','epi':'L’épidémiologie.','cau':'Les causes et les facteurs de risque.',
+ 'phy':'La physiopathologie.','ana':'L’anatomopathologie.','cli':'La symptomatologie.','dia':'Le diagnostic.','exp':'Les explorations.',
+ 'tt':'Le traitement.','sui':'Le suivi et le pronostic.','pre':'La prévention.','ref':'Quand référer ou hospitaliser.'}
 SJC = ["Cardiologie","Pneumologie","Gastro-entérologie et hépatologie","Néphrologie","Endocrinologie et métabolisme",
        "Hématologie","Infectiologie et maladies tropicales","Neurologie","Urgences et réanimation","Rhumatologie",
        "Dermatologie","Psychiatrie","Gynécologie-obstétrique","Pédiatrie","Toxicologie","Nutrition","Oncologie","ORL",
@@ -134,6 +137,25 @@ def unit_rep(m):
         out+=(' par ' if i==0 else ' et par ')+PER[p]
     return out
 
+
+# --- Noms se terminant par « r » : le r final doit être prononcé (artéméther -> artéméthère) ---
+RFIX = {
+ 'artéméther':'artéméthère','scanner':'scannère','angioscanner':'angioscannère','cancer':'cancère','précancer':'précancère',
+ 'ringer':'ringuère','doppler':'dopplère','cathéter':'cathétère','transcathéter':'transcathétère','laser':'lazère',
+ 'campylobacter':'campylobactère','helicobacter':'hélicobactère','enterobacter':'entérobactère','aggregatibacter':'agrégatibactère',
+ 'alzheimer':'alzaïmère','holter':'holtère','osler':'oslère','herxheimer':'herxaïmère','turner':'turnère','sphincter':'sphinctère',
+ 'trochanter':'trochantère','peyer':'peyère','biermer':'biermère','zollinger':'zollingère','löffler':'lœfflère','patiromer':'patiromère',
+ 'miller':'millère','fisher':'fichère','eisenmenger':'aïzenmengère','flutter':'flutère','baker':'bakère','crigler':'criglère',
+ 'kramer':'kramère','silver':'silvère','tanner':'tannère','kleihauer':'klaïhaouère','dressler':'dresslère','koebner':'kœbnère',
+ 'wegener':'végénère','flexner':'flexnère','schober':'chobère','jacquemier':'jacquemière',
+}
+def rfix(t):
+    def rep(m):
+        w = m.group(0); r = RFIX.get(w.lower())
+        if not r: return w
+        return r.capitalize() if w[0].isupper() else r
+    return re.sub(r"\b[A-Za-zÀ-ÿ]+er\b", rep, t)
+
 unmapped = collections.Counter()
 
 def spell(tok):
@@ -185,6 +207,7 @@ def clean_text(t):
     t = re.sub(r'\bn°\s?', 'numéro ', t)
     # slash entre mots
     t = re.sub(r'(?<=[A-Za-zÀ-ÿ])\s?/\s?(?=[A-Za-zÀ-ÿ])', ' ou ', t)
+    t = re.sub(r'éther\b', 'étère', t)  # le r final doit se prononcer (artéméther -> artémétère)
     # sigles
     def acr(m):
         tok = m.group(0)
@@ -194,6 +217,7 @@ def clean_text(t):
             return spell(tok)
         return tok
     t = re.sub(r"\b[A-Z][A-Za-z]*[A-Z0-9][A-Za-z0-9]*\b", acr, t)
+    t = rfix(t)
     t = re.sub(r'\s+', ' ', t).strip()
     return t
 
@@ -205,7 +229,7 @@ def build():
         name, spec, short = s[0], s[1], s[2]
         body = s[4]
         chapters = []
-        intro = f"{clean_text(name)}. {SJC[spec] if spec < len(SJC) else ''}. {clean_text(short)} Contenu indicatif, à vérifier."
+        intro = f"Voici la fiche : {clean_text(name)}. Spécialité : {SJC[spec] if spec < len(SJC) else ''}. {clean_text(short)} Contenu indicatif, à vérifier."
         chapters.append({'key': 'intro', 'title': 'Introduction', 'text': intro})
         for key, title in SJL:
             items = body.get(key, [])
@@ -218,7 +242,7 @@ def build():
                     c = clean_text(x)
                     if c and c[-1] not in '.!?': c += '.'
                     paras.append(c)
-            chapters.append({'key': key, 'title': title, 'text': title + '. ' + ' '.join(paras)})
+            chapters.append({'key': key, 'title': title, 'text': SPOKEN[key] + ' ' + ' '.join(paras)})
         h = hashlib.sha256(json.dumps(s[:5], ensure_ascii=False, sort_keys=True).encode()).hexdigest()[:12]
         rec = {'id': i, 'name': name, 'hash': h, 'chapters': chapters}
         json.dump(rec, open(f'out/{i:03d}.json', 'w'), ensure_ascii=False)
