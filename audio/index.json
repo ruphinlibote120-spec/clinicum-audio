@@ -2143,215 +2143,217 @@
 "name": "Maladie à virus Ebola",
 "hash": "9a41849cb069",
 "h2": "245e2975",
+"v": "vivienne1",
 "chapters": [
 {
 "key": "intro",
 "title": "Introduction",
 "file": "00-intro.mp3",
-"sec": 28.1,
-"bytes": 140756
+"sec": 26.2,
+"bytes": 131516
 },
 {
 "key": "pts",
 "title": "Points clés",
 "file": "01-pts.mp3",
-"sec": 78.6,
-"bytes": 393596
+"sec": 75.2,
+"bytes": 376676
 },
 {
 "key": "def",
 "title": "Définition",
 "file": "02-def.mp3",
-"sec": 19.0,
-"bytes": 95396
+"sec": 17.5,
+"bytes": 88196
 },
 {
 "key": "epi",
 "title": "Épidémiologie",
 "file": "03-epi.mp3",
-"sec": 63.1,
-"bytes": 316076
+"sec": 59.9,
+"bytes": 299876
 },
 {
 "key": "cau",
 "title": "Causes et facteurs de risque",
 "file": "04-cau.mp3",
-"sec": 40.7,
-"bytes": 203876
+"sec": 39.4,
+"bytes": 197636
 },
 {
 "key": "phy",
 "title": "Physiopathologie",
 "file": "05-phy.mp3",
-"sec": 40.6,
-"bytes": 203276
+"sec": 36.4,
+"bytes": 182276
 },
 {
 "key": "ana",
 "title": "Anatomopathologie",
 "file": "06-ana.mp3",
-"sec": 21.6,
-"bytes": 108716
+"sec": 19.9,
+"bytes": 99956
 },
 {
 "key": "cli",
 "title": "Symptomatologie",
 "file": "07-cli.mp3",
-"sec": 65.6,
-"bytes": 328676
+"sec": 62.7,
+"bytes": 313796
 },
 {
 "key": "dia",
 "title": "Diagnostic",
 "file": "08-dia.mp3",
-"sec": 58.4,
-"bytes": 292676
+"sec": 57.2,
+"bytes": 286316
 },
 {
 "key": "exp",
 "title": "Explorations",
 "file": "09-exp.mp3",
-"sec": 32.4,
-"bytes": 162596
+"sec": 30.5,
+"bytes": 152756
 },
 {
 "key": "tt",
 "title": "Traitement",
 "file": "10-tt.mp3",
-"sec": 116.5,
-"bytes": 583196
+"sec": 113.3,
+"bytes": 566876
 },
 {
 "key": "sui",
 "title": "Suivi et pronostic",
 "file": "11-sui.mp3",
-"sec": 38.0,
-"bytes": 190676
+"sec": 35.6,
+"bytes": 178556
 },
 {
 "key": "pre",
 "title": "Prévention",
 "file": "12-pre.mp3",
-"sec": 41.3,
-"bytes": 207116
+"sec": 37.3,
+"bytes": 187076
 },
 {
 "key": "ref",
 "title": "Quand référer ou hospitaliser",
 "file": "13-ref.mp3",
-"sec": 24.6,
-"bytes": 123476
+"sec": 23.0,
+"bytes": 115436
 }
 ],
-"sec": 668.5,
-"bytes": 3350104
+"sec": 634.1,
+"bytes": 3176944
 },
 "21": {
 "name": "Choléra",
 "hash": "8d728f7b286a",
 "h2": "34ee580d",
+"v": "vivienne1",
 "chapters": [
 {
 "key": "intro",
 "title": "Introduction",
 "file": "00-intro.mp3",
-"sec": 25.8,
-"bytes": 129596
+"sec": 24.0,
+"bytes": 120356
 },
 {
 "key": "pts",
 "title": "Points clés",
 "file": "01-pts.mp3",
-"sec": 66.8,
-"bytes": 334556
+"sec": 63.9,
+"bytes": 320036
 },
 {
 "key": "def",
 "title": "Définition",
 "file": "02-def.mp3",
-"sec": 19.6,
-"bytes": 98636
+"sec": 17.4,
+"bytes": 87356
 },
 {
 "key": "epi",
 "title": "Épidémiologie",
 "file": "03-epi.mp3",
-"sec": 45.2,
-"bytes": 226556
+"sec": 42.0,
+"bytes": 210236
 },
 {
 "key": "cau",
 "title": "Causes et facteurs de risque",
 "file": "04-cau.mp3",
-"sec": 31.6,
-"bytes": 158636
+"sec": 30.5,
+"bytes": 152996
 },
 {
 "key": "phy",
 "title": "Physiopathologie",
 "file": "05-phy.mp3",
-"sec": 36.3,
-"bytes": 181796
+"sec": 33.9,
+"bytes": 169796
 },
 {
 "key": "ana",
 "title": "Anatomopathologie",
 "file": "06-ana.mp3",
-"sec": 13.5,
-"bytes": 67916
+"sec": 12.5,
+"bytes": 62756
 },
 {
 "key": "cli",
 "title": "Symptomatologie",
 "file": "07-cli.mp3",
-"sec": 75.7,
-"bytes": 378956
+"sec": 73.9,
+"bytes": 370076
 },
 {
 "key": "dia",
 "title": "Diagnostic",
 "file": "08-dia.mp3",
-"sec": 39.2,
-"bytes": 196436
+"sec": 37.0,
+"bytes": 185396
 },
 {
 "key": "exp",
 "title": "Explorations",
 "file": "09-exp.mp3",
-"sec": 23.8,
-"bytes": 119396
+"sec": 22.5,
+"bytes": 112916
 },
 {
 "key": "tt",
 "title": "Traitement",
 "file": "10-tt.mp3",
-"sec": 123.5,
-"bytes": 617996
+"sec": 117.9,
+"bytes": 590036
 },
 {
 "key": "sui",
 "title": "Suivi et pronostic",
 "file": "11-sui.mp3",
-"sec": 31.7,
-"bytes": 159116
+"sec": 29.5,
+"bytes": 147836
 },
 {
 "key": "pre",
 "title": "Prévention",
 "file": "12-pre.mp3",
-"sec": 38.1,
-"bytes": 190916
+"sec": 36.0,
+"bytes": 180356
 },
 {
 "key": "ref",
 "title": "Quand référer ou hospitaliser",
 "file": "13-ref.mp3",
-"sec": 22.6,
-"bytes": 113636
+"sec": 20.3,
+"bytes": 101876
 }
 ],
-"sec": 593.4,
-"bytes": 2974144
+"sec": 561.3,
+"bytes": 2812024
 },
 "22": {
 "name": "Rougeole",
