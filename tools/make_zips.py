@@ -10,7 +10,7 @@ n = 0
 for k in sorted(idx, key=int):
     v = idx[k]
     if "h2" not in v: continue
-    man = {"v": 1, "id": int(k), "name": v["name"], "h2": v["h2"], "sec": v["sec"], "bytes": v["bytes"],
+    man = {"v": 1, "id": int(k), "name": v["name"], "h2": v["h2"], "v": v.get("v", ""), "sec": v["sec"], "bytes": v["bytes"],
            "chapters": [{"key": c["key"], "title": c["title"], "file": c["file"], "sec": c["sec"], "bytes": c["bytes"]} for c in v["chapters"]]}
     out = f"zips/Clinicum-{int(k):03d}-{slug(v['name'])}.zip"
     with zipfile.ZipFile(out, "w", zipfile.ZIP_STORED) as z:

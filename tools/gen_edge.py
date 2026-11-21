@@ -6,7 +6,9 @@ import asyncio, json, os, re, subprocess, sys, glob
 import edge_tts
 import edge_tts.communicate as _ec
 
-VOICE = "fr-CH-ArianeNeural"
+_VC = json.load(open("tools/voice.json")) if os.path.exists("tools/voice.json") else {}
+VOICE = os.environ.get("VOICE") or _VC.get("voice") or "fr-CH-ArianeNeural"
+VTAG = os.environ.get("VTAG") or _VC.get("tag") or ""   # étiquette de voix : change quand la voix change (l'application propose alors la mise à jour)
 VOL = os.environ.get("VOL", "+25%")
 CHUNK = 2800
 SEM = asyncio.Semaphore(3)
@@ -63,7 +65,8 @@ async def main():
     idx = json.load(open(idx_path)) if os.path.exists(idx_path) else {}
     for fid in lot:
         r = json.load(open(f"textes/{fid:03d}.json"))
-        if idx.get(str(fid), {}).get("hash") == r["hash"]:
+        old = idx.get(str(fid), {})
+        if old.get("hash") == r["hash"] and old.get("v", "") == VTAG:
             print("déjà fait", fid, flush=True); continue
         d = f"audio/{fid:03d}"
         os.makedirs(d, exist_ok=True)
@@ -71,7 +74,7 @@ async def main():
         info = []
         for i, c in enumerate(r["chapters"]):
             info.append(await chapter(d, i, c))
-        idx[str(fid)] = {"name": r["name"], "hash": r["hash"], "h2": json.load(open("tools/h2.json"))[str(fid)]["h2"], "chapters": info,
+        idx[str(fid)] = {"name": r["name"], "hash": r["hash"], "h2": json.load(open("tools/h2.json"))[str(fid)]["h2"], **({"v": VTAG} if VTAG else {}), "chapters": info,
                          "sec": round(sum(x["sec"] for x in info), 1), "bytes": sum(x["bytes"] for x in info)}
         json.dump(idx, open(idx_path, "w"), ensure_ascii=False, indent=0)
         print(f"OK {fid:03d} {r['name']} {idx[str(fid)]['sec']} s {idx[str(fid)]['bytes']//1000} Ko", flush=True)
