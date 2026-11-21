@@ -1,4 +1,11 @@
 import asyncio, json, glob, os, subprocess, edge_tts
+import edge_tts.communicate as _ec
+_orig = _ec.mkssml
+def _fr(*a, **k):
+    x = _orig(*a, **k)
+    return x.replace("xml:lang='en-US'", "xml:lang='fr-FR'").replace('xml:lang="en-US"', 'xml:lang="fr-FR"')
+_ec.mkssml = _fr
+print("SSML exemple :", _fr(*([_ec.TTSConfig("Bonjour.", "fr-FR-VivienneMultilingualNeural")] if hasattr(_ec,"TTSConfig") else ["fr-FR-VivienneMultilingualNeural","+0%","+0%","+0Hz","Bonjour."]), *([ "Bonjour."] if hasattr(_ec,"TTSConfig") else [])) if False else "patch actif")
 VOICE = "fr-FR-VivienneMultilingualNeural"
 async def one(text, path):
     for k in range(3):
