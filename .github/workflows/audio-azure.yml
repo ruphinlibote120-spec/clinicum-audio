@@ -1,0 +1,39 @@
+name: Audios Azure
+on:
+  workflow_dispatch:
+    inputs:
+      essai:
+        description: "Essai (1 seul chapitre pour vérifier la clé)"
+        type: boolean
+        default: true
+      fiches:
+        description: "Numéros de fiches (ex. 0,5,22) ; vide = toutes les nouvelles"
+        type: string
+        default: ""
+  schedule:
+    - cron: "17 3 1 * *"   # chaque 1er du mois : reprend la production dans le quota gratuit
+permissions:
+  contents: write
+concurrency: audio
+jobs:
+  gen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Générer
+        env:
+          AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+          AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
+          TEST: ${{ github.event_name == 'workflow_dispatch' && inputs.essai && '1' || '' }}
+          ONLY: ${{ github.event_name == 'workflow_dispatch' && inputs.fiches || '' }}
+          MAX_CHARS: "450000"
+        run: python3 tools/gen_azure.py
+      - name: Enregistrer
+        run: |
+          git config user.name "audio-bot"; git config user.email "audio-bot@users.noreply.github.com"
+          git add -A audio
+          git diff --cached --quiet || (git commit -m "Audios (lot automatique)" && git push origin HEAD:main)
