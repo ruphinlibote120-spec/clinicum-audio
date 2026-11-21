@@ -2143,14 +2143,14 @@
 "name": "Maladie à virus Ebola",
 "hash": "9a41849cb069",
 "h2": "245e2975",
-"v": "vivienne1",
+"v": "vivienne2",
 "chapters": [
 {
 "key": "intro",
 "title": "Introduction",
 "file": "00-intro.mp3",
-"sec": 26.2,
-"bytes": 131516
+"sec": 26.3,
+"bytes": 132116
 },
 {
 "key": "pts",
@@ -2198,8 +2198,8 @@
 "key": "cli",
 "title": "Symptomatologie",
 "file": "07-cli.mp3",
-"sec": 62.7,
-"bytes": 313796
+"sec": 62.4,
+"bytes": 312716
 },
 {
 "key": "dia",
@@ -2244,21 +2244,21 @@
 "bytes": 115436
 }
 ],
-"sec": 634.1,
-"bytes": 3176944
+"sec": 633.9,
+"bytes": 3176464
 },
 "21": {
 "name": "Choléra",
 "hash": "8d728f7b286a",
 "h2": "34ee580d",
-"v": "vivienne1",
+"v": "vivienne2",
 "chapters": [
 {
 "key": "intro",
 "title": "Introduction",
 "file": "00-intro.mp3",
-"sec": 24.0,
-"bytes": 120356
+"sec": 24.1,
+"bytes": 120836
 },
 {
 "key": "pts",
@@ -2352,269 +2352,56 @@
 "bytes": 101876
 }
 ],
-"sec": 561.3,
-"bytes": 2812024
+"sec": 561.4,
+"bytes": 2812504
 },
 "22": {
 "name": "Rougeole",
 "hash": "9cf1bd15a546",
 "h2": "5cf8fa49",
+"v": "vivienne2",
 "chapters": [
 {
 "key": "intro",
 "title": "Introduction",
 "file": "00-intro.mp3",
-"sec": 24.8,
-"bytes": 124436
+"sec": 23.2,
+"bytes": 116276
 },
 {
 "key": "pts",
 "title": "Points clés",
 "file": "01-pts.mp3",
-"sec": 72.9,
-"bytes": 365036
+"sec": 68.3,
+"bytes": 342116
 },
 {
 "key": "def",
 "title": "Définition",
 "file": "02-def.mp3",
-"sec": 16.1,
-"bytes": 80756
+"sec": 14.6,
+"bytes": 73316
 },
 {
 "key": "epi",
 "title": "Épidémiologie",
 "file": "03-epi.mp3",
-"sec": 28.4,
-"bytes": 142436
+"sec": 26.0,
+"bytes": 130556
 },
 {
 "key": "cau",
 "title": "Causes et facteurs de risque",
 "file": "04-cau.mp3",
-"sec": 19.5,
-"bytes": 97796
+"sec": 18.8,
+"bytes": 94676
 },
 {
 "key": "phy",
 "title": "Physiopathologie",
 "file": "05-phy.mp3",
-"sec": 27.4,
-"bytes": 137516
-},
-{
-"key": "ana",
-"title": "Anatomopathologie",
-"file": "06-ana.mp3",
-"sec": 13.3,
-"bytes": 67076
-},
-{
-"key": "cli",
-"title": "Symptomatologie",
-"file": "07-cli.mp3",
-"sec": 62.2,
-"bytes": 311516
-},
-{
-"key": "dia",
-"title": "Diagnostic",
-"file": "08-dia.mp3",
-"sec": 29.9,
-"bytes": 149876
-},
-{
-"key": "exp",
-"title": "Explorations",
-"file": "09-exp.mp3",
-"sec": 11.9,
-"bytes": 59756
-},
-{
-"key": "tt",
-"title": "Traitement",
-"file": "10-tt.mp3",
-"sec": 72.0,
-"bytes": 360476
-},
-{
-"key": "sui",
-"title": "Suivi et pronostic",
-"file": "11-sui.mp3",
-"sec": 24.3,
-"bytes": 122036
-},
-{
-"key": "pre",
-"title": "Prévention",
-"file": "12-pre.mp3",
-"sec": 27.9,
-"bytes": 140156
-},
-{
-"key": "ref",
-"title": "Quand référer ou hospitaliser",
-"file": "13-ref.mp3",
-"sec": 19.4,
-"bytes": 97316
-}
-],
-"sec": 450.0,
-"bytes": 2256184
-},
-"23": {
-"name": "Syndrome coronarien aigu",
-"hash": "ba78bd3dd23e",
-"h2": "686771e4",
-"chapters": [
-{
-"key": "intro",
-"title": "Introduction",
-"file": "00-intro.mp3",
-"sec": 26.3,
-"bytes": 132116
-},
-{
-"key": "pts",
-"title": "Points clés",
-"file": "01-pts.mp3",
-"sec": 93.4,
-"bytes": 467396
-},
-{
-"key": "def",
-"title": "Définition",
-"file": "02-def.mp3",
-"sec": 17.9,
-"bytes": 90116
-},
-{
-"key": "epi",
-"title": "Épidémiologie",
-"file": "03-epi.mp3",
-"sec": 39.0,
-"bytes": 195356
-},
-{
-"key": "cau",
-"title": "Causes et facteurs de risque",
-"file": "04-cau.mp3",
-"sec": 14.3,
-"bytes": 71996
-},
-{
-"key": "phy",
-"title": "Physiopathologie",
-"file": "05-phy.mp3",
-"sec": 21.8,
-"bytes": 109676
-},
-{
-"key": "ana",
-"title": "Anatomopathologie",
-"file": "06-ana.mp3",
-"sec": 11.6,
-"bytes": 58316
-},
-{
-"key": "cli",
-"title": "Symptomatologie",
-"file": "07-cli.mp3",
-"sec": 55.1,
-"bytes": 275876
-},
-{
-"key": "dia",
-"title": "Diagnostic",
-"file": "08-dia.mp3",
-"sec": 34.7,
-"bytes": 173996
-},
-{
-"key": "exp",
-"title": "Explorations",
-"file": "09-exp.mp3",
-"sec": 11.0,
-"bytes": 55556
-},
-{
-"key": "tt",
-"title": "Traitement",
-"file": "10-tt.mp3",
-"sec": 115.6,
-"bytes": 578636
-},
-{
-"key": "sui",
-"title": "Suivi et pronostic",
-"file": "11-sui.mp3",
-"sec": 29.7,
-"bytes": 149036
-},
-{
-"key": "pre",
-"title": "Prévention",
-"file": "12-pre.mp3",
-"sec": 19.8,
-"bytes": 99356
-},
-{
-"key": "ref",
-"title": "Quand référer ou hospitaliser",
-"file": "13-ref.mp3",
-"sec": 17.4,
-"bytes": 87596
-}
-],
-"sec": 507.6,
-"bytes": 2545024
-},
-"24": {
-"name": "Asthme",
-"hash": "9b4a0a8a1548",
-"h2": "a88f5d00",
-"chapters": [
-{
-"key": "intro",
-"title": "Introduction",
-"file": "00-intro.mp3",
-"sec": 25.5,
-"bytes": 127796
-},
-{
-"key": "pts",
-"title": "Points clés",
-"file": "01-pts.mp3",
-"sec": 81.3,
-"bytes": 406796
-},
-{
-"key": "def",
-"title": "Définition",
-"file": "02-def.mp3",
-"sec": 15.0,
-"bytes": 75236
-},
-{
-"key": "epi",
-"title": "Épidémiologie",
-"file": "03-epi.mp3",
-"sec": 35.6,
-"bytes": 178676
-},
-{
-"key": "cau",
-"title": "Causes et facteurs de risque",
-"file": "04-cau.mp3",
-"sec": 16.4,
-"bytes": 82436
-},
-{
-"key": "phy",
-"title": "Physiopathologie",
-"file": "05-phy.mp3",
-"sec": 16.2,
-"bytes": 81236
+"sec": 24.2,
+"bytes": 121436
 },
 {
 "key": "ana",
@@ -2627,501 +2414,830 @@
 "key": "cli",
 "title": "Symptomatologie",
 "file": "07-cli.mp3",
-"sec": 50.1,
-"bytes": 250796
+"sec": 58.5,
+"bytes": 293156
 },
 {
 "key": "dia",
 "title": "Diagnostic",
 "file": "08-dia.mp3",
-"sec": 28.0,
-"bytes": 140516
+"sec": 28.3,
+"bytes": 141836
 },
 {
 "key": "exp",
 "title": "Explorations",
 "file": "09-exp.mp3",
-"sec": 9.5,
-"bytes": 47876
+"sec": 10.9,
+"bytes": 54956
 },
 {
 "key": "tt",
 "title": "Traitement",
 "file": "10-tt.mp3",
-"sec": 77.9,
-"bytes": 390116
+"sec": 67.1,
+"bytes": 335996
 },
 {
 "key": "sui",
 "title": "Suivi et pronostic",
 "file": "11-sui.mp3",
-"sec": 22.2,
-"bytes": 111236
+"sec": 22.0,
+"bytes": 110516
 },
 {
 "key": "pre",
 "title": "Prévention",
 "file": "12-pre.mp3",
-"sec": 12.2,
-"bytes": 61556
-},
-{
-"key": "ref",
-"title": "Quand référer ou hospitaliser",
-"file": "13-ref.mp3",
-"sec": 19.2,
-"bytes": 96236
-}
-],
-"sec": 421.3,
-"bytes": 2112184
-},
-"25": {
-"name": "Épilepsie et état de mal épileptique",
-"hash": "357f32476e75",
-"h2": "5df6f45a",
-"chapters": [
-{
-"key": "intro",
-"title": "Introduction",
-"file": "00-intro.mp3",
-"sec": 30.7,
-"bytes": 153956
-},
-{
-"key": "pts",
-"title": "Points clés",
-"file": "01-pts.mp3",
-"sec": 94.2,
-"bytes": 471476
-},
-{
-"key": "def",
-"title": "Définition",
-"file": "02-def.mp3",
-"sec": 19.7,
-"bytes": 98876
-},
-{
-"key": "epi",
-"title": "Épidémiologie",
-"file": "03-epi.mp3",
-"sec": 35.5,
-"bytes": 178196
-},
-{
-"key": "cau",
-"title": "Causes et facteurs de risque",
-"file": "04-cau.mp3",
-"sec": 22.8,
-"bytes": 114236
-},
-{
-"key": "phy",
-"title": "Physiopathologie",
-"file": "05-phy.mp3",
-"sec": 18.1,
-"bytes": 90956
-},
-{
-"key": "ana",
-"title": "Anatomopathologie",
-"file": "06-ana.mp3",
-"sec": 9.7,
-"bytes": 48836
-},
-{
-"key": "cli",
-"title": "Symptomatologie",
-"file": "07-cli.mp3",
-"sec": 51.5,
-"bytes": 257876
-},
-{
-"key": "dia",
-"title": "Diagnostic",
-"file": "08-dia.mp3",
-"sec": 31.3,
-"bytes": 157076
-},
-{
-"key": "exp",
-"title": "Explorations",
-"file": "09-exp.mp3",
-"sec": 7.8,
-"bytes": 39596
-},
-{
-"key": "tt",
-"title": "Traitement",
-"file": "10-tt.mp3",
-"sec": 111.3,
-"bytes": 556796
-},
-{
-"key": "sui",
-"title": "Suivi et pronostic",
-"file": "11-sui.mp3",
-"sec": 23.9,
-"bytes": 119996
-},
-{
-"key": "pre",
-"title": "Prévention",
-"file": "12-pre.mp3",
-"sec": 18.5,
-"bytes": 92756
-},
-{
-"key": "ref",
-"title": "Quand référer ou hospitaliser",
-"file": "13-ref.mp3",
-"sec": 17.6,
-"bytes": 88316
-}
-],
-"sec": 492.6,
-"bytes": 2468944
-},
-"26": {
-"name": "Pré-éclampsie et éclampsie",
-"hash": "220877ed8691",
-"h2": "79e1eb29",
-"chapters": [
-{
-"key": "intro",
-"title": "Introduction",
-"file": "00-intro.mp3",
-"sec": 31.1,
-"bytes": 155996
-},
-{
-"key": "pts",
-"title": "Points clés",
-"file": "01-pts.mp3",
-"sec": 104.1,
-"bytes": 521156
-},
-{
-"key": "def",
-"title": "Définition",
-"file": "02-def.mp3",
-"sec": 18.2,
-"bytes": 91556
-},
-{
-"key": "epi",
-"title": "Épidémiologie",
-"file": "03-epi.mp3",
-"sec": 35.3,
-"bytes": 176996
-},
-{
-"key": "cau",
-"title": "Causes et facteurs de risque",
-"file": "04-cau.mp3",
-"sec": 17.1,
-"bytes": 85796
-},
-{
-"key": "phy",
-"title": "Physiopathologie",
-"file": "05-phy.mp3",
-"sec": 29.3,
-"bytes": 146756
-},
-{
-"key": "ana",
-"title": "Anatomopathologie",
-"file": "06-ana.mp3",
-"sec": 9.5,
-"bytes": 47756
-},
-{
-"key": "cli",
-"title": "Symptomatologie",
-"file": "07-cli.mp3",
-"sec": 55.8,
-"bytes": 279236
-},
-{
-"key": "dia",
-"title": "Diagnostic",
-"file": "08-dia.mp3",
-"sec": 36.7,
-"bytes": 184076
-},
-{
-"key": "exp",
-"title": "Explorations",
-"file": "09-exp.mp3",
-"sec": 15.6,
-"bytes": 78596
-},
-{
-"key": "tt",
-"title": "Traitement",
-"file": "10-tt.mp3",
-"sec": 107.1,
-"bytes": 535916
-},
-{
-"key": "sui",
-"title": "Suivi et pronostic",
-"file": "11-sui.mp3",
-"sec": 32.7,
-"bytes": 163916
-},
-{
-"key": "pre",
-"title": "Prévention",
-"file": "12-pre.mp3",
-"sec": 20.0,
-"bytes": 100556
-},
-{
-"key": "ref",
-"title": "Quand référer ou hospitaliser",
-"file": "13-ref.mp3",
-"sec": 20.7,
-"bytes": 104036
-}
-],
-"sec": 533.2,
-"bytes": 2672344
-},
-"27": {
-"name": "Malnutrition aiguë sévère de l’enfant",
-"hash": "dde169608bdb",
-"h2": "6b53f2ac",
-"chapters": [
-{
-"key": "intro",
-"title": "Introduction",
-"file": "00-intro.mp3",
-"sec": 29.2,
-"bytes": 146516
-},
-{
-"key": "pts",
-"title": "Points clés",
-"file": "01-pts.mp3",
-"sec": 78.5,
-"bytes": 392996
-},
-{
-"key": "def",
-"title": "Définition",
-"file": "02-def.mp3",
-"sec": 18.3,
-"bytes": 91916
-},
-{
-"key": "epi",
-"title": "Épidémiologie",
-"file": "03-epi.mp3",
-"sec": 35.4,
-"bytes": 177716
-},
-{
-"key": "cau",
-"title": "Causes et facteurs de risque",
-"file": "04-cau.mp3",
 "sec": 25.6,
-"bytes": 128636
-},
-{
-"key": "phy",
-"title": "Physiopathologie",
-"file": "05-phy.mp3",
-"sec": 26.6,
-"bytes": 133316
-},
-{
-"key": "ana",
-"title": "Anatomopathologie",
-"file": "06-ana.mp3",
-"sec": 11.4,
-"bytes": 57716
-},
-{
-"key": "cli",
-"title": "Symptomatologie",
-"file": "07-cli.mp3",
-"sec": 58.1,
-"bytes": 290876
-},
-{
-"key": "dia",
-"title": "Diagnostic",
-"file": "08-dia.mp3",
-"sec": 33.6,
-"bytes": 168596
-},
-{
-"key": "exp",
-"title": "Explorations",
-"file": "09-exp.mp3",
-"sec": 14.1,
-"bytes": 71036
-},
-{
-"key": "tt",
-"title": "Traitement",
-"file": "10-tt.mp3",
-"sec": 142.3,
-"bytes": 711956
-},
-{
-"key": "sui",
-"title": "Suivi et pronostic",
-"file": "11-sui.mp3",
-"sec": 34.2,
-"bytes": 171596
-},
-{
-"key": "pre",
-"title": "Prévention",
-"file": "12-pre.mp3",
-"sec": 24.3,
-"bytes": 121796
+"bytes": 128396
 },
 {
 "key": "ref",
 "title": "Quand référer ou hospitaliser",
 "file": "13-ref.mp3",
-"sec": 25.3,
-"bytes": 127196
+"sec": 18.0,
+"bytes": 90356
 }
 ],
-"sec": 556.9,
-"bytes": 2791864
+"sec": 417.7,
+"bytes": 2095264
 },
-"28": {
-"name": "Bronchopneumopathie chronique obstructive (BPCO)",
-"hash": "73dff83a6b0a",
-"h2": "7ee79590",
+"23": {
+"name": "Syndrome coronarien aigu",
+"hash": "ba78bd3dd23e",
+"h2": "686771e4",
+"v": "vivienne2",
 "chapters": [
 {
 "key": "intro",
 "title": "Introduction",
 "file": "00-intro.mp3",
-"sec": 29.7,
-"bytes": 149036
+"sec": 24.9,
+"bytes": 125156
 },
 {
 "key": "pts",
 "title": "Points clés",
 "file": "01-pts.mp3",
-"sec": 96.4,
-"bytes": 482636
+"sec": 88.5,
+"bytes": 442916
 },
 {
 "key": "def",
 "title": "Définition",
 "file": "02-def.mp3",
-"sec": 19.5,
-"bytes": 97796
+"sec": 16.3,
+"bytes": 82076
 },
 {
 "key": "epi",
 "title": "Épidémiologie",
 "file": "03-epi.mp3",
-"sec": 29.2,
-"bytes": 146396
+"sec": 37.7,
+"bytes": 188996
 },
 {
 "key": "cau",
 "title": "Causes et facteurs de risque",
 "file": "04-cau.mp3",
-"sec": 16.2,
-"bytes": 81236
+"sec": 13.5,
+"bytes": 68156
 },
 {
 "key": "phy",
 "title": "Physiopathologie",
 "file": "05-phy.mp3",
-"sec": 23.0,
-"bytes": 115676
+"sec": 20.3,
+"bytes": 102116
 },
 {
 "key": "ana",
 "title": "Anatomopathologie",
 "file": "06-ana.mp3",
 "sec": 10.8,
-"bytes": 54716
+"bytes": 54476
 },
 {
 "key": "cli",
 "title": "Symptomatologie",
 "file": "07-cli.mp3",
-"sec": 43.8,
-"bytes": 219716
+"sec": 52.2,
+"bytes": 261356
 },
 {
 "key": "dia",
 "title": "Diagnostic",
 "file": "08-dia.mp3",
-"sec": 25.6,
-"bytes": 128636
+"sec": 33.5,
+"bytes": 167756
 },
 {
 "key": "exp",
 "title": "Explorations",
 "file": "09-exp.mp3",
-"sec": 7.3,
-"bytes": 37076
+"sec": 11.3,
+"bytes": 56756
 },
 {
 "key": "tt",
 "title": "Traitement",
 "file": "10-tt.mp3",
-"sec": 81.1,
-"bytes": 405956
+"sec": 108.8,
+"bytes": 544676
 },
 {
 "key": "sui",
 "title": "Suivi et pronostic",
 "file": "11-sui.mp3",
-"sec": 24.6,
-"bytes": 123236
+"sec": 29.3,
+"bytes": 146876
 },
 {
 "key": "pre",
 "title": "Prévention",
 "file": "12-pre.mp3",
-"sec": 13.9,
-"bytes": 69836
+"sec": 17.9,
+"bytes": 90116
 },
 {
 "key": "ref",
 "title": "Quand référer ou hospitaliser",
 "file": "13-ref.mp3",
-"sec": 18.2,
-"bytes": 91556
+"sec": 15.8,
+"bytes": 79556
 }
 ],
-"sec": 439.3,
-"bytes": 2203504
+"sec": 480.8,
+"bytes": 2410984
 },
-"29": {
-"name": "Hémorragie du post-partum",
-"hash": "113e5a436990",
-"h2": "9dc29d4f",
+"24": {
+"name": "Asthme",
+"hash": "9b4a0a8a1548",
+"h2": "a88f5d00",
+"v": "vivienne2",
 "chapters": [
 {
 "key": "intro",
 "title": "Introduction",
 "file": "00-intro.mp3",
-"sec": 29.6,
-"bytes": 148436
+"sec": 23.3,
+"bytes": 116996
 },
 {
 "key": "pts",
 "title": "Points clés",
 "file": "01-pts.mp3",
-"sec": 88.2,
-"bytes": 441236
+"sec": 80.4,
+"bytes": 402596
+},
+{
+"key": "def",
+"title": "Définition",
+"file": "02-def.mp3",
+"sec": 13.0,
+"bytes": 65396
+},
+{
+"key": "epi",
+"title": "Épidémiologie",
+"file": "03-epi.mp3",
+"sec": 33.3,
+"bytes": 167156
+},
+{
+"key": "cau",
+"title": "Causes et facteurs de risque",
+"file": "04-cau.mp3",
+"sec": 15.7,
+"bytes": 79076
+},
+{
+"key": "phy",
+"title": "Physiopathologie",
+"file": "05-phy.mp3",
+"sec": 14.5,
+"bytes": 73196
+},
+{
+"key": "ana",
+"title": "Anatomopathologie",
+"file": "06-ana.mp3",
+"sec": 11.0,
+"bytes": 55556
+},
+{
+"key": "cli",
+"title": "Symptomatologie",
+"file": "07-cli.mp3",
+"sec": 45.8,
+"bytes": 229676
+},
+{
+"key": "dia",
+"title": "Diagnostic",
+"file": "08-dia.mp3",
+"sec": 27.1,
+"bytes": 135836
+},
+{
+"key": "exp",
+"title": "Explorations",
+"file": "09-exp.mp3",
+"sec": 8.4,
+"bytes": 42716
+},
+{
+"key": "tt",
+"title": "Traitement",
+"file": "10-tt.mp3",
+"sec": 73.1,
+"bytes": 365756
+},
+{
+"key": "sui",
+"title": "Suivi et pronostic",
+"file": "11-sui.mp3",
+"sec": 20.7,
+"bytes": 103796
+},
+{
+"key": "pre",
+"title": "Prévention",
+"file": "12-pre.mp3",
+"sec": 11.4,
+"bytes": 57236
+},
+{
+"key": "ref",
+"title": "Quand référer ou hospitaliser",
+"file": "13-ref.mp3",
+"sec": 18.0,
+"bytes": 90356
+}
+],
+"sec": 395.7,
+"bytes": 1985344
+},
+"25": {
+"name": "Épilepsie et état de mal épileptique",
+"hash": "357f32476e75",
+"h2": "5df6f45a",
+"v": "vivienne2",
+"chapters": [
+{
+"key": "intro",
+"title": "Introduction",
+"file": "00-intro.mp3",
+"sec": 29.4,
+"bytes": 147716
+},
+{
+"key": "pts",
+"title": "Points clés",
+"file": "01-pts.mp3",
+"sec": 93.8,
+"bytes": 469436
+},
+{
+"key": "def",
+"title": "Définition",
+"file": "02-def.mp3",
+"sec": 17.2,
+"bytes": 86516
+},
+{
+"key": "epi",
+"title": "Épidémiologie",
+"file": "03-epi.mp3",
+"sec": 32.6,
+"bytes": 163676
+},
+{
+"key": "cau",
+"title": "Causes et facteurs de risque",
+"file": "04-cau.mp3",
+"sec": 25.2,
+"bytes": 126716
+},
+{
+"key": "phy",
+"title": "Physiopathologie",
+"file": "05-phy.mp3",
+"sec": 17.4,
+"bytes": 87236
+},
+{
+"key": "ana",
+"title": "Anatomopathologie",
+"file": "06-ana.mp3",
+"sec": 9.0,
+"bytes": 45236
+},
+{
+"key": "cli",
+"title": "Symptomatologie",
+"file": "07-cli.mp3",
+"sec": 45.7,
+"bytes": 228956
+},
+{
+"key": "dia",
+"title": "Diagnostic",
+"file": "08-dia.mp3",
+"sec": 30.6,
+"bytes": 153596
+},
+{
+"key": "exp",
+"title": "Explorations",
+"file": "09-exp.mp3",
+"sec": 7.7,
+"bytes": 38756
+},
+{
+"key": "tt",
+"title": "Traitement",
+"file": "10-tt.mp3",
+"sec": 106.2,
+"bytes": 531476
+},
+{
+"key": "sui",
+"title": "Suivi et pronostic",
+"file": "11-sui.mp3",
+"sec": 22.4,
+"bytes": 112436
+},
+{
+"key": "pre",
+"title": "Prévention",
+"file": "12-pre.mp3",
+"sec": 17.4,
+"bytes": 87356
+},
+{
+"key": "ref",
+"title": "Quand référer ou hospitaliser",
+"file": "13-ref.mp3",
+"sec": 16.1,
+"bytes": 80756
+}
+],
+"sec": 470.7,
+"bytes": 2359864
+},
+"26": {
+"name": "Pré-éclampsie et éclampsie",
+"hash": "220877ed8691",
+"h2": "79e1eb29",
+"v": "vivienne2",
+"chapters": [
+{
+"key": "intro",
+"title": "Introduction",
+"file": "00-intro.mp3",
+"sec": 29.1,
+"bytes": 145796
+},
+{
+"key": "pts",
+"title": "Points clés",
+"file": "01-pts.mp3",
+"sec": 100.3,
+"bytes": 502076
+},
+{
+"key": "def",
+"title": "Définition",
+"file": "02-def.mp3",
+"sec": 16.8,
+"bytes": 84236
+},
+{
+"key": "epi",
+"title": "Épidémiologie",
+"file": "03-epi.mp3",
+"sec": 34.0,
+"bytes": 170636
+},
+{
+"key": "cau",
+"title": "Causes et facteurs de risque",
+"file": "04-cau.mp3",
+"sec": 15.5,
+"bytes": 77996
+},
+{
+"key": "phy",
+"title": "Physiopathologie",
+"file": "05-phy.mp3",
+"sec": 27.5,
+"bytes": 138116
+},
+{
+"key": "ana",
+"title": "Anatomopathologie",
+"file": "06-ana.mp3",
+"sec": 9.2,
+"bytes": 46556
+},
+{
+"key": "cli",
+"title": "Symptomatologie",
+"file": "07-cli.mp3",
+"sec": 52.0,
+"bytes": 260396
+},
+{
+"key": "dia",
+"title": "Diagnostic",
+"file": "08-dia.mp3",
+"sec": 34.5,
+"bytes": 172796
+},
+{
+"key": "exp",
+"title": "Explorations",
+"file": "09-exp.mp3",
+"sec": 14.7,
+"bytes": 73796
+},
+{
+"key": "tt",
+"title": "Traitement",
+"file": "10-tt.mp3",
+"sec": 100.2,
+"bytes": 501356
+},
+{
+"key": "sui",
+"title": "Suivi et pronostic",
+"file": "11-sui.mp3",
+"sec": 31.9,
+"bytes": 160076
+},
+{
+"key": "pre",
+"title": "Prévention",
+"file": "12-pre.mp3",
+"sec": 18.3,
+"bytes": 91796
+},
+{
+"key": "ref",
+"title": "Quand référer ou hospitaliser",
+"file": "13-ref.mp3",
+"sec": 20.1,
+"bytes": 101036
+}
+],
+"sec": 504.1,
+"bytes": 2526664
+},
+"27": {
+"name": "Malnutrition aiguë sévère de l’enfant",
+"hash": "dde169608bdb",
+"h2": "6b53f2ac",
+"v": "vivienne2",
+"chapters": [
+{
+"key": "intro",
+"title": "Introduction",
+"file": "00-intro.mp3",
+"sec": 27.0,
+"bytes": 135596
+},
+{
+"key": "pts",
+"title": "Points clés",
+"file": "01-pts.mp3",
+"sec": 76.4,
+"bytes": 382436
+},
+{
+"key": "def",
+"title": "Définition",
+"file": "02-def.mp3",
+"sec": 17.1,
+"bytes": 85796
+},
+{
+"key": "epi",
+"title": "Épidémiologie",
+"file": "03-epi.mp3",
+"sec": 32.6,
+"bytes": 163676
+},
+{
+"key": "cau",
+"title": "Causes et facteurs de risque",
+"file": "04-cau.mp3",
+"sec": 26.5,
+"bytes": 133196
+},
+{
+"key": "phy",
+"title": "Physiopathologie",
+"file": "05-phy.mp3",
+"sec": 24.5,
+"bytes": 122756
+},
+{
+"key": "ana",
+"title": "Anatomopathologie",
+"file": "06-ana.mp3",
+"sec": 10.2,
+"bytes": 51476
+},
+{
+"key": "cli",
+"title": "Symptomatologie",
+"file": "07-cli.mp3",
+"sec": 53.4,
+"bytes": 267596
+},
+{
+"key": "dia",
+"title": "Diagnostic",
+"file": "08-dia.mp3",
+"sec": 32.2,
+"bytes": 161396
+},
+{
+"key": "exp",
+"title": "Explorations",
+"file": "09-exp.mp3",
+"sec": 13.7,
+"bytes": 68756
+},
+{
+"key": "tt",
+"title": "Traitement",
+"file": "10-tt.mp3",
+"sec": 132.9,
+"bytes": 665036
+},
+{
+"key": "sui",
+"title": "Suivi et pronostic",
+"file": "11-sui.mp3",
+"sec": 32.4,
+"bytes": 162356
+},
+{
+"key": "pre",
+"title": "Prévention",
+"file": "12-pre.mp3",
+"sec": 22.1,
+"bytes": 110756
+},
+{
+"key": "ref",
+"title": "Quand référer ou hospitaliser",
+"file": "13-ref.mp3",
+"sec": 24.3,
+"bytes": 121796
+}
+],
+"sec": 525.3,
+"bytes": 2632624
+},
+"28": {
+"name": "Bronchopneumopathie chronique obstructive (BPCO)",
+"hash": "73dff83a6b0a",
+"h2": "7ee79590",
+"v": "vivienne2",
+"chapters": [
+{
+"key": "intro",
+"title": "Introduction",
+"file": "00-intro.mp3",
+"sec": 28.2,
+"bytes": 141356
+},
+{
+"key": "pts",
+"title": "Points clés",
+"file": "01-pts.mp3",
+"sec": 93.0,
+"bytes": 465236
+},
+{
+"key": "def",
+"title": "Définition",
+"file": "02-def.mp3",
+"sec": 18.1,
+"bytes": 90956
+},
+{
+"key": "epi",
+"title": "Épidémiologie",
+"file": "03-epi.mp3",
+"sec": 27.5,
+"bytes": 138116
+},
+{
+"key": "cau",
+"title": "Causes et facteurs de risque",
+"file": "04-cau.mp3",
+"sec": 15.2,
+"bytes": 76316
+},
+{
+"key": "phy",
+"title": "Physiopathologie",
+"file": "05-phy.mp3",
+"sec": 21.2,
+"bytes": 106556
+},
+{
+"key": "ana",
+"title": "Anatomopathologie",
+"file": "06-ana.mp3",
+"sec": 9.8,
+"bytes": 49676
+},
+{
+"key": "cli",
+"title": "Symptomatologie",
+"file": "07-cli.mp3",
+"sec": 40.7,
+"bytes": 203756
+},
+{
+"key": "dia",
+"title": "Diagnostic",
+"file": "08-dia.mp3",
+"sec": 24.5,
+"bytes": 122876
+},
+{
+"key": "exp",
+"title": "Explorations",
+"file": "09-exp.mp3",
+"sec": 6.3,
+"bytes": 31796
+},
+{
+"key": "tt",
+"title": "Traitement",
+"file": "10-tt.mp3",
+"sec": 73.9,
+"bytes": 370196
+},
+{
+"key": "sui",
+"title": "Suivi et pronostic",
+"file": "11-sui.mp3",
+"sec": 22.4,
+"bytes": 112676
+},
+{
+"key": "pre",
+"title": "Prévention",
+"file": "12-pre.mp3",
+"sec": 12.5,
+"bytes": 62876
+},
+{
+"key": "ref",
+"title": "Quand référer ou hospitaliser",
+"file": "13-ref.mp3",
+"sec": 16.8,
+"bytes": 84476
+}
+],
+"sec": 410.1,
+"bytes": 2056864
+},
+"29": {
+"name": "Hémorragie du post-partum",
+"hash": "113e5a436990",
+"h2": "9dc29d4f",
+"v": "vivienne2",
+"chapters": [
+{
+"key": "intro",
+"title": "Introduction",
+"file": "00-intro.mp3",
+"sec": 28.4,
+"bytes": 142316
+},
+{
+"key": "pts",
+"title": "Points clés",
+"file": "01-pts.mp3",
+"sec": 84.4,
+"bytes": 422396
+},
+{
+"key": "def",
+"title": "Définition",
+"file": "02-def.mp3",
+"sec": 15.6,
+"bytes": 78356
+},
+{
+"key": "epi",
+"title": "Épidémiologie",
+"file": "03-epi.mp3",
+"sec": 32.9,
+"bytes": 164876
+},
+{
+"key": "cau",
+"title": "Causes et facteurs de risque",
+"file": "04-cau.mp3",
+"sec": 26.7,
+"bytes": 134156
+},
+{
+"key": "phy",
+"title": "Physiopathologie",
+"file": "05-phy.mp3",
+"sec": 14.3,
+"bytes": 71876
+},
+{
+"key": "ana",
+"title": "Anatomopathologie",
+"file": "06-ana.mp3",
+"sec": 10.1,
+"bytes": 50996
+},
+{
+"key": "cli",
+"title": "Symptomatologie",
+"file": "07-cli.mp3",
+"sec": 47.1,
+"bytes": 236036
+},
+{
+"key": "dia",
+"title": "Diagnostic",
+"file": "08-dia.mp3",
+"sec": 32.9,
+"bytes": 164996
+},
+{
+"key": "exp",
+"title": "Explorations",
+"file": "09-exp.mp3",
+"sec": 13.1,
+"bytes": 65756
+},
+{
+"key": "tt",
+"title": "Traitement",
+"file": "10-tt.mp3",
+"sec": 109.0,
+"bytes": 545636
+},
+{
+"key": "sui",
+"title": "Suivi et pronostic",
+"file": "11-sui.mp3",
+"sec": 26.2,
+"bytes": 131276
+},
+{
+"key": "pre",
+"title": "Prévention",
+"file": "12-pre.mp3",
+"sec": 22.5,
+"bytes": 113036
+},
+{
+"key": "ref",
+"title": "Quand référer ou hospitaliser",
+"file": "13-ref.mp3",
+"sec": 17.0,
+"bytes": 85676
+}
+],
+"sec": 480.2,
+"bytes": 2407384
+},
+"30": {
+"name": "Diarrhée aiguë de l’enfant",
+"hash": "b7e90e34c2df",
+"h2": "eb20f2b3",
+"v": "vivienne2",
+"chapters": [
+{
+"key": "intro",
+"title": "Introduction",
+"file": "00-intro.mp3",
+"sec": 22.6,
+"bytes": 113516
+},
+{
+"key": "pts",
+"title": "Points clés",
+"file": "01-pts.mp3",
+"sec": 65.1,
+"bytes": 325796
 },
 {
 "key": "def",
@@ -3134,295 +3250,189 @@
 "key": "epi",
 "title": "Épidémiologie",
 "file": "03-epi.mp3",
-"sec": 35.2,
-"bytes": 176636
+"sec": 35.6,
+"bytes": 178556
 },
 {
 "key": "cau",
 "title": "Causes et facteurs de risque",
 "file": "04-cau.mp3",
-"sec": 27.4,
-"bytes": 137516
+"sec": 27.6,
+"bytes": 138236
 },
 {
 "key": "phy",
 "title": "Physiopathologie",
 "file": "05-phy.mp3",
-"sec": 19.9,
-"bytes": 100196
+"sec": 21.3,
+"bytes": 106916
 },
 {
 "key": "ana",
 "title": "Anatomopathologie",
 "file": "06-ana.mp3",
-"sec": 10.1,
-"bytes": 50876
+"sec": 11.4,
+"bytes": 57596
 },
 {
 "key": "cli",
 "title": "Symptomatologie",
 "file": "07-cli.mp3",
-"sec": 53.9,
-"bytes": 270116
+"sec": 74.6,
+"bytes": 373316
 },
 {
 "key": "dia",
 "title": "Diagnostic",
 "file": "08-dia.mp3",
-"sec": 34.6,
-"bytes": 173396
+"sec": 27.6,
+"bytes": 138716
 },
 {
 "key": "exp",
 "title": "Explorations",
 "file": "09-exp.mp3",
-"sec": 14.1,
-"bytes": 70916
+"sec": 13.8,
+"bytes": 69356
 },
 {
 "key": "tt",
 "title": "Traitement",
 "file": "10-tt.mp3",
-"sec": 114.5,
-"bytes": 573116
+"sec": 118.6,
+"bytes": 593636
 },
 {
 "key": "sui",
 "title": "Suivi et pronostic",
 "file": "11-sui.mp3",
-"sec": 27.2,
-"bytes": 136316
+"sec": 21.3,
+"bytes": 106916
 },
 {
 "key": "pre",
 "title": "Prévention",
 "file": "12-pre.mp3",
-"sec": 24.4,
-"bytes": 122516
+"sec": 22.1,
+"bytes": 110996
 },
 {
 "key": "ref",
 "title": "Quand référer ou hospitaliser",
 "file": "13-ref.mp3",
-"sec": 18.8,
-"bytes": 94556
+"sec": 19.8,
+"bytes": 99356
 }
 ],
-"sec": 514.7,
-"bytes": 2580424
-},
-"30": {
-"name": "Diarrhée aiguë de l’enfant",
-"hash": "b7e90e34c2df",
-"h2": "eb20f2b3",
-"chapters": [
-{
-"key": "intro",
-"title": "Introduction",
-"file": "00-intro.mp3",
-"sec": 24.2,
-"bytes": 121676
-},
-{
-"key": "pts",
-"title": "Points clés",
-"file": "01-pts.mp3",
-"sec": 68.3,
-"bytes": 341876
-},
-{
-"key": "def",
-"title": "Définition",
-"file": "02-def.mp3",
-"sec": 18.6,
-"bytes": 93596
-},
-{
-"key": "epi",
-"title": "Épidémiologie",
-"file": "03-epi.mp3",
-"sec": 37.2,
-"bytes": 186716
-},
-{
-"key": "cau",
-"title": "Causes et facteurs de risque",
-"file": "04-cau.mp3",
-"sec": 27.9,
-"bytes": 139916
-},
-{
-"key": "phy",
-"title": "Physiopathologie",
-"file": "05-phy.mp3",
-"sec": 23.1,
-"bytes": 115916
-},
-{
-"key": "ana",
-"title": "Anatomopathologie",
-"file": "06-ana.mp3",
-"sec": 12.0,
-"bytes": 60356
-},
-{
-"key": "cli",
-"title": "Symptomatologie",
-"file": "07-cli.mp3",
-"sec": 77.3,
-"bytes": 386756
-},
-{
-"key": "dia",
-"title": "Diagnostic",
-"file": "08-dia.mp3",
-"sec": 30.1,
-"bytes": 151076
-},
-{
-"key": "exp",
-"title": "Explorations",
-"file": "09-exp.mp3",
-"sec": 14.3,
-"bytes": 71996
-},
-{
-"key": "tt",
-"title": "Traitement",
-"file": "10-tt.mp3",
-"sec": 125.4,
-"bytes": 627356
-},
-{
-"key": "sui",
-"title": "Suivi et pronostic",
-"file": "11-sui.mp3",
-"sec": 22.9,
-"bytes": 115076
-},
-{
-"key": "pre",
-"title": "Prévention",
-"file": "12-pre.mp3",
-"sec": 24.9,
-"bytes": 124796
-},
-{
-"key": "ref",
-"title": "Quand référer ou hospitaliser",
-"file": "13-ref.mp3",
-"sec": 20.9,
-"bytes": 104876
-}
-],
-"sec": 527.1,
-"bytes": 2641984
+"sec": 498.2,
+"bytes": 2497504
 },
 "31": {
 "name": "Envenimation par morsure de serpent",
 "hash": "cefc7c3f7069",
 "h2": "2442faee",
+"v": "vivienne2",
 "chapters": [
 {
 "key": "intro",
 "title": "Introduction",
 "file": "00-intro.mp3",
-"sec": 29.8,
-"bytes": 149636
+"sec": 28.4,
+"bytes": 142556
 },
 {
 "key": "pts",
 "title": "Points clés",
 "file": "01-pts.mp3",
-"sec": 90.3,
-"bytes": 452156
+"sec": 89.2,
+"bytes": 446516
 },
 {
 "key": "def",
 "title": "Définition",
 "file": "02-def.mp3",
-"sec": 20.4,
-"bytes": 102716
+"sec": 20.2,
+"bytes": 101516
 },
 {
 "key": "epi",
 "title": "Épidémiologie",
 "file": "03-epi.mp3",
-"sec": 34.2,
-"bytes": 171356
+"sec": 32.4,
+"bytes": 162236
 },
 {
 "key": "cau",
 "title": "Causes et facteurs de risque",
 "file": "04-cau.mp3",
-"sec": 24.3,
-"bytes": 121796
+"sec": 24.0,
+"bytes": 120596
 },
 {
 "key": "phy",
 "title": "Physiopathologie",
 "file": "05-phy.mp3",
-"sec": 22.0,
-"bytes": 110516
+"sec": 21.3,
+"bytes": 107156
 },
 {
 "key": "ana",
 "title": "Anatomopathologie",
 "file": "06-ana.mp3",
-"sec": 11.7,
-"bytes": 59156
+"sec": 11.1,
+"bytes": 55796
 },
 {
 "key": "cli",
 "title": "Symptomatologie",
 "file": "07-cli.mp3",
-"sec": 58.9,
-"bytes": 295196
+"sec": 55.6,
+"bytes": 278396
 },
 {
 "key": "dia",
 "title": "Diagnostic",
 "file": "08-dia.mp3",
-"sec": 39.4,
-"bytes": 197516
+"sec": 39.1,
+"bytes": 195836
 },
 {
 "key": "exp",
 "title": "Explorations",
 "file": "09-exp.mp3",
-"sec": 11.9,
-"bytes": 60116
+"sec": 11.7,
+"bytes": 58916
 },
 {
 "key": "tt",
 "title": "Traitement",
 "file": "10-tt.mp3",
-"sec": 114.7,
-"bytes": 573956
+"sec": 111.3,
+"bytes": 557036
 },
 {
 "key": "sui",
 "title": "Suivi et pronostic",
 "file": "11-sui.mp3",
-"sec": 26.7,
-"bytes": 134156
+"sec": 25.7,
+"bytes": 128876
 },
 {
 "key": "pre",
 "title": "Prévention",
 "file": "12-pre.mp3",
-"sec": 21.4,
-"bytes": 107516
+"sec": 19.0,
+"bytes": 95636
 },
 {
 "key": "ref",
 "title": "Quand référer ou hospitaliser",
 "file": "13-ref.mp3",
-"sec": 18.5,
-"bytes": 92876
+"sec": 17.2,
+"bytes": 86516
 }
 ],
-"sec": 524.2,
-"bytes": 2628664
+"sec": 506.2,
+"bytes": 2537584
 }
 }
