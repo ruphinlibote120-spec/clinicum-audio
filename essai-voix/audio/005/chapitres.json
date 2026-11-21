@@ -1,0 +1,105 @@
+{
+ "id": 5,
+ "name": "Hypertension artérielle",
+ "hash": "ab0ef751f0da",
+ "chapters": [
+  {
+   "key": "intro",
+   "title": "Introduction",
+   "file": "00-intro.mp3",
+   "sec": 26.7,
+   "bytes": 159984
+  },
+  {
+   "key": "pts",
+   "title": "Points clés",
+   "file": "01-pts.mp3",
+   "sec": 99.5,
+   "bytes": 597168
+  },
+  {
+   "key": "def",
+   "title": "Définition",
+   "file": "02-def.mp3",
+   "sec": 21.5,
+   "bytes": 129024
+  },
+  {
+   "key": "epi",
+   "title": "Épidémiologie",
+   "file": "03-epi.mp3",
+   "sec": 36.7,
+   "bytes": 220464
+  },
+  {
+   "key": "cau",
+   "title": "Causes et facteurs de risque",
+   "file": "04-cau.mp3",
+   "sec": 27.7,
+   "bytes": 166176
+  },
+  {
+   "key": "phy",
+   "title": "Physiopathologie",
+   "file": "05-phy.mp3",
+   "sec": 22.4,
+   "bytes": 134208
+  },
+  {
+   "key": "ana",
+   "title": "Anatomopathologie",
+   "file": "06-ana.mp3",
+   "sec": 11.7,
+   "bytes": 70416
+  },
+  {
+   "key": "cli",
+   "title": "Symptomatologie",
+   "file": "07-cli.mp3",
+   "sec": 54.2,
+   "bytes": 325152
+  },
+  {
+   "key": "dia",
+   "title": "Diagnostic",
+   "file": "08-dia.mp3",
+   "sec": 40.8,
+   "bytes": 244800
+  },
+  {
+   "key": "exp",
+   "title": "Explorations",
+   "file": "09-exp.mp3",
+   "sec": 15.8,
+   "bytes": 94608
+  },
+  {
+   "key": "tt",
+   "title": "Traitement",
+   "file": "10-tt.mp3",
+   "sec": 129.3,
+   "bytes": 776016
+  },
+  {
+   "key": "sui",
+   "title": "Suivi et pronostic",
+   "file": "11-sui.mp3",
+   "sec": 23.7,
+   "bytes": 142272
+  },
+  {
+   "key": "pre",
+   "title": "Prévention",
+   "file": "12-pre.mp3",
+   "sec": 20.4,
+   "bytes": 122400
+  },
+  {
+   "key": "ref",
+   "title": "Quand référer ou hospitaliser",
+   "file": "13-ref.mp3",
+   "sec": 22.8,
+   "bytes": 136800
+  }
+ ]
+}
