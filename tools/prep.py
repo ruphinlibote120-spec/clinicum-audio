@@ -11,6 +11,12 @@ SJL = [('pts','Points clés'),('def','Définition'),('epi','Épidémiologie'),('
 SPOKEN = {'pts':'Les points clés.','def':'La définition.','epi':'L’épidémiologie.','cau':'Les causes et les facteurs de risque.',
  'phy':'La physiopathologie.','ana':'L’anatomopathologie.','cli':'La symptomatologie.','dia':'Le diagnostic.','exp':'Les explorations.',
  'tt':'Le traitement.','sui':'Le suivi et le pronostic.','pre':'La prévention.','ref':'Quand référer ou hospitaliser.'}
+# Disciplines dites en phrase française (article + nom) pour que la voix les lise en français
+SPEC = ["la cardiologie","la pneumologie","la gastro-entérologie et l'hépatologie","la néphrologie","l'endocrinologie et le métabolisme",
+        "l'hématologie","l'infectiologie et les maladies tropicales","la neurologie","les urgences et la réanimation","la rhumatologie",
+        "la dermatologie","la psychiatrie","la gynécologie et l'obstétrique","la pédiatrie","la toxicologie","la nutrition","l'oncologie",
+        "l'oto-rhino-laryngologie","l'ophtalmologie","l'urologie et la chirurgie","la santé publique et la médecine légale",
+        "la douleur, les soins palliatifs et la gériatrie"]
 SJC = ["Cardiologie","Pneumologie","Gastro-entérologie et hépatologie","Néphrologie","Endocrinologie et métabolisme",
        "Hématologie","Infectiologie et maladies tropicales","Neurologie","Urgences et réanimation","Rhumatologie",
        "Dermatologie","Psychiatrie","Gynécologie-obstétrique","Pédiatrie","Toxicologie","Nutrition","Oncologie","ORL",
@@ -229,7 +235,7 @@ def build():
         name, spec, short = s[0], s[1], s[2]
         body = s[4]
         chapters = []
-        intro = f"Voici la fiche : {clean_text(name)}. Spécialité : {SJC[spec] if spec < len(SJC) else ''}. {clean_text(short)} Contenu indicatif, à vérifier."
+        intro = f"Voici la fiche : {clean_text(name)}. Spécialiter : {SPEC[spec] if spec < len(SPEC) else ''}. {clean_text(short)} Contenu indicatif, à vérifier."
         chapters.append({'key': 'intro', 'title': 'Introduction', 'text': intro})
         for key, title in SJL:
             items = body.get(key, [])
