@@ -758,109 +758,110 @@
 "7": {
 "name": "Diabète de type 2 et ses complications",
 "hash": "f8d107e1d247",
+"h2": "0dc9b6d3",
+"v": "ariane3",
 "chapters": [
 {
 "key": "intro",
 "title": "Introduction",
 "file": "00-intro.mp3",
-"sec": 32.6,
-"bytes": 163436
+"sec": 39.9,
+"bytes": 200156
 },
 {
 "key": "pts",
 "title": "Points clés",
 "file": "01-pts.mp3",
-"sec": 101.7,
-"bytes": 509036
+"sec": 122.4,
+"bytes": 612596
 },
 {
 "key": "def",
 "title": "Définition",
 "file": "02-def.mp3",
-"sec": 15.4,
-"bytes": 77636
+"sec": 19.1,
+"bytes": 96236
 },
 {
 "key": "epi",
 "title": "Épidémiologie",
 "file": "03-epi.mp3",
-"sec": 42.6,
-"bytes": 213716
+"sec": 52.5,
+"bytes": 262796
 },
 {
 "key": "cau",
 "title": "Causes et facteurs de risque",
 "file": "04-cau.mp3",
-"sec": 17.4,
-"bytes": 87476
+"sec": 22.6,
+"bytes": 113756
 },
 {
 "key": "phy",
 "title": "Physiopathologie",
 "file": "05-phy.mp3",
-"sec": 19.8,
-"bytes": 99476
+"sec": 24.6,
+"bytes": 123476
 },
 {
 "key": "ana",
 "title": "Anatomopathologie",
 "file": "06-ana.mp3",
-"sec": 14.2,
-"bytes": 71516
+"sec": 18.3,
+"bytes": 91916
 },
 {
 "key": "cli",
 "title": "Symptomatologie",
 "file": "07-cli.mp3",
-"sec": 58.4,
-"bytes": 292556
+"sec": 73.1,
+"bytes": 366236
 },
 {
 "key": "dia",
 "title": "Diagnostic",
 "file": "08-dia.mp3",
-"sec": 35.4,
-"bytes": 177596
+"sec": 44.0,
+"bytes": 220316
 },
 {
 "key": "exp",
 "title": "Explorations",
 "file": "09-exp.mp3",
-"sec": 15.9,
-"bytes": 80156
+"sec": 20.5,
+"bytes": 102956
 },
 {
 "key": "tt",
 "title": "Traitement",
 "file": "10-tt.mp3",
-"sec": 132.8,
-"bytes": 664676
+"sec": 160.4,
+"bytes": 802556
 },
 {
 "key": "sui",
 "title": "Suivi et pronostic",
 "file": "11-sui.mp3",
-"sec": 28.2,
-"bytes": 141476
+"sec": 35.2,
+"bytes": 176636
 },
 {
 "key": "pre",
 "title": "Prévention",
 "file": "12-pre.mp3",
-"sec": 24.7,
-"bytes": 124076
+"sec": 30.0,
+"bytes": 150476
 },
 {
 "key": "ref",
 "title": "Quand référer ou hospitaliser",
 "file": "13-ref.mp3",
-"sec": 22.5,
-"bytes": 113156
+"sec": 28.2,
+"bytes": 141716
 }
 ],
-"sec": 561.6,
-"bytes": 2815984,
-"h2": "0dc9b6d3"
+"sec": 690.8,
+"bytes": 3461824
 },
 "8": {
 "name": "Acidocétose diabétique",
