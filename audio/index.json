@@ -542,109 +542,110 @@
 "5": {
 "name": "Hypertension artérielle",
 "hash": "ab0ef751f0da",
+"h2": "f67a3c87",
+"v": "ariane3",
 "chapters": [
 {
 "key": "intro",
 "title": "Introduction",
 "file": "00-intro.mp3",
-"sec": 31.3,
-"bytes": 156836
+"sec": 38.7,
+"bytes": 194156
 },
 {
 "key": "pts",
 "title": "Points clés",
 "file": "01-pts.mp3",
-"sec": 101.9,
-"bytes": 509996
+"sec": 123.7,
+"bytes": 619076
 },
 {
 "key": "def",
 "title": "Définition",
 "file": "02-def.mp3",
-"sec": 24.0,
-"bytes": 120596
+"sec": 29.1,
+"bytes": 146276
 },
 {
 "key": "epi",
 "title": "Épidémiologie",
 "file": "03-epi.mp3",
-"sec": 37.7,
-"bytes": 188756
+"sec": 46.4,
+"bytes": 232676
 },
 {
 "key": "cau",
 "title": "Causes et facteurs de risque",
 "file": "04-cau.mp3",
-"sec": 27.6,
-"bytes": 138356
+"sec": 34.3,
+"bytes": 172076
 },
 {
 "key": "phy",
 "title": "Physiopathologie",
 "file": "05-phy.mp3",
-"sec": 24.6,
-"bytes": 123236
+"sec": 29.6,
+"bytes": 148436
 },
 {
 "key": "ana",
 "title": "Anatomopathologie",
 "file": "06-ana.mp3",
-"sec": 12.6,
-"bytes": 63596
+"sec": 15.5,
+"bytes": 78236
 },
 {
 "key": "cli",
 "title": "Symptomatologie",
 "file": "07-cli.mp3",
-"sec": 57.8,
-"bytes": 289436
+"sec": 71.3,
+"bytes": 356876
 },
 {
 "key": "dia",
 "title": "Diagnostic",
 "file": "08-dia.mp3",
-"sec": 42.4,
-"bytes": 212516
+"sec": 52.6,
+"bytes": 263516
 },
 {
 "key": "exp",
 "title": "Explorations",
 "file": "09-exp.mp3",
-"sec": 16.1,
-"bytes": 80996
+"sec": 20.9,
+"bytes": 105116
 },
 {
 "key": "tt",
 "title": "Traitement",
 "file": "10-tt.mp3",
-"sec": 135.2,
-"bytes": 676556
+"sec": 162.6,
+"bytes": 813476
 },
 {
 "key": "sui",
 "title": "Suivi et pronostic",
 "file": "11-sui.mp3",
-"sec": 25.8,
-"bytes": 129476
+"sec": 31.7,
+"bytes": 158876
 },
 {
 "key": "pre",
 "title": "Prévention",
 "file": "12-pre.mp3",
-"sec": 21.7,
-"bytes": 109196
+"sec": 27.2,
+"bytes": 136436
 },
 {
 "key": "ref",
 "title": "Quand référer ou hospitaliser",
 "file": "13-ref.mp3",
-"sec": 24.0,
-"bytes": 120476
+"sec": 29.4,
+"bytes": 147476
 }
 ],
-"sec": 582.7,
-"bytes": 2920024,
-"h2": "f67a3c87"
+"sec": 713.0,
+"bytes": 3572704
 },
 "6": {
 "name": "Insuffisance cardiaque",
