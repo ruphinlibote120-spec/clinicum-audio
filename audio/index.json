@@ -1190,109 +1190,110 @@
 "11": {
 "name": "Syndrome néphrotique",
 "hash": "2b03dc56cb41",
+"h2": "fe259428",
+"v": "ariane3",
 "chapters": [
 {
 "key": "intro",
 "title": "Introduction",
 "file": "00-intro.mp3",
-"sec": 26.5,
-"bytes": 133196
+"sec": 32.9,
+"bytes": 165116
 },
 {
 "key": "pts",
 "title": "Points clés",
 "file": "01-pts.mp3",
-"sec": 84.0,
-"bytes": 420476
+"sec": 101.4,
+"bytes": 507596
 },
 {
 "key": "def",
 "title": "Définition",
 "file": "02-def.mp3",
-"sec": 16.8,
-"bytes": 84236
+"sec": 20.6,
+"bytes": 103556
 },
 {
 "key": "epi",
 "title": "Épidémiologie",
 "file": "03-epi.mp3",
-"sec": 31.0,
-"bytes": 155516
+"sec": 38.1,
+"bytes": 191036
 },
 {
 "key": "cau",
 "title": "Causes et facteurs de risque",
 "file": "04-cau.mp3",
-"sec": 24.3,
-"bytes": 122036
+"sec": 30.7,
+"bytes": 154076
 },
 {
 "key": "phy",
 "title": "Physiopathologie",
 "file": "05-phy.mp3",
-"sec": 22.1,
-"bytes": 110876
+"sec": 27.1,
+"bytes": 136196
 },
 {
 "key": "ana",
 "title": "Anatomopathologie",
 "file": "06-ana.mp3",
-"sec": 15.8,
-"bytes": 79556
+"sec": 19.4,
+"bytes": 97676
 },
 {
 "key": "cli",
 "title": "Symptomatologie",
 "file": "07-cli.mp3",
-"sec": 39.5,
-"bytes": 197756
+"sec": 48.9,
+"bytes": 245156
 },
 {
 "key": "dia",
 "title": "Diagnostic",
 "file": "08-dia.mp3",
-"sec": 31.7,
-"bytes": 158876
+"sec": 39.7,
+"bytes": 198836
 },
 {
 "key": "exp",
 "title": "Explorations",
 "file": "09-exp.mp3",
-"sec": 14.3,
-"bytes": 72116
+"sec": 18.5,
+"bytes": 92876
 },
 {
 "key": "tt",
 "title": "Traitement",
 "file": "10-tt.mp3",
-"sec": 87.4,
-"bytes": 437516
+"sec": 105.6,
+"bytes": 528476
 },
 {
 "key": "sui",
 "title": "Suivi et pronostic",
 "file": "11-sui.mp3",
-"sec": 28.7,
-"bytes": 143996
+"sec": 35.6,
+"bytes": 178556
 },
 {
 "key": "pre",
 "title": "Prévention",
 "file": "12-pre.mp3",
-"sec": 14.7,
-"bytes": 73796
+"sec": 18.4,
+"bytes": 92636
 },
 {
 "key": "ref",
 "title": "Quand référer ou hospitaliser",
 "file": "13-ref.mp3",
-"sec": 21.8,
-"bytes": 109436
+"sec": 26.9,
+"bytes": 134996
 }
 ],
-"sec": 458.6,
-"bytes": 2299384,
-"h2": "fe259428"
+"sec": 563.8,
+"bytes": 2826784
 },
 "12": {
 "name": "Cirrhose et ses complications",
