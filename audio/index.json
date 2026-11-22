@@ -1298,109 +1298,110 @@
 "12": {
 "name": "Cirrhose et ses complications",
 "hash": "e829fc7f62e6",
+"h2": "0085f931",
+"v": "ariane3",
 "chapters": [
 {
 "key": "intro",
 "title": "Introduction",
 "file": "00-intro.mp3",
-"sec": 30.1,
-"bytes": 151196
+"sec": 37.9,
+"bytes": 189836
 },
 {
 "key": "pts",
 "title": "Points clés",
 "file": "01-pts.mp3",
-"sec": 89.6,
-"bytes": 448556
+"sec": 108.8,
+"bytes": 544796
 },
 {
 "key": "def",
 "title": "Définition",
 "file": "02-def.mp3",
-"sec": 14.2,
-"bytes": 71516
+"sec": 17.5,
+"bytes": 87836
 },
 {
 "key": "epi",
 "title": "Épidémiologie",
 "file": "03-epi.mp3",
-"sec": 25.4,
-"bytes": 127436
+"sec": 30.8,
+"bytes": 154556
 },
 {
 "key": "cau",
 "title": "Causes et facteurs de risque",
 "file": "04-cau.mp3",
-"sec": 16.1,
-"bytes": 80756
+"sec": 20.7,
+"bytes": 104156
 },
 {
 "key": "phy",
 "title": "Physiopathologie",
 "file": "05-phy.mp3",
-"sec": 25.1,
-"bytes": 125996
+"sec": 30.7,
+"bytes": 154196
 },
 {
 "key": "ana",
 "title": "Anatomopathologie",
 "file": "06-ana.mp3",
-"sec": 11.4,
-"bytes": 57596
+"sec": 14.9,
+"bytes": 75236
 },
 {
 "key": "cli",
 "title": "Symptomatologie",
 "file": "07-cli.mp3",
-"sec": 49.2,
-"bytes": 246236
+"sec": 60.1,
+"bytes": 301196
 },
 {
 "key": "dia",
 "title": "Diagnostic",
 "file": "08-dia.mp3",
-"sec": 38.9,
-"bytes": 194756
+"sec": 49.0,
+"bytes": 245756
 },
 {
 "key": "exp",
 "title": "Explorations",
 "file": "09-exp.mp3",
-"sec": 11.4,
-"bytes": 57596
+"sec": 14.9,
+"bytes": 75236
 },
 {
 "key": "tt",
 "title": "Traitement",
 "file": "10-tt.mp3",
-"sec": 98.3,
-"bytes": 491876
+"sec": 117.9,
+"bytes": 590036
 },
 {
 "key": "sui",
 "title": "Suivi et pronostic",
 "file": "11-sui.mp3",
-"sec": 29.0,
-"bytes": 145436
+"sec": 36.4,
+"bytes": 182396
 },
 {
 "key": "pre",
 "title": "Prévention",
 "file": "12-pre.mp3",
-"sec": 15.7,
-"bytes": 78836
+"sec": 19.8,
+"bytes": 99476
 },
 {
 "key": "ref",
 "title": "Quand référer ou hospitaliser",
 "file": "13-ref.mp3",
-"sec": 18.0,
-"bytes": 90476
+"sec": 23.2,
+"bytes": 116516
 }
 ],
-"sec": 472.4,
-"bytes": 2368264,
-"h2": "0085f931"
+"sec": 582.6,
+"bytes": 2921224
 },
 "13": {
 "name": "Hépatites virales",
