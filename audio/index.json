@@ -1082,109 +1082,110 @@
 "10": {
 "name": "Maladie rénale chronique",
 "hash": "79a2e96cfa5b",
+"h2": "56eb9a90",
+"v": "ariane3",
 "chapters": [
 {
 "key": "intro",
 "title": "Introduction",
 "file": "00-intro.mp3",
-"sec": 32.4,
-"bytes": 162236
+"sec": 40.0,
+"bytes": 200516
 },
 {
 "key": "pts",
 "title": "Points clés",
 "file": "01-pts.mp3",
-"sec": 94.2,
-"bytes": 471596
+"sec": 115.8,
+"bytes": 579356
 },
 {
 "key": "def",
 "title": "Définition",
 "file": "02-def.mp3",
-"sec": 17.9,
-"bytes": 90116
+"sec": 22.2,
+"bytes": 111476
 },
 {
 "key": "epi",
 "title": "Épidémiologie",
 "file": "03-epi.mp3",
-"sec": 34.0,
-"bytes": 170396
+"sec": 41.8,
+"bytes": 209396
 },
 {
 "key": "cau",
 "title": "Causes et facteurs de risque",
 "file": "04-cau.mp3",
-"sec": 19.5,
-"bytes": 97796
+"sec": 24.3,
+"bytes": 121916
 },
 {
 "key": "phy",
 "title": "Physiopathologie",
 "file": "05-phy.mp3",
-"sec": 24.5,
-"bytes": 123116
+"sec": 29.7,
+"bytes": 149156
 },
 {
 "key": "ana",
 "title": "Anatomopathologie",
 "file": "06-ana.mp3",
-"sec": 12.9,
-"bytes": 65036
+"sec": 16.1,
+"bytes": 81236
 },
 {
 "key": "cli",
 "title": "Symptomatologie",
 "file": "07-cli.mp3",
-"sec": 35.8,
-"bytes": 179396
+"sec": 45.8,
+"bytes": 229676
 },
 {
 "key": "dia",
 "title": "Diagnostic",
 "file": "08-dia.mp3",
-"sec": 38.9,
-"bytes": 194756
+"sec": 48.7,
+"bytes": 243956
 },
 {
 "key": "exp",
 "title": "Explorations",
 "file": "09-exp.mp3",
-"sec": 11.5,
-"bytes": 58076
+"sec": 14.7,
+"bytes": 74276
 },
 {
 "key": "tt",
 "title": "Traitement",
 "file": "10-tt.mp3",
-"sec": 99.6,
-"bytes": 498236
+"sec": 121.5,
+"bytes": 608036
 },
 {
 "key": "sui",
 "title": "Suivi et pronostic",
 "file": "11-sui.mp3",
-"sec": 24.5,
-"bytes": 123116
+"sec": 30.6,
+"bytes": 153596
 },
 {
 "key": "pre",
 "title": "Prévention",
 "file": "12-pre.mp3",
-"sec": 20.0,
-"bytes": 100436
+"sec": 25.1,
+"bytes": 126236
 },
 {
 "key": "ref",
 "title": "Quand référer ou hospitaliser",
 "file": "13-ref.mp3",
-"sec": 21.5,
-"bytes": 107756
+"sec": 26.5,
+"bytes": 132956
 }
 ],
-"sec": 487.2,
-"bytes": 2442064,
-"h2": "56eb9a90"
+"sec": 602.8,
+"bytes": 3021784
 },
 "11": {
 "name": "Syndrome néphrotique",
