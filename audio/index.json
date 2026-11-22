@@ -3351,107 +3351,108 @@
 "name": "Envenimation par morsure de serpent",
 "hash": "cefc7c3f7069",
 "h2": "2442faee",
+"v": "ariane3",
 "chapters": [
 {
 "key": "intro",
 "title": "Introduction",
 "file": "00-intro.mp3",
-"sec": 30.0,
-"bytes": 150716
+"sec": 36.8,
+"bytes": 184676
 },
 {
 "key": "pts",
 "title": "Points clés",
 "file": "01-pts.mp3",
-"sec": 90.3,
-"bytes": 452156
+"sec": 110.2,
+"bytes": 551276
 },
 {
 "key": "def",
 "title": "Définition",
 "file": "02-def.mp3",
-"sec": 20.4,
-"bytes": 102716
+"sec": 26.3,
+"bytes": 131996
 },
 {
 "key": "epi",
 "title": "Épidémiologie",
 "file": "03-epi.mp3",
-"sec": 34.2,
-"bytes": 171356
+"sec": 42.0,
+"bytes": 210476
 },
 {
 "key": "cau",
 "title": "Causes et facteurs de risque",
 "file": "04-cau.mp3",
-"sec": 24.3,
-"bytes": 121796
+"sec": 29.5,
+"bytes": 148076
 },
 {
 "key": "phy",
 "title": "Physiopathologie",
 "file": "05-phy.mp3",
-"sec": 22.0,
-"bytes": 110516
+"sec": 26.6,
+"bytes": 133316
 },
 {
 "key": "ana",
 "title": "Anatomopathologie",
 "file": "06-ana.mp3",
-"sec": 11.7,
-"bytes": 59156
+"sec": 15.1,
+"bytes": 76076
 },
 {
 "key": "cli",
 "title": "Symptomatologie",
 "file": "07-cli.mp3",
-"sec": 58.9,
-"bytes": 295196
+"sec": 72.2,
+"bytes": 361556
 },
 {
 "key": "dia",
 "title": "Diagnostic",
 "file": "08-dia.mp3",
-"sec": 39.4,
-"bytes": 197516
+"sec": 49.1,
+"bytes": 246236
 },
 {
 "key": "exp",
 "title": "Explorations",
 "file": "09-exp.mp3",
-"sec": 11.9,
-"bytes": 60116
+"sec": 16.9,
+"bytes": 85196
 },
 {
 "key": "tt",
 "title": "Traitement",
 "file": "10-tt.mp3",
-"sec": 114.7,
-"bytes": 573956
+"sec": 142.3,
+"bytes": 711836
 },
 {
 "key": "sui",
 "title": "Suivi et pronostic",
 "file": "11-sui.mp3",
-"sec": 26.7,
-"bytes": 134156
+"sec": 33.4,
+"bytes": 167396
 },
 {
 "key": "pre",
 "title": "Prévention",
 "file": "12-pre.mp3",
-"sec": 21.4,
-"bytes": 107516
+"sec": 27.0,
+"bytes": 135476
 },
 {
 "key": "ref",
 "title": "Quand référer ou hospitaliser",
 "file": "13-ref.mp3",
-"sec": 18.5,
-"bytes": 92876
+"sec": 23.4,
+"bytes": 117356
 }
 ],
-"sec": 524.4,
-"bytes": 2629744
+"sec": 650.8,
+"bytes": 3260944
 }
 }
