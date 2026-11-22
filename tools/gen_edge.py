@@ -2,7 +2,7 @@
 """Audios Clinicum : voix fr-CH-ArianeNeural (français uniquement), débit ralenti, pauses rythmées, volume renforcé, normalisation -14 LUFS.
 Lit tools/lot.json (liste d'identifiants de fiches), écrit audio/NNN/KK-clé.mp3 et audio/index.json.
 Ne refait que les fiches nouvelles ou modifiées (empreinte 'hash')."""
-import asyncio, json, os, re, subprocess, sys, glob
+import asyncio, json, os, re, subprocess, sys, glob, time
 import edge_tts
 import edge_tts.communicate as _ec
 
@@ -107,6 +107,20 @@ async def chapter(d, i, c):
     sec = _dur(out)
     return {"key": c["key"], "title": c["title"], "file": os.path.basename(out), "sec": round(sec, 1), "bytes": os.path.getsize(out)}
 
+def publier(fid):
+    """Dans GitHub Actions : enregistre le sujet terminé dans le dépôt tout de suite (progression visible)."""
+    if not os.environ.get("GITHUB_ACTIONS"): return
+    sh = lambda *c: subprocess.run(c, capture_output=True, text=True)
+    sh("git", "config", "user.name", "audio-bot"); sh("git", "config", "user.email", "audio-bot@users.noreply.github.com")
+    sh("git", "add", "-A", "audio")
+    if sh("git", "diff", "--cached", "--quiet").returncode == 0: return
+    sh("git", "commit", "-q", "-m", f"Audio {fid:03d} prêt")
+    for _ in range(4):
+        sh("git", "pull", "--rebase", "-q", "origin", "main")
+        if sh("git", "push", "-q", "origin", "HEAD:main").returncode == 0: return
+        time.sleep(3)
+    print("envoi différé pour", fid, flush=True)
+
 async def main():
     lot = json.load(open("tools/lot.json"))
     idx_path = "audio/index.json"
@@ -126,6 +140,7 @@ async def main():
         idx[str(fid)] = {"name": r["name"], "hash": r["hash"], "h2": json.load(open("tools/h2.json"))[str(fid)]["h2"], **({"v": VTAG} if VTAG else {}), "chapters": info,
                          "sec": round(sum(x["sec"] for x in info), 1), "bytes": sum(x["bytes"] for x in info)}
         json.dump(idx, open(idx_path, "w"), ensure_ascii=False, indent=0)
+        publier(fid)
         print(f"OK {fid:03d} {r['name']} {idx[str(fid)]['sec']} s {idx[str(fid)]['bytes']//1000} Ko", flush=True)
 if __name__ == "__main__":
     asyncio.run(main())
