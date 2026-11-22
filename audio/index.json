@@ -1622,109 +1622,110 @@
 "15": {
 "name": "Fièvre typhoïde",
 "hash": "b895f4d9e8bd",
+"h2": "4452fe57",
+"v": "ariane3",
 "chapters": [
 {
 "key": "intro",
 "title": "Introduction",
 "file": "00-intro.mp3",
-"sec": 29.5,
-"bytes": 148196
+"sec": 35.6,
+"bytes": 178796
 },
 {
 "key": "pts",
 "title": "Points clés",
 "file": "01-pts.mp3",
-"sec": 67.2,
-"bytes": 336716
+"sec": 82.6,
+"bytes": 413756
 },
 {
 "key": "def",
 "title": "Définition",
 "file": "02-def.mp3",
-"sec": 20.8,
-"bytes": 104636
+"sec": 25.6,
+"bytes": 128636
 },
 {
 "key": "epi",
 "title": "Épidémiologie",
 "file": "03-epi.mp3",
-"sec": 45.9,
-"bytes": 229796
+"sec": 54.8,
+"bytes": 274436
 },
 {
 "key": "cau",
 "title": "Causes et facteurs de risque",
 "file": "04-cau.mp3",
-"sec": 21.0,
-"bytes": 105596
+"sec": 25.8,
+"bytes": 129476
 },
 {
 "key": "phy",
 "title": "Physiopathologie",
 "file": "05-phy.mp3",
-"sec": 42.8,
-"bytes": 214316
+"sec": 51.3,
+"bytes": 257156
 },
 {
 "key": "ana",
 "title": "Anatomopathologie",
 "file": "06-ana.mp3",
-"sec": 22.2,
-"bytes": 111716
+"sec": 27.7,
+"bytes": 138836
 },
 {
 "key": "cli",
 "title": "Symptomatologie",
 "file": "07-cli.mp3",
-"sec": 75.3,
-"bytes": 377156
+"sec": 92.9,
+"bytes": 464876
 },
 {
 "key": "dia",
 "title": "Diagnostic",
 "file": "08-dia.mp3",
-"sec": 49.2,
-"bytes": 246356
+"sec": 61.0,
+"bytes": 305516
 },
 {
 "key": "exp",
 "title": "Explorations",
 "file": "09-exp.mp3",
-"sec": 41.0,
-"bytes": 205556
+"sec": 50.3,
+"bytes": 251876
 },
 {
 "key": "tt",
 "title": "Traitement",
 "file": "10-tt.mp3",
-"sec": 129.6,
-"bytes": 648476
+"sec": 155.1,
+"bytes": 776036
 },
 {
 "key": "sui",
 "title": "Suivi et pronostic",
 "file": "11-sui.mp3",
-"sec": 38.4,
-"bytes": 192716
+"sec": 46.9,
+"bytes": 234836
 },
 {
 "key": "pre",
 "title": "Prévention",
 "file": "12-pre.mp3",
-"sec": 41.8,
-"bytes": 209396
+"sec": 51.2,
+"bytes": 256436
 },
 {
 "key": "ref",
 "title": "Quand référer ou hospitaliser",
 "file": "13-ref.mp3",
-"sec": 20.8,
-"bytes": 104636
+"sec": 25.8,
+"bytes": 129356
 }
 ],
-"sec": 645.5,
-"bytes": 3235264,
-"h2": "4452fe57"
+"sec": 786.6,
+"bytes": 3940024
 },
 "16": {
 "name": "Méningites",
