@@ -2379,108 +2379,109 @@
 "name": "Rougeole",
 "hash": "9cf1bd15a546",
 "h2": "5cf8fa49",
+"v": "ariane3",
 "chapters": [
 {
 "key": "intro",
 "title": "Introduction",
 "file": "00-intro.mp3",
-"sec": 24.9,
-"bytes": 124916
+"sec": 33.3,
+"bytes": 166796
 },
 {
 "key": "pts",
 "title": "Points clés",
 "file": "01-pts.mp3",
-"sec": 72.9,
-"bytes": 365036
+"sec": 88.5,
+"bytes": 443156
 },
 {
 "key": "def",
 "title": "Définition",
 "file": "02-def.mp3",
-"sec": 16.1,
-"bytes": 80756
+"sec": 20.0,
+"bytes": 100436
 },
 {
 "key": "epi",
 "title": "Épidémiologie",
 "file": "03-epi.mp3",
-"sec": 28.4,
-"bytes": 142436
+"sec": 34.8,
+"bytes": 174596
 },
 {
 "key": "cau",
 "title": "Causes et facteurs de risque",
 "file": "04-cau.mp3",
-"sec": 19.5,
-"bytes": 97796
+"sec": 24.5,
+"bytes": 122996
 },
 {
 "key": "phy",
 "title": "Physiopathologie",
 "file": "05-phy.mp3",
-"sec": 27.4,
-"bytes": 137516
+"sec": 33.0,
+"bytes": 165476
 },
 {
 "key": "ana",
 "title": "Anatomopathologie",
 "file": "06-ana.mp3",
-"sec": 13.3,
-"bytes": 67076
+"sec": 16.6,
+"bytes": 83396
 },
 {
 "key": "cli",
 "title": "Symptomatologie",
 "file": "07-cli.mp3",
-"sec": 62.2,
-"bytes": 311516
+"sec": 76.2,
+"bytes": 381596
 },
 {
 "key": "dia",
 "title": "Diagnostic",
 "file": "08-dia.mp3",
-"sec": 29.9,
-"bytes": 149876
+"sec": 37.7,
+"bytes": 189116
 },
 {
 "key": "exp",
 "title": "Explorations",
 "file": "09-exp.mp3",
-"sec": 11.9,
-"bytes": 59756
+"sec": 15.2,
+"bytes": 76316
 },
 {
 "key": "tt",
 "title": "Traitement",
 "file": "10-tt.mp3",
-"sec": 72.0,
-"bytes": 360476
+"sec": 86.7,
+"bytes": 434276
 },
 {
 "key": "sui",
 "title": "Suivi et pronostic",
 "file": "11-sui.mp3",
-"sec": 24.3,
-"bytes": 122036
+"sec": 30.2,
+"bytes": 151676
 },
 {
 "key": "pre",
 "title": "Prévention",
 "file": "12-pre.mp3",
-"sec": 27.9,
-"bytes": 140156
+"sec": 36.3,
+"bytes": 182156
 },
 {
 "key": "ref",
 "title": "Quand référer ou hospitaliser",
 "file": "13-ref.mp3",
-"sec": 19.4,
-"bytes": 97316
+"sec": 24.0,
+"bytes": 120596
 }
 ],
-"sec": 450.1,
-"bytes": 2256664
+"sec": 557.0,
+"bytes": 2792584
 },
 "23": {
 "name": "Syndrome coronarien aigu",
