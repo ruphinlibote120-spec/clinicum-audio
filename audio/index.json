@@ -2703,108 +2703,109 @@
 "name": "Épilepsie et état de mal épileptique",
 "hash": "357f32476e75",
 "h2": "5df6f45a",
+"v": "ariane3",
 "chapters": [
 {
 "key": "intro",
 "title": "Introduction",
 "file": "00-intro.mp3",
-"sec": 30.8,
-"bytes": 154316
+"sec": 38.5,
+"bytes": 192836
 },
 {
 "key": "pts",
 "title": "Points clés",
 "file": "01-pts.mp3",
-"sec": 94.2,
-"bytes": 471476
+"sec": 116.0,
+"bytes": 580556
 },
 {
 "key": "def",
 "title": "Définition",
 "file": "02-def.mp3",
-"sec": 19.7,
-"bytes": 98876
+"sec": 24.1,
+"bytes": 120836
 },
 {
 "key": "epi",
 "title": "Épidémiologie",
 "file": "03-epi.mp3",
-"sec": 35.5,
-"bytes": 178196
+"sec": 43.3,
+"bytes": 216956
 },
 {
 "key": "cau",
 "title": "Causes et facteurs de risque",
 "file": "04-cau.mp3",
-"sec": 22.8,
-"bytes": 114236
+"sec": 29.4,
+"bytes": 147596
 },
 {
 "key": "phy",
 "title": "Physiopathologie",
 "file": "05-phy.mp3",
-"sec": 18.1,
-"bytes": 90956
+"sec": 22.7,
+"bytes": 113996
 },
 {
 "key": "ana",
 "title": "Anatomopathologie",
 "file": "06-ana.mp3",
-"sec": 9.7,
-"bytes": 48836
+"sec": 12.0,
+"bytes": 60596
 },
 {
 "key": "cli",
 "title": "Symptomatologie",
 "file": "07-cli.mp3",
-"sec": 51.5,
-"bytes": 257876
+"sec": 62.5,
+"bytes": 312836
 },
 {
 "key": "dia",
 "title": "Diagnostic",
 "file": "08-dia.mp3",
-"sec": 31.3,
-"bytes": 157076
+"sec": 38.4,
+"bytes": 192356
 },
 {
 "key": "exp",
 "title": "Explorations",
 "file": "09-exp.mp3",
-"sec": 7.8,
-"bytes": 39596
+"sec": 10.4,
+"bytes": 52676
 },
 {
 "key": "tt",
 "title": "Traitement",
 "file": "10-tt.mp3",
-"sec": 111.3,
-"bytes": 556796
+"sec": 135.0,
+"bytes": 675356
 },
 {
 "key": "sui",
 "title": "Suivi et pronostic",
 "file": "11-sui.mp3",
-"sec": 23.9,
-"bytes": 119996
+"sec": 29.2,
+"bytes": 146636
 },
 {
 "key": "pre",
 "title": "Prévention",
 "file": "12-pre.mp3",
-"sec": 18.5,
-"bytes": 92756
+"sec": 23.6,
+"bytes": 118316
 },
 {
 "key": "ref",
 "title": "Quand référer ou hospitaliser",
 "file": "13-ref.mp3",
-"sec": 17.6,
-"bytes": 88316
+"sec": 21.8,
+"bytes": 109436
 }
 ],
-"sec": 492.7,
-"bytes": 2469304
+"sec": 606.9,
+"bytes": 3040984
 },
 "26": {
 "name": "Pré-éclampsie et éclampsie",
