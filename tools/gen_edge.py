@@ -11,30 +11,65 @@ VOICE = os.environ.get("VOICE") or _VC.get("voice") or "fr-CH-ArianeNeural"
 VTAG = os.environ.get("VTAG") or _VC.get("tag") or ""   # étiquette de voix : change quand la voix change (l'application propose alors la mise à jour)
 VOL = os.environ.get("VOL", "+25%")
 RATE = os.environ.get("RATE") or _VC.get("rate") or "+0%"          # débit : "-12%" = 12 % plus lent
-_P = {"s": 600, "c": 300, "t": 900, "e": 500, **_VC.get("pause", {})}   # pauses en ms : s = fin de phrase, c = deux-points / point-virgule, t = après un titre, e = fin de morceau
+# Pauses (secondes) : le service refuse les balises <break>, donc on allonge les silences après coup avec ffmpeg.
+_P = {"seuil": 0.40,   # un silence naturel >= seuil est une fin de phrase ; en dessous : virgule, deux-points...
+      "s": 0.90,       # durée totale d'une pause de fin de phrase
+      "t": 1.30,       # pause après le titre de la section (première phrase)
+      "c": 0.15,       # temps ajouté aux petites pauses (virgule, deux-points, point-virgule)
+      "j": 0.50,       # pause entre deux morceaux d'un même chapitre
+      "e": 0.60,       # pause à la fin du chapitre
+      **_VC.get("pause", {})}
 CHUNK = 2800
 SEM = asyncio.Semaphore(3)
-
-def _brk(ms):
-    return f"<break time='{int(ms)}ms'/>" if ms else ""
-
-def rhythm(t):
-    """Insère les pauses dans le texte déjà échappé (XML)."""
-    t = t.replace("¶", _brk(_P["t"]))
-    t = re.sub(r'([.!?…])[ \t]+(?=[A-ZÀ-ÖØ-Þ«“"(0-9])', lambda m: m.group(1) + _brk(_P["s"]) + " ", t)
-    t = re.sub(r'(?<!&amp)(?<!&lt)(?<!&gt)([:;])[ \t]+', lambda m: m.group(1) + _brk(_P["c"]) + " ", t)
-    return t.rstrip() + _brk(_P["e"])
 
 def _fr(*a, **k):
     text = a[-1]
     if isinstance(text, bytes): text = text.decode("utf-8")
     return ("<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='fr-FR'>"
-            f"<voice name='{VOICE}'><prosody pitch='+0Hz' rate='{RATE}' volume='{VOL}'>" + rhythm(text) + "</prosody></voice></speak>")
+            f"<voice name='{VOICE}'><prosody pitch='+0Hz' rate='{RATE}' volume='{VOL}'>" + text + "</prosody></voice></speak>")
 _ec.mkssml = _fr
 
-def titre(text):
-    """Marque la fin du titre (première phrase courte) pour y mettre une pause plus longue."""
-    return re.sub(r'^([^.!?]{1,100}[.!?])[ \t]+', r'\1¶', text, count=1)
+def _run(cmd):
+    subprocess.check_call(["ffmpeg", "-y", "-loglevel", "error"] + cmd)
+
+def _dur(path):
+    return float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path]).decode())
+
+def silences(path, noise="-40dB", d=0.18):
+    r = subprocess.run(["ffmpeg", "-i", path, "-af", f"silencedetect=noise={noise}:d={d}", "-f", "null", "-"], capture_output=True, text=True).stderr
+    return [(float(e) - float(du), float(e)) for e, du in re.findall(r"silence_end: ([\d.]+) \| silence_duration: ([\d.]+)", r)]
+
+def assemble(wavs, out, base):
+    """Colle les morceaux, allonge les pauses, normalise et encode en mp3."""
+    sil = f"{base}.sil.wav"
+    _run(["-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono", "-t", "6", "-c:a", "pcm_s16le", sil])
+    joint = f"{base}.all.wav"
+    lst = f"{base}.join.txt"
+    rows = []
+    for k, w in enumerate(wavs):
+        if k: rows += [f"file '{os.path.abspath(sil)}'", f"outpoint {_P['j']}"]
+        rows.append(f"file '{os.path.abspath(w)}'")
+    open(lst, "w").write("\n".join(rows) + "\n")
+    _run(["-f", "concat", "-safe", "0", "-i", lst, "-c:a", "pcm_s16le", "-ar", "24000", "-ac", "1", joint])
+    rows, cur, premiere = [], 0.0, True
+    seg = lambda f, a, b=None: [f"file '{os.path.abspath(f)}'", f"inpoint {a:.3f}"] + ([f"outpoint {b:.3f}"] if b is not None else [])
+    for a, b in silences(joint):
+        du, mid = b - a, (a + b) / 2
+        if du >= _P["seuil"]:
+            cible = _P["t"] if (premiere and mid < 12) else _P["s"]
+            premiere = False
+            extra = max(0.0, cible - du)
+        else:
+            extra = _P["c"]
+        rows += seg(joint, cur, mid); cur = mid
+        if extra > 0.01: rows += [f"file '{os.path.abspath(sil)}'", f"outpoint {min(extra, 5.9):.3f}"]
+    rows += seg(joint, cur)
+    rows += [f"file '{os.path.abspath(sil)}'", f"outpoint {_P['e']}"]
+    open(lst, "w").write("\n".join(rows) + "\n")
+    fin = f"{base}.fin.wav"
+    _run(["-f", "concat", "-safe", "0", "-i", lst, "-c:a", "pcm_s16le", "-ar", "24000", "-ac", "1", fin])
+    _run(["-i", fin, "-af", "loudnorm=I=-14:TP=-1.0:LRA=9", "-ar", "24000", "-ac", "1", "-b:a", "40k", out])
+    for f in (sil, joint, lst, fin): os.remove(f)
 
 def chunks(text):
     if len(text) <= CHUNK: return [text]
@@ -60,18 +95,16 @@ async def synth(text, path):
 
 async def chapter(d, i, c):
     base = f"{d}/{i:02d}-{c['key']}"
-    parts = chunks(titre(c["text"]))
-    tmp = []
+    parts = chunks(c["text"])
     await asyncio.gather(*[synth(p, f"{base}.p{j}.mp3") for j, p in enumerate(parts)])
-    for j in range(len(parts)): tmp.append(f"{base}.p{j}.mp3")
-    lst = f"{base}.txt"
-    open(lst, "w").write("".join(f"file '{os.path.abspath(t)}'\n" for t in tmp))
+    wavs = []
+    for j in range(len(parts)):
+        _run(["-i", f"{base}.p{j}.mp3", "-ar", "24000", "-ac", "1", "-c:a", "pcm_s16le", f"{base}.p{j}.wav"])
+        os.remove(f"{base}.p{j}.mp3"); wavs.append(f"{base}.p{j}.wav")
     out = f"{base}.mp3"
-    subprocess.check_call(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", lst,
-                           "-af", "loudnorm=I=-14:TP=-1.0:LRA=9", "-ar", "24000", "-ac", "1", "-b:a", "40k", out])
-    for t in tmp: os.remove(t)
-    os.remove(lst)
-    sec = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", out]).decode())
+    assemble(wavs, out, base)
+    for w in wavs: os.remove(w)
+    sec = _dur(out)
     return {"key": c["key"], "title": c["title"], "file": os.path.basename(out), "sec": round(sec, 1), "bytes": os.path.getsize(out)}
 
 async def main():
