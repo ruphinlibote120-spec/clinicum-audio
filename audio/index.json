@@ -650,109 +650,110 @@
 "6": {
 "name": "Insuffisance cardiaque",
 "hash": "972767c3f769",
+"h2": "7cfdc591",
+"v": "ariane3",
 "chapters": [
 {
 "key": "intro",
 "title": "Introduction",
 "file": "00-intro.mp3",
-"sec": 28.2,
-"bytes": 141356
+"sec": 37.6,
+"bytes": 188636
 },
 {
 "key": "pts",
 "title": "Points clés",
 "file": "01-pts.mp3",
-"sec": 109.6,
-"bytes": 548396
+"sec": 142.1,
+"bytes": 710996
 },
 {
 "key": "def",
 "title": "Définition",
 "file": "02-def.mp3",
-"sec": 19.5,
-"bytes": 98156
+"sec": 22.4,
+"bytes": 112676
 },
 {
 "key": "epi",
 "title": "Épidémiologie",
 "file": "03-epi.mp3",
-"sec": 45.8,
-"bytes": 229556
+"sec": 57.3,
+"bytes": 287156
 },
 {
 "key": "cau",
 "title": "Causes et facteurs de risque",
 "file": "04-cau.mp3",
-"sec": 26.4,
-"bytes": 132236
+"sec": 33.4,
+"bytes": 167516
 },
 {
 "key": "phy",
 "title": "Physiopathologie",
 "file": "05-phy.mp3",
-"sec": 21.5,
-"bytes": 107756
+"sec": 26.3,
+"bytes": 131876
 },
 {
 "key": "ana",
 "title": "Anatomopathologie",
 "file": "06-ana.mp3",
-"sec": 11.4,
-"bytes": 57476
+"sec": 14.3,
+"bytes": 71996
 },
 {
 "key": "cli",
 "title": "Symptomatologie",
 "file": "07-cli.mp3",
-"sec": 56.6,
-"bytes": 283556
+"sec": 70.5,
+"bytes": 353276
 },
 {
 "key": "dia",
 "title": "Diagnostic",
 "file": "08-dia.mp3",
-"sec": 36.0,
-"bytes": 180596
+"sec": 46.6,
+"bytes": 233396
 },
 {
 "key": "exp",
 "title": "Explorations",
 "file": "09-exp.mp3",
-"sec": 13.4,
-"bytes": 67556
+"sec": 17.3,
+"bytes": 86996
 },
 {
 "key": "tt",
 "title": "Traitement",
 "file": "10-tt.mp3",
-"sec": 142.2,
-"bytes": 711476
+"sec": 174.6,
+"bytes": 873596
 },
 {
 "key": "sui",
 "title": "Suivi et pronostic",
 "file": "11-sui.mp3",
-"sec": 26.8,
-"bytes": 134276
+"sec": 32.7,
+"bytes": 164276
 },
 {
 "key": "pre",
 "title": "Prévention",
 "file": "12-pre.mp3",
-"sec": 24.9,
-"bytes": 125156
+"sec": 31.4,
+"bytes": 157556
 },
 {
 "key": "ref",
 "title": "Quand référer ou hospitaliser",
 "file": "13-ref.mp3",
-"sec": 24.5,
-"bytes": 122876
+"sec": 29.9,
+"bytes": 150236
 }
 ],
-"sec": 586.8,
-"bytes": 2940424,
-"h2": "7cfdc591"
+"sec": 736.4,
+"bytes": 3690184
 },
 "7": {
 "name": "Diabète de type 2 et ses complications",
