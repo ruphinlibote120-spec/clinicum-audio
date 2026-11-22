@@ -3243,108 +3243,109 @@
 "name": "Diarrhée aiguë de l’enfant",
 "hash": "b7e90e34c2df",
 "h2": "eb20f2b3",
+"v": "ariane3",
 "chapters": [
 {
 "key": "intro",
 "title": "Introduction",
 "file": "00-intro.mp3",
-"sec": 24.3,
-"bytes": 122036
+"sec": 30.4,
+"bytes": 152756
 },
 {
 "key": "pts",
 "title": "Points clés",
 "file": "01-pts.mp3",
-"sec": 68.3,
-"bytes": 341876
+"sec": 83.7,
+"bytes": 418916
 },
 {
 "key": "def",
 "title": "Définition",
 "file": "02-def.mp3",
-"sec": 18.6,
-"bytes": 93596
+"sec": 23.2,
+"bytes": 116636
 },
 {
 "key": "epi",
 "title": "Épidémiologie",
 "file": "03-epi.mp3",
-"sec": 37.2,
-"bytes": 186716
+"sec": 46.8,
+"bytes": 234356
 },
 {
 "key": "cau",
 "title": "Causes et facteurs de risque",
 "file": "04-cau.mp3",
-"sec": 27.9,
-"bytes": 139916
+"sec": 35.9,
+"bytes": 179876
 },
 {
 "key": "phy",
 "title": "Physiopathologie",
 "file": "05-phy.mp3",
-"sec": 23.1,
-"bytes": 115916
+"sec": 28.3,
+"bytes": 141956
 },
 {
 "key": "ana",
 "title": "Anatomopathologie",
 "file": "06-ana.mp3",
-"sec": 12.0,
-"bytes": 60356
+"sec": 15.3,
+"bytes": 77156
 },
 {
 "key": "cli",
 "title": "Symptomatologie",
 "file": "07-cli.mp3",
-"sec": 77.3,
-"bytes": 386756
+"sec": 95.2,
+"bytes": 476636
 },
 {
 "key": "dia",
 "title": "Diagnostic",
 "file": "08-dia.mp3",
-"sec": 30.1,
-"bytes": 151076
+"sec": 37.2,
+"bytes": 186716
 },
 {
 "key": "exp",
 "title": "Explorations",
 "file": "09-exp.mp3",
-"sec": 14.3,
-"bytes": 71996
+"sec": 18.2,
+"bytes": 91676
 },
 {
 "key": "tt",
 "title": "Traitement",
 "file": "10-tt.mp3",
-"sec": 125.4,
-"bytes": 627356
+"sec": 150.0,
+"bytes": 750476
 },
 {
 "key": "sui",
 "title": "Suivi et pronostic",
 "file": "11-sui.mp3",
-"sec": 22.9,
-"bytes": 115076
+"sec": 28.2,
+"bytes": 141836
 },
 {
 "key": "pre",
 "title": "Prévention",
 "file": "12-pre.mp3",
-"sec": 24.9,
-"bytes": 124796
+"sec": 30.8,
+"bytes": 154316
 },
 {
 "key": "ref",
 "title": "Quand référer ou hospitaliser",
 "file": "13-ref.mp3",
-"sec": 20.9,
-"bytes": 104876
+"sec": 26.5,
+"bytes": 133076
 }
 ],
-"sec": 527.2,
-"bytes": 2642344
+"sec": 649.7,
+"bytes": 3256384
 },
 "31": {
 "name": "Envenimation par morsure de serpent",
