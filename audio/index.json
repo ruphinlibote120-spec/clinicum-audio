@@ -326,109 +326,110 @@
 "3": {
 "name": "Infection par le VIH et infections opportunistes",
 "hash": "403e572595bd",
+"h2": "aabd1d40",
+"v": "ariane3",
 "chapters": [
 {
 "key": "intro",
 "title": "Introduction",
 "file": "00-intro.mp3",
-"sec": 28.3,
-"bytes": 141836
+"sec": 34.8,
+"bytes": 174476
 },
 {
 "key": "pts",
 "title": "Points clés",
 "file": "01-pts.mp3",
-"sec": 80.6,
-"bytes": 403316
+"sec": 97.1,
+"bytes": 485996
 },
 {
 "key": "def",
 "title": "Définition",
 "file": "02-def.mp3",
-"sec": 23.9,
-"bytes": 119756
+"sec": 29.1,
+"bytes": 145916
 },
 {
 "key": "epi",
 "title": "Épidémiologie",
 "file": "03-epi.mp3",
-"sec": 43.1,
-"bytes": 216116
+"sec": 52.5,
+"bytes": 263156
 },
 {
 "key": "cau",
 "title": "Causes et facteurs de risque",
 "file": "04-cau.mp3",
-"sec": 25.4,
-"bytes": 127436
+"sec": 32.1,
+"bytes": 160916
 },
 {
 "key": "phy",
 "title": "Physiopathologie",
 "file": "05-phy.mp3",
-"sec": 40.4,
-"bytes": 202676
+"sec": 48.3,
+"bytes": 241916
 },
 {
 "key": "ana",
 "title": "Anatomopathologie",
 "file": "06-ana.mp3",
-"sec": 17.8,
-"bytes": 89516
+"sec": 22.5,
+"bytes": 113036
 },
 {
 "key": "cli",
 "title": "Symptomatologie",
 "file": "07-cli.mp3",
-"sec": 88.1,
-"bytes": 441116
+"sec": 108.1,
+"bytes": 540836
 },
 {
 "key": "dia",
 "title": "Diagnostic",
 "file": "08-dia.mp3",
-"sec": 63.6,
-"bytes": 318356
+"sec": 77.8,
+"bytes": 389276
 },
 {
 "key": "exp",
 "title": "Explorations",
 "file": "09-exp.mp3",
-"sec": 26.0,
-"bytes": 130556
+"sec": 32.3,
+"bytes": 161876
 },
 {
 "key": "tt",
 "title": "Traitement",
 "file": "10-tt.mp3",
-"sec": 154.3,
-"bytes": 772196
+"sec": 184.4,
+"bytes": 922556
 },
 {
 "key": "sui",
 "title": "Suivi et pronostic",
 "file": "11-sui.mp3",
-"sec": 33.1,
-"bytes": 166196
+"sec": 41.6,
+"bytes": 208676
 },
 {
 "key": "pre",
 "title": "Prévention",
 "file": "12-pre.mp3",
-"sec": 28.8,
-"bytes": 144716
+"sec": 36.1,
+"bytes": 180956
 },
 {
 "key": "ref",
 "title": "Quand référer ou hospitaliser",
 "file": "13-ref.mp3",
-"sec": 22.5,
-"bytes": 112916
+"sec": 27.8,
+"bytes": 139676
 }
 ],
-"sec": 675.9,
-"bytes": 3386704,
-"h2": "aabd1d40"
+"sec": 824.5,
+"bytes": 4129264
 },
 "4": {
 "name": "Tuberculose",
