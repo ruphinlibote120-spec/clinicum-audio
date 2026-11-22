@@ -2,216 +2,218 @@
 "0": {
 "name": "Paludisme grave",
 "hash": "b25b2aca5b3b",
+"h2": "8f60e416",
+"v": "ariane3",
 "chapters": [
 {
 "key": "intro",
 "title": "Introduction",
 "file": "00-intro.mp3",
-"sec": 29.2,
-"bytes": 146276
+"sec": 38.3,
+"bytes": 191996
 },
 {
 "key": "pts",
 "title": "Points clés",
 "file": "01-pts.mp3",
-"sec": 73.2,
-"bytes": 366356
+"sec": 93.4,
+"bytes": 467636
 },
 {
 "key": "def",
 "title": "Définition",
 "file": "02-def.mp3",
-"sec": 43.0,
-"bytes": 215636
+"sec": 52.5,
+"bytes": 263276
 },
 {
 "key": "epi",
 "title": "Épidémiologie",
 "file": "03-epi.mp3",
-"sec": 38.4,
-"bytes": 192716
+"sec": 47.0,
+"bytes": 235316
 },
 {
 "key": "cau",
 "title": "Causes et facteurs de risque",
 "file": "04-cau.mp3",
-"sec": 32.8,
-"bytes": 164636
+"sec": 40.9,
+"bytes": 205196
 },
 {
 "key": "phy",
 "title": "Physiopathologie",
 "file": "05-phy.mp3",
-"sec": 50.4,
-"bytes": 252356
+"sec": 60.0,
+"bytes": 300356
 },
 {
 "key": "ana",
 "title": "Anatomopathologie",
 "file": "06-ana.mp3",
-"sec": 26.1,
-"bytes": 131036
+"sec": 33.2,
+"bytes": 166316
 },
 {
 "key": "cli",
 "title": "Symptomatologie",
 "file": "07-cli.mp3",
-"sec": 106.4,
-"bytes": 532436
+"sec": 133.1,
+"bytes": 666236
 },
 {
 "key": "dia",
 "title": "Diagnostic",
 "file": "08-dia.mp3",
-"sec": 51.8,
-"bytes": 259676
+"sec": 64.9,
+"bytes": 324836
 },
 {
 "key": "exp",
 "title": "Explorations",
 "file": "09-exp.mp3",
-"sec": 47.2,
-"bytes": 236516
+"sec": 57.6,
+"bytes": 288356
 },
 {
 "key": "tt",
 "title": "Traitement",
 "file": "10-tt.mp3",
-"sec": 190.6,
-"bytes": 953636
+"sec": 237.8,
+"bytes": 1189676
 },
 {
 "key": "sui",
 "title": "Suivi et pronostic",
 "file": "11-sui.mp3",
-"sec": 42.6,
-"bytes": 213596
+"sec": 51.7,
+"bytes": 258836
 },
 {
 "key": "pre",
 "title": "Prévention",
 "file": "12-pre.mp3",
-"sec": 33.1,
-"bytes": 165956
+"sec": 46.2,
+"bytes": 231476
 },
 {
 "key": "ref",
 "title": "Quand référer ou hospitaliser",
 "file": "13-ref.mp3",
-"sec": 19.2,
-"bytes": 96236
+"sec": 23.6,
+"bytes": 118316
 }
 ],
-"sec": 784.0,
-"bytes": 3927064,
-"h2": "8f60e416"
+"sec": 980.2,
+"bytes": 4907824
 },
 "1": {
 "name": "Paludisme simple",
 "hash": "a03d41077222",
+"h2": "d6fb2925",
+"v": "ariane3",
 "chapters": [
 {
 "key": "intro",
 "title": "Introduction",
 "file": "00-intro.mp3",
-"sec": 26.7,
-"bytes": 134036
+"sec": 32.0,
+"bytes": 160436
 },
 {
 "key": "pts",
 "title": "Points clés",
 "file": "01-pts.mp3",
-"sec": 68.1,
-"bytes": 340916
+"sec": 83.9,
+"bytes": 420236
 },
 {
 "key": "def",
 "title": "Définition",
 "file": "02-def.mp3",
-"sec": 42.0,
-"bytes": 210596
+"sec": 50.8,
+"bytes": 254276
 },
 {
 "key": "epi",
 "title": "Épidémiologie",
 "file": "03-epi.mp3",
-"sec": 66.6,
-"bytes": 333356
+"sec": 80.3,
+"bytes": 401876
 },
 {
 "key": "cau",
 "title": "Causes et facteurs de risque",
 "file": "04-cau.mp3",
-"sec": 50.3,
-"bytes": 251996
+"sec": 62.3,
+"bytes": 311876
 },
 {
 "key": "phy",
 "title": "Physiopathologie",
 "file": "05-phy.mp3",
-"sec": 78.8,
-"bytes": 394556
+"sec": 94.5,
+"bytes": 472916
 },
 {
 "key": "ana",
 "title": "Anatomopathologie",
 "file": "06-ana.mp3",
-"sec": 32.4,
-"bytes": 162236
+"sec": 38.6,
+"bytes": 193676
 },
 {
 "key": "cli",
 "title": "Symptomatologie",
 "file": "07-cli.mp3",
-"sec": 112.4,
-"bytes": 562436
+"sec": 136.2,
+"bytes": 681596
 },
 {
 "key": "dia",
 "title": "Diagnostic",
 "file": "08-dia.mp3",
-"sec": 89.5,
-"bytes": 447956
+"sec": 108.7,
+"bytes": 543836
 },
 {
 "key": "exp",
 "title": "Explorations",
 "file": "09-exp.mp3",
-"sec": 57.4,
-"bytes": 287516
+"sec": 69.7,
+"bytes": 348956
 },
 {
 "key": "tt",
 "title": "Traitement",
 "file": "10-tt.mp3",
-"sec": 198.6,
-"bytes": 993236
+"sec": 252.8,
+"bytes": 1264556
 },
 {
 "key": "sui",
 "title": "Suivi et pronostic",
 "file": "11-sui.mp3",
-"sec": 46.3,
-"bytes": 232076
+"sec": 56.4,
+"bytes": 282716
 },
 {
 "key": "pre",
 "title": "Prévention",
 "file": "12-pre.mp3",
-"sec": 73.6,
-"bytes": 368516
+"sec": 93.5,
+"bytes": 467876
 },
 {
 "key": "ref",
 "title": "Quand référer ou hospitaliser",
 "file": "13-ref.mp3",
-"sec": 26.4,
-"bytes": 132596
+"sec": 33.0,
+"bytes": 165476
 }
 ],
-"sec": 969.1,
-"bytes": 4852024,
-"h2": "d6fb2925"
+"sec": 1192.7,
+"bytes": 5970304
 },
 "2": {
 "name": "Drépanocytose",
