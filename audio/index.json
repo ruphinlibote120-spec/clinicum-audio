@@ -1946,109 +1946,110 @@
 "18": {
 "name": "Pneumonie communautaire",
 "hash": "84a3c7546fff",
+"h2": "67bc9f9d",
+"v": "ariane3",
 "chapters": [
 {
 "key": "intro",
 "title": "Introduction",
 "file": "00-intro.mp3",
-"sec": 27.3,
-"bytes": 137036
+"sec": 34.2,
+"bytes": 171476
 },
 {
 "key": "pts",
 "title": "Points clés",
 "file": "01-pts.mp3",
-"sec": 86.1,
-"bytes": 430796
+"sec": 104.2,
+"bytes": 521396
 },
 {
 "key": "def",
 "title": "Définition",
 "file": "02-def.mp3",
-"sec": 17.7,
-"bytes": 88796
+"sec": 21.6,
+"bytes": 108476
 },
 {
 "key": "epi",
 "title": "Épidémiologie",
 "file": "03-epi.mp3",
-"sec": 41.4,
-"bytes": 207236
+"sec": 52.1,
+"bytes": 261236
 },
 {
 "key": "cau",
 "title": "Causes et facteurs de risque",
 "file": "04-cau.mp3",
-"sec": 24.4,
-"bytes": 122396
+"sec": 30.6,
+"bytes": 153476
 },
 {
 "key": "phy",
 "title": "Physiopathologie",
 "file": "05-phy.mp3",
-"sec": 21.8,
-"bytes": 109676
+"sec": 26.8,
+"bytes": 134636
 },
 {
 "key": "ana",
 "title": "Anatomopathologie",
 "file": "06-ana.mp3",
-"sec": 11.9,
-"bytes": 60116
+"sec": 15.4,
+"bytes": 77636
 },
 {
 "key": "cli",
 "title": "Symptomatologie",
 "file": "07-cli.mp3",
-"sec": 59.0,
-"bytes": 295436
+"sec": 73.2,
+"bytes": 366716
 },
 {
 "key": "dia",
 "title": "Diagnostic",
 "file": "08-dia.mp3",
-"sec": 39.0,
-"bytes": 195596
+"sec": 49.3,
+"bytes": 247196
 },
 {
 "key": "exp",
 "title": "Explorations",
 "file": "09-exp.mp3",
-"sec": 12.4,
-"bytes": 62396
+"sec": 16.3,
+"bytes": 82076
 },
 {
 "key": "tt",
 "title": "Traitement",
 "file": "10-tt.mp3",
-"sec": 110.5,
-"bytes": 553076
+"sec": 131.6,
+"bytes": 658436
 },
 {
 "key": "sui",
 "title": "Suivi et pronostic",
 "file": "11-sui.mp3",
-"sec": 31.0,
-"bytes": 155516
+"sec": 38.2,
+"bytes": 191636
 },
 {
 "key": "pre",
 "title": "Prévention",
 "file": "12-pre.mp3",
-"sec": 26.7,
-"bytes": 133796
+"sec": 33.6,
+"bytes": 168596
 },
 {
 "key": "ref",
 "title": "Quand référer ou hospitaliser",
 "file": "13-ref.mp3",
-"sec": 22.6,
-"bytes": 113636
+"sec": 28.3,
+"bytes": 141836
 }
 ],
-"sec": 531.8,
-"bytes": 2665504,
-"h2": "67bc9f9d"
+"sec": 655.4,
+"bytes": 3284824
 },
 "19": {
 "name": "Sepsis et choc septique",
