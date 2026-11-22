@@ -2271,108 +2271,109 @@
 "name": "Choléra",
 "hash": "8d728f7b286a",
 "h2": "34ee580d",
+"v": "ariane3",
 "chapters": [
 {
 "key": "intro",
 "title": "Introduction",
 "file": "00-intro.mp3",
-"sec": 25.9,
-"bytes": 130076
+"sec": 31.8,
+"bytes": 159596
 },
 {
 "key": "pts",
 "title": "Points clés",
 "file": "01-pts.mp3",
-"sec": 66.8,
-"bytes": 334556
+"sec": 80.9,
+"bytes": 404996
 },
 {
 "key": "def",
 "title": "Définition",
 "file": "02-def.mp3",
-"sec": 19.6,
-"bytes": 98636
+"sec": 23.9,
+"bytes": 119996
 },
 {
 "key": "epi",
 "title": "Épidémiologie",
 "file": "03-epi.mp3",
-"sec": 45.2,
-"bytes": 226556
+"sec": 56.5,
+"bytes": 282956
 },
 {
 "key": "cau",
 "title": "Causes et facteurs de risque",
 "file": "04-cau.mp3",
-"sec": 31.6,
-"bytes": 158636
+"sec": 40.0,
+"bytes": 200516
 },
 {
 "key": "phy",
 "title": "Physiopathologie",
 "file": "05-phy.mp3",
-"sec": 36.3,
-"bytes": 181796
+"sec": 43.6,
+"bytes": 218756
 },
 {
 "key": "ana",
 "title": "Anatomopathologie",
 "file": "06-ana.mp3",
-"sec": 13.5,
-"bytes": 67916
+"sec": 16.9,
+"bytes": 85196
 },
 {
 "key": "cli",
 "title": "Symptomatologie",
 "file": "07-cli.mp3",
-"sec": 75.7,
-"bytes": 378956
+"sec": 93.1,
+"bytes": 466196
 },
 {
 "key": "dia",
 "title": "Diagnostic",
 "file": "08-dia.mp3",
-"sec": 39.2,
-"bytes": 196436
+"sec": 48.8,
+"bytes": 244436
 },
 {
 "key": "exp",
 "title": "Explorations",
 "file": "09-exp.mp3",
-"sec": 23.8,
-"bytes": 119396
+"sec": 29.5,
+"bytes": 147956
 },
 {
 "key": "tt",
 "title": "Traitement",
 "file": "10-tt.mp3",
-"sec": 123.5,
-"bytes": 617996
+"sec": 146.2,
+"bytes": 731276
 },
 {
 "key": "sui",
 "title": "Suivi et pronostic",
 "file": "11-sui.mp3",
-"sec": 31.7,
-"bytes": 159116
+"sec": 39.0,
+"bytes": 195356
 },
 {
 "key": "pre",
 "title": "Prévention",
 "file": "12-pre.mp3",
-"sec": 38.1,
-"bytes": 190916
+"sec": 46.4,
+"bytes": 232556
 },
 {
 "key": "ref",
 "title": "Quand référer ou hospitaliser",
 "file": "13-ref.mp3",
-"sec": 22.6,
-"bytes": 113636
+"sec": 27.3,
+"bytes": 136916
 }
 ],
-"sec": 593.5,
-"bytes": 2974624
+"sec": 723.9,
+"bytes": 3626704
 },
 "22": {
 "name": "Rougeole",
