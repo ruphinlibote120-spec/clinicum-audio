@@ -974,109 +974,110 @@
 "9": {
 "name": "Insuffisance rénale aiguë",
 "hash": "e8defc8411e1",
+"h2": "31279347",
+"v": "ariane3",
 "chapters": [
 {
 "key": "intro",
 "title": "Introduction",
 "file": "00-intro.mp3",
-"sec": 32.3,
-"bytes": 161876
+"sec": 38.6,
+"bytes": 193676
 },
 {
 "key": "pts",
 "title": "Points clés",
 "file": "01-pts.mp3",
-"sec": 81.0,
-"bytes": 405356
+"sec": 100.2,
+"bytes": 501836
 },
 {
 "key": "def",
 "title": "Définition",
 "file": "02-def.mp3",
-"sec": 14.3,
-"bytes": 71996
+"sec": 18.2,
+"bytes": 91436
 },
 {
 "key": "epi",
 "title": "Épidémiologie",
 "file": "03-epi.mp3",
-"sec": 34.4,
-"bytes": 172676
+"sec": 43.0,
+"bytes": 215636
 },
 {
 "key": "cau",
 "title": "Causes et facteurs de risque",
 "file": "04-cau.mp3",
-"sec": 36.7,
-"bytes": 184196
+"sec": 46.1,
+"bytes": 230876
 },
 {
 "key": "phy",
 "title": "Physiopathologie",
 "file": "05-phy.mp3",
-"sec": 17.4,
-"bytes": 87356
+"sec": 21.1,
+"bytes": 106196
 },
 {
 "key": "ana",
 "title": "Anatomopathologie",
 "file": "06-ana.mp3",
-"sec": 13.3,
-"bytes": 66956
+"sec": 16.6,
+"bytes": 83396
 },
 {
 "key": "cli",
 "title": "Symptomatologie",
 "file": "07-cli.mp3",
-"sec": 40.7,
-"bytes": 203996
+"sec": 50.8,
+"bytes": 254276
 },
 {
 "key": "dia",
 "title": "Diagnostic",
 "file": "08-dia.mp3",
-"sec": 37.1,
-"bytes": 185756
+"sec": 46.7,
+"bytes": 233756
 },
 {
 "key": "exp",
 "title": "Explorations",
 "file": "09-exp.mp3",
-"sec": 12.0,
-"bytes": 60356
+"sec": 16.1,
+"bytes": 80876
 },
 {
 "key": "tt",
 "title": "Traitement",
 "file": "10-tt.mp3",
-"sec": 75.0,
-"bytes": 375596
+"sec": 91.1,
+"bytes": 455996
 },
 {
 "key": "sui",
 "title": "Suivi et pronostic",
 "file": "11-sui.mp3",
-"sec": 24.9,
-"bytes": 125036
+"sec": 30.5,
+"bytes": 152876
 },
 {
 "key": "pre",
 "title": "Prévention",
 "file": "12-pre.mp3",
-"sec": 17.1,
-"bytes": 85916
+"sec": 21.4,
+"bytes": 107756
 },
 {
 "key": "ref",
 "title": "Quand référer ou hospitaliser",
 "file": "13-ref.mp3",
-"sec": 23.7,
-"bytes": 119036
+"sec": 29.8,
+"bytes": 149756
 }
 ],
-"sec": 459.9,
-"bytes": 2306104,
-"h2": "31279347"
+"sec": 570.2,
+"bytes": 2858344
 },
 "10": {
 "name": "Maladie rénale chronique",
