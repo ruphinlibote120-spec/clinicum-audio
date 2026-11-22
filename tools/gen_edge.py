@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Audios Clinicum : voix fr-CH-ArianeNeural (français uniquement), volume renforcé, normalisation -14 LUFS.
+"""Audios Clinicum : voix fr-CH-ArianeNeural (français uniquement), débit ralenti, pauses rythmées, volume renforcé, normalisation -14 LUFS.
 Lit tools/lot.json (liste d'identifiants de fiches), écrit audio/NNN/KK-clé.mp3 et audio/index.json.
 Ne refait que les fiches nouvelles ou modifiées (empreinte 'hash')."""
 import asyncio, json, os, re, subprocess, sys, glob
@@ -10,15 +10,31 @@ _VC = json.load(open("tools/voice.json")) if os.path.exists("tools/voice.json") 
 VOICE = os.environ.get("VOICE") or _VC.get("voice") or "fr-CH-ArianeNeural"
 VTAG = os.environ.get("VTAG") or _VC.get("tag") or ""   # étiquette de voix : change quand la voix change (l'application propose alors la mise à jour)
 VOL = os.environ.get("VOL", "+25%")
+RATE = os.environ.get("RATE") or _VC.get("rate") or "+0%"          # débit : "-12%" = 12 % plus lent
+_P = {"s": 600, "c": 300, "t": 900, "e": 500, **_VC.get("pause", {})}   # pauses en ms : s = fin de phrase, c = deux-points / point-virgule, t = après un titre, e = fin de morceau
 CHUNK = 2800
 SEM = asyncio.Semaphore(3)
+
+def _brk(ms):
+    return f"<break time='{int(ms)}ms'/>" if ms else ""
+
+def rhythm(t):
+    """Insère les pauses dans le texte déjà échappé (XML)."""
+    t = t.replace("¶", _brk(_P["t"]))
+    t = re.sub(r'([.!?…])[ \t]+(?=[A-ZÀ-ÖØ-Þ«“"(0-9])', lambda m: m.group(1) + _brk(_P["s"]) + " ", t)
+    t = re.sub(r'(?<!&amp)(?<!&lt)(?<!&gt)([:;])[ \t]+', lambda m: m.group(1) + _brk(_P["c"]) + " ", t)
+    return t.rstrip() + _brk(_P["e"])
 
 def _fr(*a, **k):
     text = a[-1]
     if isinstance(text, bytes): text = text.decode("utf-8")
     return ("<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='fr-FR'>"
-            f"<voice name='{VOICE}'><prosody pitch='+0Hz' rate='+0%' volume='{VOL}'>" + text + "</prosody></voice></speak>")
+            f"<voice name='{VOICE}'><prosody pitch='+0Hz' rate='{RATE}' volume='{VOL}'>" + rhythm(text) + "</prosody></voice></speak>")
 _ec.mkssml = _fr
+
+def titre(text):
+    """Marque la fin du titre (première phrase courte) pour y mettre une pause plus longue."""
+    return re.sub(r'^([^.!?]{1,100}[.!?])[ \t]+', r'\1¶', text, count=1)
 
 def chunks(text):
     if len(text) <= CHUNK: return [text]
@@ -44,7 +60,7 @@ async def synth(text, path):
 
 async def chapter(d, i, c):
     base = f"{d}/{i:02d}-{c['key']}"
-    parts = chunks(c["text"])
+    parts = chunks(titre(c["text"]))
     tmp = []
     await asyncio.gather(*[synth(p, f"{base}.p{j}.mp3") for j, p in enumerate(parts)])
     for j in range(len(parts)): tmp.append(f"{base}.p{j}.mp3")
@@ -78,4 +94,5 @@ async def main():
                          "sec": round(sum(x["sec"] for x in info), 1), "bytes": sum(x["bytes"] for x in info)}
         json.dump(idx, open(idx_path, "w"), ensure_ascii=False, indent=0)
         print(f"OK {fid:03d} {r['name']} {idx[str(fid)]['sec']} s {idx[str(fid)]['bytes']//1000} Ko", flush=True)
-asyncio.run(main())
+if __name__ == "__main__":
+    asyncio.run(main())

@@ -1,1 +1,11 @@
-{"voice": "fr-CH-ArianeNeural", "tag": "ariane2"}
+{
+ "voice": "fr-CH-ArianeNeural",
+ "tag": "ariane3",
+ "rate": "-12%",
+ "pause": {
+  "s": 500,
+  "c": 250,
+  "t": 900,
+  "e": 500
+ }
+}
