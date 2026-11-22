@@ -3027,108 +3027,109 @@
 "name": "Bronchopneumopathie chronique obstructive (BPCO)",
 "hash": "73dff83a6b0a",
 "h2": "7ee79590",
+"v": "ariane3",
 "chapters": [
 {
 "key": "intro",
 "title": "Introduction",
 "file": "00-intro.mp3",
-"sec": 29.8,
-"bytes": 149636
+"sec": 39.1,
+"bytes": 196196
 },
 {
 "key": "pts",
 "title": "Points clés",
 "file": "01-pts.mp3",
-"sec": 96.4,
-"bytes": 482636
+"sec": 123.2,
+"bytes": 616436
 },
 {
 "key": "def",
 "title": "Définition",
 "file": "02-def.mp3",
-"sec": 19.5,
-"bytes": 97796
+"sec": 24.9,
+"bytes": 124916
 },
 {
 "key": "epi",
 "title": "Épidémiologie",
 "file": "03-epi.mp3",
-"sec": 29.2,
-"bytes": 146396
+"sec": 35.9,
+"bytes": 179996
 },
 {
 "key": "cau",
 "title": "Causes et facteurs de risque",
 "file": "04-cau.mp3",
-"sec": 16.2,
-"bytes": 81236
+"sec": 20.2,
+"bytes": 101396
 },
 {
 "key": "phy",
 "title": "Physiopathologie",
 "file": "05-phy.mp3",
-"sec": 23.0,
-"bytes": 115676
+"sec": 30.2,
+"bytes": 151796
 },
 {
 "key": "ana",
 "title": "Anatomopathologie",
 "file": "06-ana.mp3",
-"sec": 10.8,
-"bytes": 54716
+"sec": 13.5,
+"bytes": 68036
 },
 {
 "key": "cli",
 "title": "Symptomatologie",
 "file": "07-cli.mp3",
-"sec": 43.8,
-"bytes": 219716
+"sec": 54.1,
+"bytes": 271076
 },
 {
 "key": "dia",
 "title": "Diagnostic",
 "file": "08-dia.mp3",
-"sec": 25.6,
-"bytes": 128636
+"sec": 31.5,
+"bytes": 158036
 },
 {
 "key": "exp",
 "title": "Explorations",
 "file": "09-exp.mp3",
-"sec": 7.3,
-"bytes": 37076
+"sec": 9.9,
+"bytes": 49916
 },
 {
 "key": "tt",
 "title": "Traitement",
 "file": "10-tt.mp3",
-"sec": 81.1,
-"bytes": 405956
+"sec": 98.7,
+"bytes": 494036
 },
 {
 "key": "sui",
 "title": "Suivi et pronostic",
 "file": "11-sui.mp3",
-"sec": 24.6,
-"bytes": 123236
+"sec": 32.4,
+"bytes": 162476
 },
 {
 "key": "pre",
 "title": "Prévention",
 "file": "12-pre.mp3",
-"sec": 13.9,
-"bytes": 69836
+"sec": 17.8,
+"bytes": 89396
 },
 {
 "key": "ref",
 "title": "Quand référer ou hospitaliser",
 "file": "13-ref.mp3",
-"sec": 18.2,
-"bytes": 91556
+"sec": 22.9,
+"bytes": 114956
 }
 ],
-"sec": 439.4,
-"bytes": 2204104
+"sec": 554.3,
+"bytes": 2778664
 },
 "29": {
 "name": "Hémorragie du post-partum",
