@@ -1514,109 +1514,110 @@
 "14": {
 "name": "Anémies",
 "hash": "6d0bfb4f62b7",
+"h2": "cebbcad7",
+"v": "ariane3",
 "chapters": [
 {
 "key": "intro",
 "title": "Introduction",
 "file": "00-intro.mp3",
-"sec": 29.8,
-"bytes": 149636
+"sec": 36.6,
+"bytes": 183476
 },
 {
 "key": "pts",
 "title": "Points clés",
 "file": "01-pts.mp3",
-"sec": 97.0,
-"bytes": 485396
+"sec": 119.7,
+"bytes": 599036
 },
 {
 "key": "def",
 "title": "Définition",
 "file": "02-def.mp3",
-"sec": 12.6,
-"bytes": 63476
+"sec": 15.9,
+"bytes": 80036
 },
 {
 "key": "epi",
 "title": "Épidémiologie",
 "file": "03-epi.mp3",
-"sec": 38.4,
-"bytes": 192356
+"sec": 47.1,
+"bytes": 236036
 },
 {
 "key": "cau",
 "title": "Causes et facteurs de risque",
 "file": "04-cau.mp3",
-"sec": 25.0,
-"bytes": 125396
+"sec": 31.7,
+"bytes": 158876
 },
 {
 "key": "phy",
 "title": "Physiopathologie",
 "file": "05-phy.mp3",
-"sec": 16.7,
-"bytes": 83756
+"sec": 20.3,
+"bytes": 101996
 },
 {
 "key": "ana",
 "title": "Anatomopathologie",
 "file": "06-ana.mp3",
-"sec": 12.8,
-"bytes": 64436
+"sec": 15.9,
+"bytes": 80036
 },
 {
 "key": "cli",
 "title": "Symptomatologie",
 "file": "07-cli.mp3",
-"sec": 41.4,
-"bytes": 207236
+"sec": 51.3,
+"bytes": 257156
 },
 {
 "key": "dia",
 "title": "Diagnostic",
 "file": "08-dia.mp3",
-"sec": 36.9,
-"bytes": 184796
+"sec": 46.2,
+"bytes": 231596
 },
 {
 "key": "exp",
 "title": "Explorations",
 "file": "09-exp.mp3",
-"sec": 11.7,
-"bytes": 58796
+"sec": 15.1,
+"bytes": 75836
 },
 {
 "key": "tt",
 "title": "Traitement",
 "file": "10-tt.mp3",
-"sec": 95.1,
-"bytes": 476156
+"sec": 116.0,
+"bytes": 580796
 },
 {
 "key": "sui",
 "title": "Suivi et pronostic",
 "file": "11-sui.mp3",
-"sec": 23.1,
-"bytes": 115916
+"sec": 29.1,
+"bytes": 146156
 },
 {
 "key": "pre",
 "title": "Prévention",
 "file": "12-pre.mp3",
-"sec": 17.8,
-"bytes": 89636
+"sec": 24.5,
+"bytes": 123116
 },
 {
 "key": "ref",
 "title": "Quand référer ou hospitaliser",
 "file": "13-ref.mp3",
-"sec": 19.6,
-"bytes": 98516
+"sec": 23.6,
+"bytes": 118436
 }
 ],
-"sec": 477.9,
-"bytes": 2395504,
-"h2": "cebbcad7"
+"sec": 593.0,
+"bytes": 2972584
 },
 "15": {
 "name": "Fièvre typhoïde",
