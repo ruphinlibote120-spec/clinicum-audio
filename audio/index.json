@@ -3135,108 +3135,109 @@
 "name": "Hémorragie du post-partum",
 "hash": "113e5a436990",
 "h2": "9dc29d4f",
+"v": "ariane3",
 "chapters": [
 {
 "key": "intro",
 "title": "Introduction",
 "file": "00-intro.mp3",
-"sec": 29.8,
-"bytes": 149636
+"sec": 36.8,
+"bytes": 184316
 },
 {
 "key": "pts",
 "title": "Points clés",
 "file": "01-pts.mp3",
-"sec": 88.2,
-"bytes": 441236
+"sec": 107.7,
+"bytes": 539276
 },
 {
 "key": "def",
 "title": "Définition",
 "file": "02-def.mp3",
-"sec": 16.8,
-"bytes": 84596
+"sec": 20.9,
+"bytes": 105116
 },
 {
 "key": "epi",
 "title": "Épidémiologie",
 "file": "03-epi.mp3",
-"sec": 35.2,
-"bytes": 176636
+"sec": 44.1,
+"bytes": 220916
 },
 {
 "key": "cau",
 "title": "Causes et facteurs de risque",
 "file": "04-cau.mp3",
-"sec": 27.4,
-"bytes": 137516
+"sec": 36.1,
+"bytes": 181316
 },
 {
 "key": "phy",
 "title": "Physiopathologie",
 "file": "05-phy.mp3",
-"sec": 19.9,
-"bytes": 100196
+"sec": 24.5,
+"bytes": 122876
 },
 {
 "key": "ana",
 "title": "Anatomopathologie",
 "file": "06-ana.mp3",
-"sec": 10.1,
-"bytes": 50876
+"sec": 13.5,
+"bytes": 68036
 },
 {
 "key": "cli",
 "title": "Symptomatologie",
 "file": "07-cli.mp3",
-"sec": 53.9,
-"bytes": 270116
+"sec": 65.5,
+"bytes": 328076
 },
 {
 "key": "dia",
 "title": "Diagnostic",
 "file": "08-dia.mp3",
-"sec": 34.6,
-"bytes": 173396
+"sec": 44.8,
+"bytes": 224396
 },
 {
 "key": "exp",
 "title": "Explorations",
 "file": "09-exp.mp3",
-"sec": 14.1,
-"bytes": 70916
+"sec": 18.8,
+"bytes": 94796
 },
 {
 "key": "tt",
 "title": "Traitement",
 "file": "10-tt.mp3",
-"sec": 114.5,
-"bytes": 573116
+"sec": 142.5,
+"bytes": 712916
 },
 {
 "key": "sui",
 "title": "Suivi et pronostic",
 "file": "11-sui.mp3",
-"sec": 27.2,
-"bytes": 136316
+"sec": 34.8,
+"bytes": 174596
 },
 {
 "key": "pre",
 "title": "Prévention",
 "file": "12-pre.mp3",
-"sec": 24.4,
-"bytes": 122516
+"sec": 29.9,
+"bytes": 150116
 },
 {
 "key": "ref",
 "title": "Quand référer ou hospitaliser",
 "file": "13-ref.mp3",
-"sec": 18.8,
-"bytes": 94556
+"sec": 23.0,
+"bytes": 115676
 }
 ],
-"sec": 514.9,
-"bytes": 2581624
+"sec": 642.9,
+"bytes": 3222424
 },
 "30": {
 "name": "Diarrhée aiguë de l’enfant",
