@@ -2,7 +2,9 @@
 """Prépare le texte parlé des fiches Clinicum (sigles, unités, symboles -> français oral).
 Sortie : out/<id>.json (chapitres), out/manifest.json, out/unmapped.txt
 """
-import json, re, hashlib, os, sys, collections
+import json, re, hashlib, os, sys, collections, unicodedata
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import lexique as LX
 
 SJL = [('pts','Points clés'),('def','Définition'),('epi','Épidémiologie'),('cau','Causes et facteurs de risque'),
        ('phy','Physiopathologie'),('ana','Anatomopathologie'),('cli','Symptomatologie'),('dia','Diagnostic'),
@@ -182,12 +184,24 @@ def clean_text(t):
     t = t.replace('’', "'").replace('Kisangani','Kissangani')
     t = re.sub(r'^\s*•\s*', '', t)
     t = re.sub(r'^(\d+)\)\s*', lambda m: 'Numéro ' + DIG.get(m.group(1), m.group(1)) + ' : ', t)
+    # composés et doubles sens réglés avant la lecture des sigles
+    t = re.sub(r'\bNE PAS\b', 'ne pas', t)
+    t = re.sub(r'\bhrp2\b', 'h r p deux', t)
+    t = re.sub(r'\bCK-MB\b', 'créatine kinase m b', t)
+    t = re.sub(r'\bP/T\b', 'poids pour taille', t)
+    t = re.sub(r'\bRTS,S\b', 'erre té esse, esse', t)
+    t = re.sub(r'\b(de la|de l’|de l\') ?LH-RH\b', 'de l’hormone de libération de l’hormone lutéinisante', t)
+    t = re.sub(r'\bLH-RH\b', 'hormone de libération de l’hormone lutéinisante', t)
+    t = re.sub(r'\bTB-(?:MR|MDR)/RR\b|\bTB-RR/MR\b', 'tuberculose multirésistante ou résistante à la rifampicine', t)
+    t = re.sub(r'\bTB-(MR|MDR)\b', 'tuberculose multirésistante', t)
+    t = re.sub(r'\bTB-RR\b', 'tuberculose résistante à la rifampicine', t)
+    t = re.sub(r'\b(I{1,3}|VI{0,3}|X)(\s?(?:[-–/]|à|ou)\s?)IV\b', lambda m: m.group(1)+m.group(2)+'quatre', t)
     # H0, H12, J7, S1, M72 : repères temporels
     t = re.sub(r'\bH(\d+)\b', lambda m: 'heure ' + m.group(1), t)
     t = re.sub(r'\bJ(\d+)\b', lambda m: 'jour ' + m.group(1), t)
     t = re.sub(r'\bM(\d+)\b', lambda m: 'mois ' + m.group(1), t)
     t = re.sub(r'\bS(\d+)\b', lambda m: 'semaine ' + m.group(1), t)
-    t = re.sub(r'(\d)\s?SA\b', r'\1 semaines d\'aménorrhée', t)
+    t = re.sub(r'(\d)\s?SA\b', r'\1 semaines d’aménorrhée', t)
     t = re.sub(r'\bFR(?=\s?[≥≤<>])', 'fréquence respiratoire', t)
     t = re.sub(r'\b(stades?|grades?|classes?|types?|NYHA|phase|Child-Pugh|Child|facteur|niveau|score|catégorie|degré|groupe)\s(VIII|VII|VI|IV|V|III|II|I)\b',
                lambda m: m.group(1)+' '+{'I':'un','II':'deux','III':'trois','IV':'quatre','V':'cinq','VI':'six','VII':'sept','VIII':'huit'}[m.group(2)], t)
@@ -208,27 +222,54 @@ def clean_text(t):
     t = t.replace('+', ' plus ').replace('=', ' égale ').replace('*', '')
     t = re.sub(r'\b(\d+)\s?(?:er|re|e|ème)\b', lambda m: m.group(1) + ' ' , t) if False else t
     t = re.sub(r'\b1er\b', 'premier', t); t = re.sub(r'\b1re\b', 'première', t)
-    t = re.sub(r'\b(\d+)e\b', lambda m: m.group(1) + ' ième', t)
+    t = re.sub(r'\b(\d+)e\b', lambda m: LX.ORDINAL.get(int(m.group(1)), m.group(1) + ' ième'), t)
     t = t.replace(' vs ', ' versus ').replace('etc.', 'et cetera.').replace('ex.', 'par exemple')
     t = re.sub(r'\bn°\s?', 'numéro ', t)
     # slash entre mots
     t = re.sub(r'(?<=[A-Za-zÀ-ÿ])\s?/\s?(?=[A-Za-zÀ-ÿ])', ' ou ', t)
     t = re.sub(r'éther\b', 'étère', t)  # le r final doit se prononcer (artéméther -> artémétère)
-    # sigles
+    # sigles : lecture fondée sur le SENS (lexique.py), avec règles de contexte pour les doubles sens
+    ctxmap = {}
+    for kw, mp in LX.CTX:
+        if re.search(kw, t, re.I):
+            for k, v in mp.items(): ctxmap.setdefault(k, v)
+    def _na(s): return ''.join(c for c in unicodedata.normalize('NFD', s.lower()) if unicodedata.category(c) != 'Mn')
     def acr(m):
         tok = m.group(0)
+        sp = ctxmap.get(tok) or LX.EXPAND.get(tok) or LX.DEFAULT.get(tok)
+        if tok in LX.SGPL:
+            sg, pl = LX.SGPL[tok]
+            sp = sg if re.search(r"(?:\bun|\bune|\bla|\ble|\bcette|l['’])\s?$", m.string[:m.start()], re.I) else pl
+        if sp and tok in ctxmap and m.string[m.end():m.end()+2] == ' (':
+            return spell(tok)   # « TF (inflammation folliculaire) » : le sigle est expliqué juste après
+        if sp:
+            # « terme complet (SIGLE) » : le sigle entre parenthèses n'est pas répété
+            pre, post = m.string[:m.start()], m.string[m.end():]
+            if pre.endswith('(') and re.match(r'\s?[):;]', post):
+                words = [w for w in re.findall(r"[A-Za-zÀ-ÿ]+", sp) if len(w) >= 5]
+                if words and _na(words[0])[:5] in _na(pre[-90:]):
+                    return ''
+            return sp
+        if tok in LX.WORD: return LX.WORD[tok]
         if tok in LEX: return LEX[tok]
+        if tok == 'UNIQUEMENT': return 'uniquement'
+        mm = re.fullmatch(r'([A-Z]{1,4})(\d+[A-Za-z]*\d*[A-Za-z]*)', tok)   # CD36, CCR5, P2Y12, H1N1 : lettres épelées + chiffres
+        if mm and tok not in unmapped:
+            unmapped[tok] += 1
+            return ' '.join(LETTERS.get(ch, ch) for ch in mm.group(1)) + ' ' + re.sub(r'([A-Za-z])', lambda x: ' ' + LETTERS.get(x.group(1).upper(), x.group(1)) + ' ', mm.group(2)).strip()
         unmapped[tok] += 1
-        if re.fullmatch(r'[A-Z]{2,4}', tok):
+        if re.fullmatch(r'[A-Z]{2,5}', tok):
             return spell(tok)
         return tok
     t = re.sub(r"\b[A-Z][A-Za-z]*[A-Z0-9][A-Za-z0-9]*\b", acr, t)
+    t = re.sub(r'\(\s*\)', '', t); t = re.sub(r'\(\s*[:;]\s*', '(', t); t = re.sub(r'\s+([,;.:)])', r'\1', t)
     t = rfix(t)
     t = re.sub(r'\s+', ' ', t).strip()
     return t
 
 def build():
-    d = json.load(open('/tmp/vid4/sujets.json'))
+    src = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'sujets.json')
+    d = json.load(open(src if os.path.exists(src) else '/tmp/vid4/sujets.json'))
     os.makedirs('out', exist_ok=True)
     manifest = []
     for i, s in enumerate(d):

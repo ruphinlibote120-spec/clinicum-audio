@@ -32,5 +32,5 @@ def pack(name, items):
             z.write(path, os.path.basename(path))
     print("paquet", name, len(items), "sujets", round(os.path.getsize(f"zips/{name}") / 1048576, 1), "Mo")
 pack("Clinicum-Pack-Complet.zip", made)
-pack("Clinicum-Pack-Ariane.zip", [m for m in made if not m[1]])
+pack("Clinicum-Pack-Ariane.zip", [m for m in made if not m[1] or m[1].startswith("ariane")])
 pack("Clinicum-Pack-Vivienne.zip", [m for m in made if m[1].startswith("vivienne")])
