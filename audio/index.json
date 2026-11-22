@@ -2811,108 +2811,109 @@
 "name": "Pré-éclampsie et éclampsie",
 "hash": "220877ed8691",
 "h2": "79e1eb29",
+"v": "ariane3",
 "chapters": [
 {
 "key": "intro",
 "title": "Introduction",
 "file": "00-intro.mp3",
-"sec": 31.4,
-"bytes": 157316
+"sec": 38.6,
+"bytes": 193316
 },
 {
 "key": "pts",
 "title": "Points clés",
 "file": "01-pts.mp3",
-"sec": 104.1,
-"bytes": 521156
+"sec": 125.6,
+"bytes": 628316
 },
 {
 "key": "def",
 "title": "Définition",
 "file": "02-def.mp3",
-"sec": 18.2,
-"bytes": 91556
+"sec": 22.1,
+"bytes": 110876
 },
 {
 "key": "epi",
 "title": "Épidémiologie",
 "file": "03-epi.mp3",
-"sec": 35.3,
-"bytes": 176996
+"sec": 43.4,
+"bytes": 217316
 },
 {
 "key": "cau",
 "title": "Causes et facteurs de risque",
 "file": "04-cau.mp3",
-"sec": 17.1,
-"bytes": 85796
+"sec": 20.8,
+"bytes": 104756
 },
 {
 "key": "phy",
 "title": "Physiopathologie",
 "file": "05-phy.mp3",
-"sec": 29.3,
-"bytes": 146756
+"sec": 36.6,
+"bytes": 183476
 },
 {
 "key": "ana",
 "title": "Anatomopathologie",
 "file": "06-ana.mp3",
-"sec": 9.5,
-"bytes": 47756
+"sec": 12.2,
+"bytes": 61676
 },
 {
 "key": "cli",
 "title": "Symptomatologie",
 "file": "07-cli.mp3",
-"sec": 55.8,
-"bytes": 279236
+"sec": 68.3,
+"bytes": 342116
 },
 {
 "key": "dia",
 "title": "Diagnostic",
 "file": "08-dia.mp3",
-"sec": 36.7,
-"bytes": 184076
+"sec": 45.0,
+"bytes": 225596
 },
 {
 "key": "exp",
 "title": "Explorations",
 "file": "09-exp.mp3",
-"sec": 15.6,
-"bytes": 78596
+"sec": 19.2,
+"bytes": 96716
 },
 {
 "key": "tt",
 "title": "Traitement",
 "file": "10-tt.mp3",
-"sec": 107.1,
-"bytes": 535916
+"sec": 134.0,
+"bytes": 670316
 },
 {
 "key": "sui",
 "title": "Suivi et pronostic",
 "file": "11-sui.mp3",
-"sec": 32.7,
-"bytes": 163916
+"sec": 40.6,
+"bytes": 203756
 },
 {
 "key": "pre",
 "title": "Prévention",
 "file": "12-pre.mp3",
-"sec": 20.0,
-"bytes": 100556
+"sec": 25.2,
+"bytes": 126356
 },
 {
 "key": "ref",
 "title": "Quand référer ou hospitaliser",
 "file": "13-ref.mp3",
-"sec": 20.7,
-"bytes": 104036
+"sec": 26.0,
+"bytes": 130316
 }
 ],
-"sec": 533.5,
-"bytes": 2673664
+"sec": 657.6,
+"bytes": 3294904
 },
 "27": {
 "name": "Malnutrition aiguë sévère de l’enfant",
