@@ -2054,109 +2054,110 @@
 "19": {
 "name": "Sepsis et choc septique",
 "hash": "ca730a48822c",
+"h2": "cb4b9114",
+"v": "ariane3",
 "chapters": [
 {
 "key": "intro",
 "title": "Introduction",
 "file": "00-intro.mp3",
-"sec": 27.4,
-"bytes": 137516
+"sec": 33.9,
+"bytes": 170156
 },
 {
 "key": "pts",
 "title": "Points clés",
 "file": "01-pts.mp3",
-"sec": 85.3,
-"bytes": 426956
+"sec": 103.7,
+"bytes": 519116
 },
 {
 "key": "def",
 "title": "Définition",
 "file": "02-def.mp3",
-"sec": 22.8,
-"bytes": 114236
+"sec": 27.1,
+"bytes": 136196
 },
 {
 "key": "epi",
 "title": "Épidémiologie",
 "file": "03-epi.mp3",
-"sec": 40.5,
-"bytes": 202916
+"sec": 50.4,
+"bytes": 252716
 },
 {
 "key": "cau",
 "title": "Causes et facteurs de risque",
 "file": "04-cau.mp3",
-"sec": 24.6,
-"bytes": 123356
+"sec": 31.2,
+"bytes": 156356
 },
 {
 "key": "phy",
 "title": "Physiopathologie",
 "file": "05-phy.mp3",
-"sec": 32.2,
-"bytes": 161516
+"sec": 39.6,
+"bytes": 198596
 },
 {
 "key": "ana",
 "title": "Anatomopathologie",
 "file": "06-ana.mp3",
-"sec": 13.7,
-"bytes": 69116
+"sec": 17.1,
+"bytes": 86156
 },
 {
 "key": "cli",
 "title": "Symptomatologie",
 "file": "07-cli.mp3",
-"sec": 60.0,
-"bytes": 300236
+"sec": 76.1,
+"bytes": 381236
 },
 {
 "key": "dia",
 "title": "Diagnostic",
 "file": "08-dia.mp3",
-"sec": 48.8,
-"bytes": 244436
+"sec": 61.7,
+"bytes": 309236
 },
 {
 "key": "exp",
 "title": "Explorations",
 "file": "09-exp.mp3",
-"sec": 14.0,
-"bytes": 70436
+"sec": 18.3,
+"bytes": 91916
 },
 {
 "key": "tt",
 "title": "Traitement",
 "file": "10-tt.mp3",
-"sec": 122.4,
-"bytes": 612236
+"sec": 146.6,
+"bytes": 733316
 },
 {
 "key": "sui",
 "title": "Suivi et pronostic",
 "file": "11-sui.mp3",
-"sec": 34.4,
-"bytes": 172316
+"sec": 42.9,
+"bytes": 215036
 },
 {
 "key": "pre",
 "title": "Prévention",
 "file": "12-pre.mp3",
-"sec": 28.1,
-"bytes": 141116
+"sec": 34.3,
+"bytes": 172076
 },
 {
 "key": "ref",
 "title": "Quand référer ou hospitaliser",
 "file": "13-ref.mp3",
-"sec": 16.6,
-"bytes": 83396
+"sec": 20.5,
+"bytes": 102836
 }
 ],
-"sec": 570.8,
-"bytes": 2859784,
-"h2": "cb4b9114"
+"sec": 703.4,
+"bytes": 3524944
 },
 "20": {
 "name": "Maladie à virus Ebola",
