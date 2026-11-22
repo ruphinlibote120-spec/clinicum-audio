@@ -1730,109 +1730,110 @@
 "16": {
 "name": "Méningites",
 "hash": "74cacf6374f1",
+"h2": "09731078",
+"v": "ariane3",
 "chapters": [
 {
 "key": "intro",
 "title": "Introduction",
 "file": "00-intro.mp3",
-"sec": 28.5,
-"bytes": 143036
+"sec": 35.2,
+"bytes": 176636
 },
 {
 "key": "pts",
 "title": "Points clés",
 "file": "01-pts.mp3",
-"sec": 87.6,
-"bytes": 438596
+"sec": 107.3,
+"bytes": 537116
 },
 {
 "key": "def",
 "title": "Définition",
 "file": "02-def.mp3",
-"sec": 29.1,
-"bytes": 146036
+"sec": 37.1,
+"bytes": 185876
 },
 {
 "key": "epi",
 "title": "Épidémiologie",
 "file": "03-epi.mp3",
-"sec": 50.1,
-"bytes": 251156
+"sec": 60.2,
+"bytes": 301436
 },
 {
 "key": "cau",
 "title": "Causes et facteurs de risque",
 "file": "04-cau.mp3",
-"sec": 49.5,
-"bytes": 248036
+"sec": 62.5,
+"bytes": 313076
 },
 {
 "key": "phy",
 "title": "Physiopathologie",
 "file": "05-phy.mp3",
-"sec": 43.4,
-"bytes": 217556
+"sec": 53.1,
+"bytes": 266036
 },
 {
 "key": "ana",
 "title": "Anatomopathologie",
 "file": "06-ana.mp3",
-"sec": 17.1,
-"bytes": 86036
+"sec": 21.3,
+"bytes": 106796
 },
 {
 "key": "cli",
 "title": "Symptomatologie",
 "file": "07-cli.mp3",
-"sec": 71.5,
-"bytes": 357836
+"sec": 89.1,
+"bytes": 445796
 },
 {
 "key": "dia",
 "title": "Diagnostic",
 "file": "08-dia.mp3",
-"sec": 65.0,
-"bytes": 325316
+"sec": 79.1,
+"bytes": 395996
 },
 {
 "key": "exp",
 "title": "Explorations",
 "file": "09-exp.mp3",
-"sec": 33.3,
-"bytes": 166796
+"sec": 43.1,
+"bytes": 215876
 },
 {
 "key": "tt",
 "title": "Traitement",
 "file": "10-tt.mp3",
-"sec": 163.8,
-"bytes": 819356
+"sec": 195.0,
+"bytes": 975476
 },
 {
 "key": "sui",
 "title": "Suivi et pronostic",
 "file": "11-sui.mp3",
-"sec": 43.0,
-"bytes": 215516
+"sec": 52.8,
+"bytes": 264836
 },
 {
 "key": "pre",
 "title": "Prévention",
 "file": "12-pre.mp3",
-"sec": 46.3,
-"bytes": 231836
+"sec": 56.6,
+"bytes": 283676
 },
 {
 "key": "ref",
 "title": "Quand référer ou hospitaliser",
 "file": "13-ref.mp3",
-"sec": 19.5,
-"bytes": 98156
+"sec": 24.5,
+"bytes": 122996
 }
 ],
-"sec": 747.7,
-"bytes": 3745264,
-"h2": "09731078"
+"sec": 916.9,
+"bytes": 4591624
 },
 "17": {
 "name": "Accident vasculaire cérébral",
