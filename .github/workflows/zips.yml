@@ -24,3 +24,10 @@ jobs:
         run: |
           gh release view audios >/dev/null 2>&1 || gh release create audios --title "Audios Clinicum (fichiers à importer)" --notes "Un fichier .zip par sujet médical. Téléchargez-les puis, dans Clinicum : Sujets médicaux > Importer des audios. Contenu indicatif, à vérifier."
           gh release upload audios zips/*.zip --clobber
+      - name: Retirer les fichiers obsolètes de la version « audios »
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for a in $(gh api repos/${{ github.repository }}/releases/tags/audios --jq '.assets[].name'); do
+            if [ ! -f "zips/$a" ]; then echo "retiré : $a"; gh release delete-asset audios "$a" -y; fi
+          done
