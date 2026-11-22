@@ -218,109 +218,110 @@
 "2": {
 "name": "Drépanocytose",
 "hash": "cc6adac5c094",
+"h2": "d5001a70",
+"v": "ariane3",
 "chapters": [
 {
 "key": "intro",
 "title": "Introduction",
 "file": "00-intro.mp3",
-"sec": 25.9,
-"bytes": 130076
+"sec": 31.6,
+"bytes": 158756
 },
 {
 "key": "pts",
 "title": "Points clés",
 "file": "01-pts.mp3",
-"sec": 87.1,
-"bytes": 435836
+"sec": 105.2,
+"bytes": 526436
 },
 {
 "key": "def",
 "title": "Définition",
 "file": "02-def.mp3",
-"sec": 17.6,
-"bytes": 88676
+"sec": 22.0,
+"bytes": 110636
 },
 {
 "key": "epi",
 "title": "Épidémiologie",
 "file": "03-epi.mp3",
-"sec": 31.9,
-"bytes": 160196
+"sec": 38.9,
+"bytes": 194756
 },
 {
 "key": "cau",
 "title": "Causes et facteurs de risque",
 "file": "04-cau.mp3",
-"sec": 22.7,
-"bytes": 113876
+"sec": 28.4,
+"bytes": 142676
 },
 {
 "key": "phy",
 "title": "Physiopathologie",
 "file": "05-phy.mp3",
-"sec": 33.1,
-"bytes": 166196
+"sec": 39.8,
+"bytes": 199556
 },
 {
 "key": "ana",
 "title": "Anatomopathologie",
 "file": "06-ana.mp3",
-"sec": 15.4,
-"bytes": 77636
+"sec": 19.7,
+"bytes": 98756
 },
 {
 "key": "cli",
 "title": "Symptomatologie",
 "file": "07-cli.mp3",
-"sec": 67.2,
-"bytes": 336596
+"sec": 83.5,
+"bytes": 418076
 },
 {
 "key": "dia",
 "title": "Diagnostic",
 "file": "08-dia.mp3",
-"sec": 40.3,
-"bytes": 201956
+"sec": 49.1,
+"bytes": 245876
 },
 {
 "key": "exp",
 "title": "Explorations",
 "file": "09-exp.mp3",
-"sec": 20.5,
-"bytes": 103076
+"sec": 26.2,
+"bytes": 131396
 },
 {
 "key": "tt",
 "title": "Traitement",
 "file": "10-tt.mp3",
-"sec": 141.6,
-"bytes": 708476
+"sec": 173.7,
+"bytes": 868796
 },
 {
 "key": "sui",
 "title": "Suivi et pronostic",
 "file": "11-sui.mp3",
-"sec": 33.3,
-"bytes": 167036
+"sec": 41.4,
+"bytes": 207356
 },
 {
 "key": "pre",
 "title": "Prévention",
 "file": "12-pre.mp3",
-"sec": 29.8,
-"bytes": 149516
+"sec": 36.4,
+"bytes": 182516
 },
 {
 "key": "ref",
 "title": "Quand référer ou hospitaliser",
 "file": "13-ref.mp3",
-"sec": 22.5,
-"bytes": 112796
+"sec": 27.7,
+"bytes": 138836
 }
 ],
-"sec": 588.9,
-"bytes": 2951944,
-"h2": "d5001a70"
+"sec": 723.6,
+"bytes": 3624424
 },
 "3": {
 "name": "Infection par le VIH et infections opportunistes",
