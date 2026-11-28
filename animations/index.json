@@ -8,8 +8,8 @@
    "t": "Signe de Babinski",
    "r": "Neurologie",
    "f": "a001.mp4",
-   "b": 451525,
-   "d": 14.0,
+   "b": 449205,
+   "d": 14,
    "s": "faite",
    "n": "Schéma cérébral simplifié ; à valider médicalement"
   },
@@ -19,7 +19,7 @@
    "r": "Neurologie",
    "f": "a002.mp4",
    "b": 376334,
-   "d": 11.0,
+   "d": 11,
    "s": "faite",
    "n": "Version de référence validée par l’auteur ; à valider médicalement"
   },
@@ -28,7 +28,7 @@
    "t": "Signe de Lasègue",
    "r": "Neurologie",
    "f": "a004.mp4",
-   "b": 776300,
+   "b": 674826,
    "d": 13.5,
    "s": "faite",
    "n": "À valider médicalement"
@@ -38,7 +38,7 @@
    "t": "Signe de Lasègue croisé",
    "r": "Neurologie",
    "f": "a005.mp4",
-   "b": 719040,
+   "b": 645047,
    "d": 13.5,
    "s": "faite",
    "n": "À valider médicalement"
@@ -48,8 +48,8 @@
    "t": "Réflexe rotulien",
    "r": "Neurologie",
    "f": "a008.mp4",
-   "b": 628839,
-   "d": 15.0,
+   "b": 628393,
+   "d": 15,
    "s": "approximative",
    "n": "Arc réflexe schématique ; à valider médicalement"
   },
@@ -58,8 +58,8 @@
    "t": "Réflexe achilléen",
    "r": "Neurologie",
    "f": "a009.mp4",
-   "b": 564813,
-   "d": 15.0,
+   "b": 567864,
+   "d": 15,
    "s": "approximative",
    "n": "Arc réflexe schématique ; à valider médicalement"
   },
@@ -68,38 +68,38 @@
    "t": "Signe de Gordon",
    "r": "Neurologie",
    "f": "a014.mp4",
-   "b": 424967,
-   "d": 14.0,
+   "b": 520671,
+   "d": 14,
    "s": "approximative",
-   "n": "Mains stylisées ; à valider médicalement"
+   "n": "Pincement montré en coupe du mollet, doigts stylisés ; à valider médicalement"
   },
   {
    "id": "a015",
    "t": "Signe d’Oppenheim",
    "r": "Neurologie",
    "f": "a015.mp4",
-   "b": 465294,
-   "d": 14.0,
+   "b": 486431,
+   "d": 14,
    "s": "approximative",
-   "n": "Doigt stylisé ; à valider médicalement"
+   "n": "Main stylisée ; à valider médicalement"
   },
   {
    "id": "a016",
    "t": "Signe de Chaddock",
    "r": "Neurologie",
    "f": "a016.mp4",
-   "b": 484537,
-   "d": 14.0,
-   "s": "faite",
-   "n": "À valider médicalement"
+   "b": 508749,
+   "d": 14,
+   "s": "approximative",
+   "n": "Vue de profil, os superposés (hallux visible) ; à valider médicalement"
   },
   {
    "id": "a026",
    "t": "Signe de Tinel",
    "r": "Membres",
    "f": "a026.mp4",
-   "b": 574950,
-   "d": 11.0,
+   "b": 580397,
+   "d": 11,
    "s": "faite",
    "n": "À valider médicalement"
   },
@@ -108,8 +108,8 @@
    "t": "Signe de Bragard",
    "r": "Neurologie",
    "f": "a121.mp4",
-   "b": 817167,
-   "d": 14.0,
+   "b": 736815,
+   "d": 14,
    "s": "faite",
    "n": "Nouveau terme ajouté au dictionnaire ; à valider médicalement"
   }
