@@ -1,0 +1,26 @@
+name: Essai style conté
+on:
+  workflow_dispatch:
+    inputs:
+      fiche:
+        description: "Numéro de la fiche à essayer (0 = Paludisme grave)"
+        type: string
+        default: "0"
+permissions:
+  contents: write
+jobs:
+  essai:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - run: pip install edge-tts
+      - run: FICHE="${{ inputs.fiche }}" python3 tools/essai_conte.py
+      - run: |
+          git config user.name "audio-bot"; git config user.email "audio-bot@users.noreply.github.com"
+          git add essai/conte-*
+          git commit -q -m "Essai : style conté" || true
+          git pull --rebase -q origin main; git push origin HEAD:main
