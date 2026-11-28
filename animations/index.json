@@ -1,0 +1,117 @@
+{
+ "v": 1,
+ "maj": "2026-11-28",
+ "format": "MP4 720x1280, 20 images/s",
+ "items": [
+  {
+   "id": "a001",
+   "t": "Signe de Babinski",
+   "r": "Neurologie",
+   "f": "a001.mp4",
+   "b": 451525,
+   "d": 14.0,
+   "s": "faite",
+   "n": "Schéma cérébral simplifié ; à valider médicalement"
+  },
+  {
+   "id": "a002",
+   "t": "Signe de Kernig",
+   "r": "Neurologie",
+   "f": "a002.mp4",
+   "b": 376334,
+   "d": 11.0,
+   "s": "faite",
+   "n": "Version de référence validée par l’auteur ; à valider médicalement"
+  },
+  {
+   "id": "a004",
+   "t": "Signe de Lasègue",
+   "r": "Neurologie",
+   "f": "a004.mp4",
+   "b": 776300,
+   "d": 13.5,
+   "s": "faite",
+   "n": "À valider médicalement"
+  },
+  {
+   "id": "a005",
+   "t": "Signe de Lasègue croisé",
+   "r": "Neurologie",
+   "f": "a005.mp4",
+   "b": 719040,
+   "d": 13.5,
+   "s": "faite",
+   "n": "À valider médicalement"
+  },
+  {
+   "id": "a008",
+   "t": "Réflexe rotulien",
+   "r": "Neurologie",
+   "f": "a008.mp4",
+   "b": 628839,
+   "d": 15.0,
+   "s": "approximative",
+   "n": "Arc réflexe schématique ; à valider médicalement"
+  },
+  {
+   "id": "a009",
+   "t": "Réflexe achilléen",
+   "r": "Neurologie",
+   "f": "a009.mp4",
+   "b": 564813,
+   "d": 15.0,
+   "s": "approximative",
+   "n": "Arc réflexe schématique ; à valider médicalement"
+  },
+  {
+   "id": "a014",
+   "t": "Signe de Gordon",
+   "r": "Neurologie",
+   "f": "a014.mp4",
+   "b": 424967,
+   "d": 14.0,
+   "s": "approximative",
+   "n": "Mains stylisées ; à valider médicalement"
+  },
+  {
+   "id": "a015",
+   "t": "Signe d’Oppenheim",
+   "r": "Neurologie",
+   "f": "a015.mp4",
+   "b": 465294,
+   "d": 14.0,
+   "s": "approximative",
+   "n": "Doigt stylisé ; à valider médicalement"
+  },
+  {
+   "id": "a016",
+   "t": "Signe de Chaddock",
+   "r": "Neurologie",
+   "f": "a016.mp4",
+   "b": 484537,
+   "d": 14.0,
+   "s": "faite",
+   "n": "À valider médicalement"
+  },
+  {
+   "id": "a026",
+   "t": "Signe de Tinel",
+   "r": "Membres",
+   "f": "a026.mp4",
+   "b": 574950,
+   "d": 11.0,
+   "s": "faite",
+   "n": "À valider médicalement"
+  },
+  {
+   "id": "a121",
+   "t": "Signe de Bragard",
+   "r": "Neurologie",
+   "f": "a121.mp4",
+   "b": 817167,
+   "d": 14.0,
+   "s": "faite",
+   "n": "Nouveau terme ajouté au dictionnaire ; à valider médicalement"
+  }
+ ]
+}
